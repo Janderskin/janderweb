@@ -1,0 +1,192 @@
+<section class="steps-section">
+    <div class="steps-section__inner page-width center">
+        <div class="steps-section__title-wrapper">
+           {% if section.settings.title != "" %}
+            <h3 class="steps-section__title h1">{{ section.settings.title }}</h3>
+           {% endif %}
+           {% if section.settings.description != "" %}
+            <p class="steps-section__description">{{ section.settings.description }}</p>
+           {% endif %}
+        </div>
+        <div class="steps-section__wrapper left">
+            {% for block in section.blocks %}
+                <div class="steps-section__step-wrapper">
+                    <div class="steps-section__step-image">
+                        <img src="{{ block.settings.image | image_url: width: 1500 }}" alt="{{ block.settings.image.alt }}">
+                    </div>
+                    <div class="steps-section__step-content">
+                        <div class="steps-section__step-content__label">{{ block.settings.label }}</div>
+                        <h4 class="h4">{{block.settings.title}}</h4>
+                        <p>{{ block.settings.description }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+       {% if section.settings.btn_url and section.settings.btn_text != "" %}
+        <a href="{{ section.settings.btn_url }}" class="steps-section__btn button">{{ section.settings.btn_text }}</a>      
+       {% endif %}
+    </div>
+</section>
+
+<style>
+    .steps-section{
+        margin: 40px 0;
+    }
+
+    .steps-section__title{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .steps-section__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .steps-section__step-image{
+        width: 100%;
+        padding-bottom: 80%;
+        height: 0;
+        position: relative;
+    }
+
+    .steps-section__step-image img{
+        height: 100%;
+        width: 100%;
+        object-position: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .steps-section__step-content{
+        padding: 47px 20px 0;
+        position: relative;
+    }
+
+    .steps-section__step-content__label{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 5px 20px;
+        background: #028089;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .steps-section__step-content h4{
+        margin: 10px 0;
+        font-size: 24px;
+    }
+    
+    .steps-section__description{
+        margin: 0;
+    }
+
+    .steps-section__step-content p,
+    .steps-section__description{
+        font-size: 18px;
+    }
+
+    .steps-section__btn{
+        margin: 0 auto;
+    }
+
+    @media (max-width: 768px){
+        .steps-section__wrapper{
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .steps-section__step-wrapper{
+            display: flex;
+        }
+
+        .steps-section__step-image{
+            width: 40%;
+            flex-shrink: 0;
+            padding-bottom: 50%;
+        }
+
+        .steps-section__step-image img{
+            object-fit: cover;
+        }
+
+        .steps-section__step-content__label{
+            font-size: 20px;
+        }
+
+        .steps-section__btn{
+            width: 100%;
+            padding: 20px;
+            font-size: 18px;
+        }
+    }
+</style>
+
+
+{%- schema -%}
+{
+    "name": "Steps Section",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "textarea",
+            "id": "description",
+            "label": "Description"
+        },
+        {
+            "type": "text",
+            "id": "btn_text",
+            "label": "Button Text"
+        },
+        {
+            "type": "url",
+            "id": "btn_url",
+            "label": "Button URL"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "step",
+            "name": "Step",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title"
+                },
+                {
+                    "type": "textarea",
+                    "id": "description",
+                    "label": "Description"
+                },
+                {
+                    "type": "text",
+                    "id": "label",
+                    "label": "Label"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Steps Section"
+        }
+    ]
+}
+{%- endschema -%}
