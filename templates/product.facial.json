@@ -16,6 +16,13 @@
           "type": "title",
           "settings": {}
         },
+        "text_fMKtcp": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.description.value }}",
+            "text_style": "body"
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {}
@@ -31,37 +38,56 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
           }
         },
         "description": {
           "type": "description",
           "settings": {}
         },
-        "share": {
-          "type": "share",
+        "collapsible_tab_w4WkAU": {
+          "type": "collapsible_tab",
           "settings": {
-            "share_label": "Share"
+            "heading": "How to Use",
+            "icon": "check_mark",
+            "content": "<p>{{ product.metafields.my_fields.essential_trio_set | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_TiMjir": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Benefits",
+            "icon": "check_mark",
+            "content": "<p>{{ product.metafields.my_fields.helps_fight | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_EqrxXe": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "check_mark",
+            "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}</p>",
+            "page": ""
           }
         }
       },
       "block_order": [
         "title",
+        "text_fMKtcp",
         "rating",
         "price",
         "variant_picker",
-        "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "collapsible_tab_w4WkAU",
+        "collapsible_tab_TiMjir",
+        "collapsible_tab_EqrxXe"
       ],
       "settings": {
         "enable_sticky_info": true,
