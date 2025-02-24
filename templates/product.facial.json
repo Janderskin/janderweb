@@ -112,7 +112,7 @@
           "type": "step",
           "settings": {
             "image": "{{ product.metafields.custom.how_it_works_step_1_image.value }}",
-            "title": "<p>{{ product.metafields.custom.how_it_works_step_1_title_v2 | metafield_tag }}{{ product.metafields.custom.how_it_works_step_1_description | metafield_tag }}</p>",
+            "title": "{{ product.metafields.custom.how_it_works_step_1_title_v2 | metafield_tag }}{{ product.metafields.custom.how_it_works_step_1_description | metafield_tag }}",
             "description": ""
           }
         },
@@ -120,7 +120,7 @@
           "type": "step",
           "settings": {
             "image": "{{ product.metafields.custom.how_it_works_step_2_image.value }}",
-            "title": "<p>{{ product.metafields.custom.how_it_works_step_2_title_v2 | metafield_tag }}{{ product.metafields.custom.how_it_works_step_2_description | metafield_tag }}</p>",
+            "title": "{{ product.metafields.custom.how_it_works_step_2_title_v2 | metafield_tag }}{{ product.metafields.custom.how_it_works_step_2_description | metafield_tag }}",
             "description": ""
           }
         },
@@ -128,7 +128,7 @@
           "type": "step",
           "settings": {
             "image": "{{ product.metafields.custom.how_it_works_step_3_image.value }}",
-            "title": "<p>{{ product.metafields.custom.how_it_works_step_3_title_v2 | metafield_tag }}{{ product.metafields.custom.how_it_works_step_3_description | metafield_tag }}</p>",
+            "title": "{{ product.metafields.custom.how_it_works_step_3_title_v2 | metafield_tag }}{{ product.metafields.custom.how_it_works_step_3_description | metafield_tag }}",
             "description": ""
           }
         }
