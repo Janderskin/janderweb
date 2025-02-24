@@ -30,7 +30,7 @@
         "text_w9Wmii": {
           "type": "text",
           "settings": {
-            "text": "<p>Somos Sandra y Carmen, las cabezas (y corazones) detrás de Jander. Todo empezó con una obsesión compartida: el cuidado de la piel. </p><p>Siempre hemos sido unas locas del skincare, pero había algo que no podíamos ignorar: el cuidado personal masculino en Europa estaba en la cola del supermercado, olvidado y polvoriento. Así que en 2022 dijimos: \"Ya basta\", y lanzamos Jander, una marca creada para hombres, sin rodeos ni excusas.</p><p>Sabemos que cambiar hábitos no es fácil, y menos en un sector que nunca se había tomado en serio al hombre del siglo XXI. Pero aquí estamos para decírtelo claro: te mereces una piel sana, con buen aspecto, porque cuidarte no es cursilería, es poder. El cuidado personal no solo mejora cómo te ves, sino cómo te enfrentas al mundo. Confianza pura.</p><p>Nuestro objetivo es simple: queremos que los hombres abracen su lado más cuidado. Sí, al principio puede parecer que todo esto no es para ti, que eso de las cremas y los contornos de ojos es un rollo… pero te vamos a ser sinceras: una vez lo pruebas, no hay marcha atrás. Es adictivo. Y, sorpresa, no necesitas ser un experto ni dedicarle horas. En Jander diseñamos productos premium que funcionan y se adaptan a tu vida: rápida, intensa, y un poco caótica.</p><p>En un mundo que no para de exigirnos más, cuidarse es rebelión. Es una forma de decir: \"Me importa cómo me siento, y voy a estar a la altura\". Porque un hombre que se cuida no solo se ve mejor, vive mejor.</p><p>Esto es Jander, The New Face of Men. La marca para hombres que no se complican, pero tampoco se conforman. Estamos aquí para que saques tu mejor versión, con confianza, estilo y, por supuesto, una piel envidiable.</p><p>¿Listo para dar el salto?</p>",
+            "text": "<p>Somos Sandra y Carmen, las cabezas (y corazones) detrás de Jander. Todo empezó con una obsesión compartida: el cuidado de la piel. </p><p>Siempre hemos sido unas locas del skincare, pero había algo que no podíamos ignorar: el cuidado personal masculino en Europa estaba en la cola del supermercado, olvidado y polvoriento. Así que en 2022 dijimos: \"Ya basta\", y lanzamos Jander, una marca creada para hombres, sin rodeos ni excusas.</p><p>Sabemos que cambiar hábitos no es fácil, y menos en un sector que nunca se había tomado en serio al hombre del siglo XXI. Pero aquí estamos para decírtelo claro: te mereces una piel sana, con buen aspecto, porque cuidarte no es cursilería, es poder. El cuidado personal no solo mejora cómo te ves, sino cómo te enfrentas al mundo. Confianza pura.</p><p></p>",
             "text_style": "body"
           }
         }
@@ -54,10 +54,88 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_FzzfVq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YNVaBh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jander",
+            "heading_size": "h1"
+          }
+        },
+        "text_7eG7dj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Somos Sandra y Carmen, las cabezas (y corazones) detrás de Jander. Todo empezó con una obsesión compartida: el cuidado de la piel. </p><p>Siempre hemos sido unas locas del skincare, pero había algo que no podíamos ignorar: el cuidado personal masculino en Europa estaba en la cola del supermercado, olvidado y polvoriento. Así que en 2022 dijimos: \"Ya basta\", y lanzamos Jander, una marca creada para hombres, sin rodeos ni excusas.</p><p>Sabemos que cambiar hábitos no es fácil, y menos en un sector que nunca se había tomado en serio al hombre del siglo XXI. Pero aquí estamos para decírtelo claro: te mereces una piel sana, con buen aspecto, porque cuidarte no es cursilería, es poder. El cuidado personal no solo mejora cómo te ves, sino cómo te enfrentas al mundo. Confianza pura.</p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YNVaBh",
+        "text_7eG7dj"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/PressShots_Sandra_Carmen_6.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_cQFjbR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_NgGcHC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jander",
+            "heading_size": "h1"
+          }
+        },
+        "text_NmMfCd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Somos Sandra y Carmen, las cabezas (y corazones) detrás de Jander. Todo empezó con una obsesión compartida: el cuidado de la piel. </p><p>Siempre hemos sido unas locas del skincare, pero había algo que no podíamos ignorar: el cuidado personal masculino en Europa estaba en la cola del supermercado, olvidado y polvoriento. Así que en 2022 dijimos: \"Ya basta\", y lanzamos Jander, una marca creada para hombres, sin rodeos ni excusas.</p><p>Sabemos que cambiar hábitos no es fácil, y menos en un sector que nunca se había tomado en serio al hombre del siglo XXI. Pero aquí estamos para decírtelo claro: te mereces una piel sana, con buen aspecto, porque cuidarte no es cursilería, es poder. El cuidado personal no solo mejora cómo te ves, sino cómo te enfrentas al mundo. Confianza pura.</p><p></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NgGcHC",
+        "text_NmMfCd"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/PressShots_Sandra_Carmen_6.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "image_with_text_JbyT3P"
+    "image_with_text_JbyT3P",
+    "image_with_text_cQFjbR",
+    "image_with_text_FzzfVq"
   ]
 }
