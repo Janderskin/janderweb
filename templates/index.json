@@ -65,7 +65,7 @@
         "column_7HQLkz": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/logo-Neo2.png",
+            "image": "shopify://shop_images/1_862fa913-7604-4253-b5de-26ef6a1b6103.png",
             "title": "",
             "text": "<p>“Jander is the new skincare brand that you won't stop hearing from.\"</p>",
             "link_label": "",
@@ -75,7 +75,7 @@
         "column_y6HCX3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/GQ_1.png",
+            "image": "shopify://shop_images/2_439917f7-83e4-4404-9997-bcb42dd02f7b.png",
             "title": "",
             "text": "<p>“A simple but effective routine that works in just two minutes.\"</p>",
             "link_label": "",
@@ -85,9 +85,19 @@
         "column_daAf7r": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Tendencias_Hombre_Logo.png",
+            "image": "shopify://shop_images/3_a6bb9301-f941-43b8-b3ca-2b162b41bb86.png",
             "title": "",
             "text": "<p>“Light textures, mild fragrance and effective results.”</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XhyWyX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/4_20092bfa-f328-4023-b1c6-dc1bf78ccf86.png",
+            "title": "",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -96,7 +106,8 @@
       "block_order": [
         "column_7HQLkz",
         "column_y6HCX3",
-        "column_daAf7r"
+        "column_daAf7r",
+        "column_XhyWyX"
       ],
       "custom_css": [
         "{font-size: 20px;}",
@@ -108,7 +119,7 @@
         "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -287,77 +298,6 @@
         "padding_bottom": 52
       }
     },
-    "image_with_text_grid_mFe3Wg": {
-      "type": "image-with-text-grid",
-      "blocks": {
-        "heading_WpXaq8": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe & Save 20%",
-            "heading_size": "h1"
-          }
-        },
-        "text_XqgEwT": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Enjoy top-tier skincare essentials, delivered to your doorstep every 2 months. It's premium care made simple.</p>",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "grid_VzGYmM": {
-          "type": "grid",
-          "settings": {
-            "image_1": "shopify://shop_images/Frame.png",
-            "title_1": "One-time set up",
-            "description_1": "We’ll automatically ship your products every 2 months.",
-            "image_2": "shopify://shop_images/Frame-1.png",
-            "title_2": "Save Money",
-            "description_2": "Enjoy 20% off in every subscription.",
-            "image_3": "shopify://shop_images/Frame-2.png",
-            "title_3": "You’re in Control",
-            "description_3": "You can delay, skip, or cancel your subscription at any time.",
-            "image_4": "shopify://shop_images/Frame-3.png",
-            "title_4": "Exclusive Access",
-            "description_4": "24/7 concierge for support or questions."
-          }
-        },
-        "button_98McwD": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop the Routine Set",
-            "button_link": "shopify://products/facial-routine-for-men",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_WpXaq8",
-        "text_XqgEwT",
-        "grid_VzGYmM",
-        "button_98McwD"
-      ],
-      "custom_css": [
-        ".banner__content {background-color: #028089;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/SAVE_20_29b7ae90-7b41-4b74-9492-d6c125d38321.png",
-        "image_position": "center center",
-        "text_box_position": "flex-end",
-        "text_alignment": "center",
-        "image_ratio": "100vh",
-        "full_width": true,
-        "show_divider": false,
-        "mobile_text_box_position": "image_first",
-        "mobile_text_alignment": "center",
-        "mobile_image_ratio": "300px",
-        "colors_text": "#ffffff",
-        "colors_overlay": "#028089",
-        "colors_overlay_opacity": 100,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "featured_blog_xgNUTA": {
       "type": "featured-blog",
       "settings": {
@@ -384,7 +324,6 @@
     "how_it_works_YVJp3E",
     "featured_collection_pk6LKh",
     "custom_liquid_grR3kH",
-    "image_with_text_grid_mFe3Wg",
     "featured_blog_xgNUTA"
   ]
 }
