@@ -12,13 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "body"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -54,15 +47,35 @@
           "type": "description",
           "settings": {}
         },
-        "share": {
-          "type": "share",
+        "collapsible_tab_aWYJ69": {
+          "type": "collapsible_tab",
           "settings": {
-            "share_label": "Share"
+            "heading": "How to Use",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.my_fields.essential_trio_set | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_FWXiPk": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Benefits",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.my_fields.helps_fight | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_KDREYF": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}</p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "rating",
         "price",
@@ -70,7 +83,9 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "collapsible_tab_aWYJ69",
+        "collapsible_tab_FWXiPk",
+        "collapsible_tab_KDREYF"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -88,6 +103,118 @@
         "padding_bottom": 60
       }
     },
+    "how_it_works_TcxiwW": {
+      "type": "how-it-works",
+      "blocks": {
+        "step_RFiDDz": {
+          "type": "step",
+          "settings": {
+            "image": "{{ product.metafields.custom.how_it_works_step_1_image.value }}",
+            "title": "{{ product.metafields.custom.how_it_works_step_1_title_v2 | metafield_tag }}{{ product.metafields.custom.how_it_works_step_1_description | metafield_tag }}",
+            "description": ""
+          }
+        },
+        "step_CPzQQi": {
+          "type": "step",
+          "settings": {
+            "image": "{{ product.metafields.custom.how_it_works_step_2_image.value }}",
+            "title": "{{ product.metafields.custom.how_it_works_step_2_title_v2 | metafield_tag }}{{ product.metafields.custom.how_it_works_step_2_description | metafield_tag }}",
+            "description": ""
+          }
+        },
+        "step_BRqaiE": {
+          "type": "step",
+          "settings": {
+            "image": "{{ product.metafields.custom.how_it_works_step_3_image.value }}",
+            "title": "{{ product.metafields.custom.how_it_works_step_3_title_v2 | metafield_tag }}{{ product.metafields.custom.how_it_works_step_3_description | metafield_tag }}",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "step_RFiDDz",
+        "step_CPzQQi",
+        "step_BRqaiE"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "btn_text": "",
+        "btn_url": "",
+        "step_type": "svg"
+      }
+    },
+    "collapsible_content_gXtbgc": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_YHEEyE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "{{ product.metafields.custom.faq_q1.value }}",
+            "icon": "check_mark",
+            "row_content": "<p>{{ product.metafields.custom.faq_a1 | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dgRwqy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "{{ product.metafields.custom.faq_q2.value }}",
+            "icon": "check_mark",
+            "row_content": "<p>{{ product.metafields.custom.faq_a2 | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KUqDiM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "{{ product.metafields.custom.faq_q3.value }}",
+            "icon": "check_mark",
+            "row_content": "<p>{{ product.metafields.custom.faq_a3 | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xW6a7A": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "{{ product.metafields.custom.faq_q4.value }}",
+            "icon": "check_mark",
+            "row_content": "<p>{{ product.metafields.custom.faq_a4 | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_gyBTyP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "{{ product.metafields.custom.faq_q5.value }}",
+            "icon": "check_mark",
+            "row_content": "<p>{{ product.metafields.custom.faq_a5 | metafield_tag }}</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_YHEEyE",
+        "collapsible_row_dgRwqy",
+        "collapsible_row_KUqDiM",
+        "collapsible_row_xW6a7A",
+        "collapsible_row_gyBTyP"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -102,13 +229,64 @@
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
-        "padding_top": 0,
+        "padding_top": 60,
         "padding_bottom": 60
+      }
+    },
+    "image_banner_7wpy4U": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_f3Wrmz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_VEBpc8": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_KLjPKJ": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_f3Wrmz",
+        "text_VEBpc8",
+        "buttons_KLjPKJ"
+      ],
+      "settings": {
+        "image": "{{ product.metafields.custom.infographic_mobile.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "how_it_works_TcxiwW",
+    "collapsible_content_gXtbgc",
+    "related-products",
+    "image_banner_7wpy4U"
   ]
 }
