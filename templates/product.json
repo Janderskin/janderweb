@@ -233,52 +233,19 @@
         "padding_bottom": 60
       }
     },
-    "image_banner_7wpy4U": {
-      "type": "image-banner",
+    "174038238286302fd4": {
+      "type": "apps",
       "blocks": {
-        "heading_f3Wrmz": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_VEBpc8": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_KLjPKJ": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
+        "judge_me_reviews_review_widget_TTaKDG": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
-        "heading_f3Wrmz",
-        "text_VEBpc8",
-        "buttons_KLjPKJ"
+        "judge_me_reviews_review_widget_TTaKDG"
       ],
       "settings": {
-        "image": "{{ product.metafields.custom.infographic_mobile.value }}",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "include_margins": true
       }
     }
   },
@@ -286,7 +253,7 @@
     "main",
     "how_it_works_TcxiwW",
     "collapsible_content_gXtbgc",
-    "related-products",
-    "image_banner_7wpy4U"
+    "174038238286302fd4",
+    "related-products"
   ]
 }
