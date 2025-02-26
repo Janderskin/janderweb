@@ -1,0 +1,395 @@
+{% assign video_count = 0 %}
+{% for block in section.blocks %}
+  {% if block.settings.video_hosted != blank %}
+    {% assign video_count = video_count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+<style>
+    .video_slider_container {
+      background: {{ section.settings.background }};
+      padding: {{ section.settings.spacer_desktop }}px 0;
+  }
+  .video_slider_container *{
+    color: {{ section.settings.color }};
+  }
+        .index-section {
+          padding: 0 50px;
+        }
+          .featured_collections .container {
+            display: grid;
+            align-items: center;
+            grid-template-columns: 24px 1fr 24pX;
+            -ms-grid-template-columns: 24px 1fr 24px;
+          }
+          .container.full_width {
+            padding: 0;
+          }
+          .anitial .container {
+            margin: 0 auto;
+            max-width: 100%;
+            min-width: 320px;
+       width: 100%;
+          }
+          @media (min-width: 640px)
+            .featured_collections .arrow_left, .featured_collections .arrow_right {
+              bottom: 32px;
+            }
+
+          .featured_collections .arrow_left, .featured_collections .arrow_right {
+            bottom: 24px;
+          }
+          .arrow_left, .arrow_right {
+            position: relative;
+          }
+          .scrollable {
+            display: flex;
+            overflow-x: auto;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+            scrollbar-color: #868686 var(--light_gray);
+              /* scrollbar-width: thin; */
+              scroll-behavior: smooth;
+              -webkit-overflow-scrolling: touch;
+              }
+
+          .scrollable::-webkit-scrollbar { /* browser: ^firefox */
+            background-color: var(--light_gray);
+              height: 1px;
+              }
+
+          .scrollable::-webkit-scrollbar-thumb { /* browser: ^firefox */
+            background-color: #868686; /* temporary */
+          }
+
+          .scrollable.no-scrollbar {
+            padding-bottom: 0;
+            scrollbar-width: none;
+          }
+
+          .scrollable.no-scrollbar::-webkit-scrollbar { /* browser: ^firefox */
+            display: none;
+          }
+          .featured_collection {
+            {% if video_count == 4 %}
+              width: 25%;
+            {% else %}
+            flex-basis: 350px;
+              {% endif %}
+            flex-shrink: 0;
+            margin-right: 10px;
+            height: 600px;
+            position: relative;
+          }
+          .featured_collection img {
+            margin-bottom: 5px;
+            width: 100%;
+          }
+          .featured_collection video {
+            margin-bottom: 5px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+          .anitial h4 {
+            font-size: 16px;
+            font-weight: 200;
+            letter-spacing: .05em;
+            line-height: 1.89;
+          }
+          @media (min-width: 640px)
+            .featured_collections .arrow_left, .featured_collections .arrow_right {
+              bottom: 32px;
+            }
+
+          .featured_collections .arrow_left, .featured_collections .arrow_right {
+            bottom: 24px;
+          }
+          .arrow_right {
+            text-align: right;
+          }
+          .arrow_left, .arrow_right {
+            position: relative;
+            cursor: pointer;
+          }
+
+          @media (max-width:900px){
+            .featured_collection {
+              flex-basis: 250px;
+              height: 500px
+            }
+          }
+          @media (max-width:520px){
+             .featured_collection {
+              flex-basis: 200px;
+              height: 400px;
+            }
+            section.featured_collections.anitial p {
+            font-size: 12px;
+        }
+        section.featured_collections.anitial h4 {
+            font-size: 14px;
+        }
+        .index-section {
+          padding: 0 10px;
+        }
+          .scrollable {
+            padding-bottom: 0;
+          }
+
+    .video_slider_container {
+      padding: {{ section.settings.spacer_mobile }}px 0;
+  }
+          }
+
+          @media (max-width:468px){
+        .index-section {
+          padding: 0;
+        }
+          }
+        svg.play-video {
+          position: absolute;
+          display: block;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          z-index: 100!important;
+          cursor: pointer;
+      }
+</style>
+<div class="video_slider_container">
+  <div class="page-width">
+    <section class="featured_collections anitial">
+      <h3 style="margin: 20px !important; text-align: center;font-weight: 300;">
+        {{ section.settings.section_title }}
+      </h3>
+      <div class="container full_width">
+        <div class="arrow_left">{% render 'icon_left.svg' %}</div>
+        <div class="scrollable">
+          {% for block in section.blocks %}
+            <div class="video-container featured_collection">
+              <div class="love-yourself-video__wrapper paused">
+                {% if block.settings.show_image %}
+                  <img loading="lazy" src="{{ block.settings.image | img_url: '' }}" width="100%" height="auto">
+                {% else %}
+                  {% if forloop.first == true %}
+                    <svg
+                      class="play-video"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="display: none;"
+                    >
+                      <g clip-path="url(#clip0_1_422)">
+                      <path d="M20 0C8.97167 0 0 8.97167 0 20C0 31.0283 8.97167 40 20 40C31.0283 40 40 31.0283 40 20C40 8.97167 31.0283 0 20 0ZM16.53 27.3771C15.864 27.7934 15 27.3145 15 26.5291V13.4709C15 12.6855 15.864 12.2066 16.53 12.6229L26.9765 19.152C27.6032 19.5437 27.6032 20.4563 26.9765 20.848L16.53 27.3771Z" fill="white"></path>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_1_422">
+                      <rect width="40" height="40" fill="white"></rect>
+                      </clipPath>
+                      </defs>
+                    </svg>
+                    {{
+                      block.settings.video_hosted
+                      | video_tag: loop: true, autoplay: true, controls: true, id: 'videoPlayer', class: 'video-insta'
+                    }}
+                  {% else %}
+                    <svg
+                      class="play-video"
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0_1_422)">
+                      <path d="M20 0C8.97167 0 0 8.97167 0 20C0 31.0283 8.97167 40 20 40C31.0283 40 40 31.0283 40 20C40 8.97167 31.0283 0 20 0ZM16.53 27.3771C15.864 27.7934 15 27.3145 15 26.5291V13.4709C15 12.6855 15.864 12.2066 16.53 12.6229L26.9765 19.152C27.6032 19.5437 27.6032 20.4563 26.9765 20.848L16.53 27.3771Z" fill="white"></path>
+                      </g>
+                      <defs>
+                      <clipPath id="clip0_1_422">
+                      <rect width="40" height="40" fill="white"></rect>
+                      </clipPath>
+                      </defs>
+                    </svg>
+                    {% if block.settings.image != blank %}
+                      {% assign poster = block.settings.image | img_url: '' %}
+                      {{
+                        block.settings.video_hosted
+                        | video_tag: loop: true, controls: true, class: 'video-insta', poster: poster
+                      }}
+                    {% else %}
+                      {{ block.settings.video_hosted | video_tag: loop: true, controls: true, class: 'video-insta' }}
+                    {% endif %}
+                  {% endif %}
+                {% endif %}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="arrow_right">{% render 'icon_right.svg' %}</div>
+      </div>
+    </section>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('.play-video').click(function() {
+      var video = $(this).siblings('video')[0];
+   $('.video-container.featured_collection video').each(function() {
+     var now_vide = $(this)[0];
+     now_vide.pause();
+        $(this).siblings('.play-video').show();
+   });
+      if (video.paused) {
+        video.play();
+        $(this).hide();
+      } else {
+        video.pause();
+      }
+    });
+
+    $('.video-container video').click(function() {
+      var video = this;
+
+      if (!video.paused) {
+        video.pause();
+        $(this).siblings('.play-video').show();
+      }
+    });
+  });
+
+        var selectors = {
+          'connectif': ['.cn_products', '.cn_product'],
+          'photoslurp': ['.ps-container .ps-images', '.ps-image'],
+
+          'variant_selector': ['.variant_selector ul', 'li']
+        };
+
+        function x_scroll(e) {
+          var parent = e.currentTarget.parentElement;
+          var inside = parent.dataset.inside;
+
+          var scrollable;
+          var scrollable_divs;
+          var stop = false;
+
+          while (!scrollable) {
+            scrollable = parent.querySelector( inside ? selectors[inside][0] : '.scrollable' );
+            parent = parent.parentElement;
+          }
+
+          if (inside) scrollable_divs = scrollable.querySelectorAll( selectors[inside][1] );
+          else scrollable_divs = scrollable.parentElement.querySelectorAll('.scrollable > div');
+
+          var origin = scrollable.getBoundingClientRect().x;
+          var visible = origin + scrollable.getBoundingClientRect().width;
+
+          scrollable_divs.forEach( function(x) {
+            if (stop) return;
+
+            var start = x.getBoundingClientRect().x;
+            var end = start + x.getBoundingClientRect().width;
+
+            if ( e.currentTarget.dataset.factor == 1 && (start >= visible || end > visible + 2) ) {
+              scrollable.scrollLeft += start - origin;
+              stop = true;
+            }
+
+            else if (e.currentTarget.dataset.factor == -1 && origin - end <= 32) {
+              scrollable.scrollLeft -= visible - end;
+              stop = true;
+            }
+          } );
+        }
+
+
+        // scrollable...
+
+        document.querySelectorAll('.arrow_left .feather, .arrow_right .feather').forEach( function(x) {
+          x.addEventListener('click', x_scroll);
+        } );
+</script>
+{% schema %}
+{
+"name": "Video Slider",
+"settings": [
+{
+"type": "text",
+"id": "section_title",
+"label": "Section Title"
+},
+  {
+    "type": "color",
+    "id": "background",
+    "label": "Background Color"
+  },
+  {
+    "type": "color",
+    "id": "color",
+    "label": "Color"
+  },
+  {
+"type": "range",
+"id": "spacer_mobile",
+"min": 0,
+"max": 200,
+"step": 5,
+"unit": "px",
+"label": "Mobile",
+"default": 10,
+"info": "Changes the section height in mobile screens."
+},
+{
+"type": "range",
+"id": "spacer_desktop",
+"min": 0,
+"max": 200,
+"step": 5,
+"unit": "px",
+"label": "Desktop",
+"default": 20,
+"info": "Changes the section height in desktop screens."
+}
+],
+"blocks": [
+{
+"type": "html",
+"name": "Custom content",
+"settings": [
+{
+"type": "checkbox",
+"id": "show_image",
+"label": "Show Only Image"
+},
+{
+"type": "image_picker",
+"id": "image",
+"label": "Upload Image"
+},
+{
+"type": "video",
+"id": "video_hosted",
+"label": "video url"
+}
+]
+}
+],
+"presets": [
+{
+"name": "Video Slider",
+"category": "Advanced layout",
+"blocks": [
+
+]
+}
+]
+}
+{% endschema %}
