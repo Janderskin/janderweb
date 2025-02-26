@@ -314,6 +314,276 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_NqyFBn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_eCYETe": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_H4VKfn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_nhfzPG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "progressbar_xmm6GL": {
+          "type": "progressbar",
+          "settings": {
+            "percentage": "98",
+            "title": "has fewer risk",
+            "color": "#028089"
+          }
+        },
+        "progressbar_BzDNka": {
+          "type": "progressbar",
+          "settings": {
+            "percentage": "92",
+            "title": "has fewer risk",
+            "color": "#028089"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eCYETe",
+        "text_H4VKfn",
+        "button_nhfzPG",
+        "progressbar_xmm6GL",
+        "progressbar_BzDNka"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "enemy_framework_dM3mMY": {
+      "type": "enemy_framework",
+      "blocks": {
+        "html_6drAMM": {
+          "type": "html",
+          "settings": {
+            "title": "Porro quaerat. Non quam aute facilisi.",
+            "column1": "tick",
+            "column2": "cross"
+          }
+        },
+        "html_TaRRPT": {
+          "type": "html",
+          "settings": {
+            "title": "Porro quaerat. Non quam aute facilisi.",
+            "column1": "tick",
+            "column2": "cross"
+          }
+        },
+        "html_mNVq3p": {
+          "type": "html",
+          "settings": {
+            "title": "Porro quaerat. Non quam aute facilisi.",
+            "column1": "tick",
+            "column2": "cross"
+          }
+        },
+        "html_JqcDDU": {
+          "type": "html",
+          "settings": {
+            "title": "Porro quaerat. Non quam aute facilisi.",
+            "column1": "tick",
+            "column2": "cross"
+          }
+        }
+      },
+      "block_order": [
+        "html_6drAMM",
+        "html_TaRRPT",
+        "html_mNVq3p",
+        "html_JqcDDU"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "description": "",
+        "image1": "shopify://shop_images/JANDER_BLACK.png",
+        "title1": "",
+        "title2": "other",
+        "color_bg": "",
+        "color_text": "",
+        "color_border": "",
+        "color_brand": "#d8d2c5",
+        "color_brand_text": ""
+      }
+    },
+    "press_release_tEERxY": {
+      "type": "press_release",
+      "blocks": {
+        "html_q9DWyN": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/4_20092bfa-f328-4023-b1c6-dc1bf78ccf86.png",
+            "title": "Modi deleniti amet repellat euismod ornare nihil maiores primis venenatis."
+          }
+        },
+        "html_VB7Dnx": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/2_439917f7-83e4-4404-9997-bcb42dd02f7b.png",
+            "title": "Modi deleniti amet repellat euismod ornare nihil maiores primis venenatis."
+          }
+        },
+        "html_8CNFpD": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/1_862fa913-7604-4253-b5de-26ef6a1b6103.png",
+            "title": "Modi deleniti amet repellat euismod ornare nihil maiores primis venenatis."
+          }
+        },
+        "html_4x8pHK": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/3_a6bb9301-f941-43b8-b3ca-2b162b41bb86.png",
+            "title": "Modi deleniti amet repellat euismod ornare nihil maiores primis venenatis.4"
+          }
+        }
+      },
+      "block_order": [
+        "html_q9DWyN",
+        "html_VB7Dnx",
+        "html_8CNFpD",
+        "html_4x8pHK"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "new_video_slider_KJU9G3": {
+      "type": "new_video_slider",
+      "blocks": {
+        "html_bMxDk8": {
+          "type": "html",
+          "settings": {
+            "show_image": false,
+            "video_hosted": "shopify://files/videos/4-W21-UGC1-V1-RUTINA-ST.mp4"
+          }
+        },
+        "html_98PR8V": {
+          "type": "html",
+          "settings": {
+            "show_image": false,
+            "video_hosted": "shopify://files/videos/4-W21-UGC1-V1-RUTINA-ST.mp4"
+          }
+        },
+        "html_kPYReE": {
+          "type": "html",
+          "settings": {
+            "show_image": false,
+            "video_hosted": "shopify://files/videos/4-W21-UGC1-V1-RUTINA-ST.mp4"
+          }
+        },
+        "html_NNwKQ9": {
+          "type": "html",
+          "settings": {
+            "show_image": false,
+            "video_hosted": "shopify://files/videos/4-W21-UGC1-V1-RUTINA-ST.mp4"
+          }
+        },
+        "html_pgbrdJ": {
+          "type": "html",
+          "settings": {
+            "show_image": false,
+            "video_hosted": "shopify://files/videos/4-W21-UGC1-V1-RUTINA-ST.mp4"
+          }
+        },
+        "html_4Khe4N": {
+          "type": "html",
+          "settings": {
+            "show_image": false,
+            "video_hosted": "shopify://files/videos/4-W21-UGC1-V1-RUTINA-ST.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "html_bMxDk8",
+        "html_98PR8V",
+        "html_kPYReE",
+        "html_NNwKQ9",
+        "html_pgbrdJ",
+        "html_4Khe4N"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_title": "",
+        "background": "",
+        "color": "",
+        "spacer_mobile": 10,
+        "spacer_desktop": 20
+      }
+    },
+    "before_after_dbVma3": {
+      "type": "before_after",
+      "blocks": {
+        "after_befor_tab_qAVAhG": {
+          "type": "after_befor_tab",
+          "settings": {
+            "tab_label": "",
+            "title1": "",
+            "description1": "",
+            "autor1": "",
+            "title2": "",
+            "description2": "",
+            "autor2": "",
+            "title3": "",
+            "description3": "",
+            "autor3": "",
+            "title4": "",
+            "description4": "",
+            "autor4": "",
+            "title5": "",
+            "description5": "",
+            "autor5": "",
+            "title6": "",
+            "description6": "",
+            "autor6": ""
+          }
+        }
+      },
+      "block_order": [
+        "after_befor_tab_qAVAhG"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "heading_size": 20,
+        "description_size": 20,
+        "color": ""
+      }
     }
   },
   "order": [
@@ -324,6 +594,11 @@
     "how_it_works_YVJp3E",
     "featured_collection_pk6LKh",
     "custom_liquid_grR3kH",
-    "featured_blog_xgNUTA"
+    "featured_blog_xgNUTA",
+    "image_with_text_NqyFBn",
+    "enemy_framework_dM3mMY",
+    "press_release_tEERxY",
+    "new_video_slider_KJU9G3",
+    "before_after_dbVma3"
   ]
 }
