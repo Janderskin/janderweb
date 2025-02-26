@@ -1,0 +1,737 @@
+{% assign before_status = false %}
+{% for block in section.blocks %}
+  {% if block.type == 'after_befor_tab' and block.settings.image1 != blank %}
+    {% assign before_status = true %}
+  {% endif %}
+{% endfor %}
+{% if before_status %}
+  <style>
+      .section-style-{{ section.id }}{
+       padding-top:{{section.settings.padding_top}}px;
+       padding-bottom:{{section.settings.padding_bottom}}px;
+      }
+    .section-style-{{ section.id }} .h3{
+      font-weight: 300;
+    }
+      .hidden{
+        display:none;
+      }
+        .tab-inner{
+          padding: 5px;
+          background: #fff;
+          color: #000;
+          min-width: 150px;
+          display: block;
+          text-align: center;
+          width: 150px !important;
+          cursor:pointer;
+           border:1px solid #000;
+          font-size: 16px;
+      }
+        .tab-inner + .tab-inner{
+          border-left:0;
+        }
+        .tab-inner.slick-slide.slick-current.slick-active , .tab-inner.slick-slide.slick-current.slick-active label{
+           background: #000;
+          color: #fff;
+        }
+        .tab-inner label{
+          cursor:pointer;
+        }
+      .section-tabs-wrapper-after-before {
+         max-width:64%;
+        width:auto;
+          margin: 10px 0;
+        margin-left:auto;
+
+      }
+      .main-wrapper-tab-inner {
+          display: grid !important;
+          grid-template-columns: 1fr 2fr;
+        gap: 50px;
+      }
+      .after-before-image-wrapper {
+          display: grid;
+          grid-template-columns: 1fr 6fr;
+         gap: 15px;
+            align-items: flex-start;
+      }
+      .thumbnail-images-wrapper {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 10px;
+      }
+        .after-before-images {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+      }
+
+      .befor_image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        border-right:3px solid #fff;
+      }
+
+      .image-comparison-slider img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      .section-tabs-wrapper-after-before .slick-track {
+          display: flex;
+          justify-content: end;
+        margin-right: 0;
+      }
+        .tab-inner:last-child {
+          margin-right: 2px;
+      }
+      .image-comparison-range {
+          width: 100%;
+          position: absolute;
+          z-index: 9;
+          height: 100%;
+          -webkit-appearance: none;
+          top: 0;
+          left: 0;
+          margin: 0;
+          background: transparent;
+            cursor: ew-resize;
+      }
+        .image-comparison-range::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          /* border: 1px solid #fff; */
+          width: 30px;
+          background-position: center;
+          height: 30px;
+          border-radius: 50%;
+          background: transparent url(https://cdn.shopify.com/s/files/1/0849/0965/4294/files/Group_18407_bf854f22-3b45-4511-afee-0778fb44c079.png?v=1704952085) no-repeat 0px 0px;
+          background-size: contain;
+          background-repeat: no-repeat;
+      }
+      .tab-inner {
+          min-width: 150px;
+      }
+      .thumbnail-image {
+          filter: opacity(0.5);
+        cursor:pointer;
+      }
+        .thumbnail-image.active {
+          filter: none;
+      }
+        .stars-inner-wrapper {
+          display: flex;
+          align-items: center;
+        border-right:1px solid #000;
+      }
+      .stars-inner-wrapper span {
+          color: #d19d89;
+          font-size: 25px;
+          font-weight: 600;
+          margin-right: 5px;
+        line-height: 25px;
+      }
+        span.reviews-count {
+          font-size: 20px;
+          color: #000;
+      }
+        h3.review-title {
+          color: #393838;
+          /* font-size: 50px;
+          line-height: 50px; */
+          text-transform: capitalize;
+              margin: 20px 0;
+      }
+        .review-description p {
+          font-size: 20px;
+          line-height: 120%;
+          letter-spacing: -.015em;
+          color: #393838;
+          margin-bottom: 25px;
+      }
+        h4.review-author {
+          color: #393838;
+          font-size: 20px;
+          line-height: 120%;
+          margin-bottom: 0;
+      }
+        .tab-stars-wrapper {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+      }
+      .page-width{
+        padding:0 5rem;
+        max-width:1400px;
+        margin:0 auto;
+      }
+        @media(max-width:990px){
+           .section-tabs-wrapper-after-before{
+            max-width:100%;
+          }
+          .tab-inner{
+            min-width:unset;
+            width:100%!important;
+          }
+          .page-width{
+        padding:0 2rem;
+      }
+          h3.review-title {
+        /* font-size: 40px;
+        line-height: 44px; */
+    }
+        }
+        @media(max-width:750px){
+          .main-wrapper-tab-inner {
+          display: flex !important;
+          flex-direction: column-reverse;
+      }
+          .thumbnail-images-wrapper {
+          grid-template-columns: auto;
+          row-gap:10px;
+      }
+          .after-before-image-wrapper {
+          grid-template-columns: 0.5fr 2fr;
+          gap: 15px;
+      }
+          .thumbnail-images-wrapper {
+          max-height: 520px;
+          overflow: auto;
+      }
+    h3.review-title {
+        /* font-size: 30px; */
+        /* line-height: 34px; */
+    }
+        }
+        @media(max-width:520px){
+          .review-description p , h4.review-author, span.reviews-count{
+        font-size: 16px !important;
+        line-height: 20px;
+    }
+          .thumbnail-images-wrapper {
+          max-height: 300px;
+          overflow: auto;
+      }
+          h3.review-title {
+        /* font-size: 20px; */
+        /* line-height: 24px; */
+    }
+        }
+    .review-description p{
+      font-size: {{ section.settings.description_size }}px;
+      color: {{ section.settings.color }};
+    }
+  </style>
+  <div class="main-wrapper-section section-style-{{ section.id }}">
+    <div class="page-width">
+      <div class="section-heading-wrapper" style="text-align: center;">
+        <h2 class="h3">{{ section.settings.heading }}</h2>
+      </div>
+      <div class="main-wrapper-section-after-before-tab">
+        <div class="section-tabs-wrapper-after-before slider-nav">
+          {% assign count = 0 %}
+          {% for block in section.blocks %}
+            {% assign count = count | plus: 1 %}
+            {% if count > 1 %}
+              {% if block.type == 'after_befor_tab' and block.settings.tab_label != blank %}
+                <div class="tab-inner" data-title="{{ block.settings.tab_label | downcase | replace:" " , "-" }}">
+                  <label>{{ block.settings.tab_label }}</label>
+                </div>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </div>
+        <div class="tabs-content-wrapper-upper">
+          {% for block in section.blocks %}
+            {% if block.type == 'after_befor_tab' and block.settings.tab_label != blank %}
+              <div
+                class="main-wrapper-tab-inner {% if forloop.first %} active {% else %} hidden {% endif %}"
+                tab-data="{{ block.settings.tab_label | downcase | replace:" " , "-" }}"
+              >
+                {% assign tabIndex = forloop.index %}
+                <div class="tab-reviews-wrapper">
+                  {% for i in (1..6) %}
+                    {% capture title %}title{{ i }}{% endcapture %}
+                    {% capture count %}count{{ i }}{% endcapture %}
+                    {% capture description %}description{{ i }}{% endcapture %}
+                    {% capture autor %}autor{{ i }}{% endcapture %}
+                    {% if block.settings[count] != blank
+                      or block.settings[title] != blank
+                      or block.settings[description] != blank
+                      or block.settings[autor] != blank
+                    %}
+                      <div
+                        class="tab-review-inner-wrapper  {% if forloop.first %} active {% else %} hidden {% endif %}"
+                        data-review="{{ tabIndex }}-{{ i }}"
+                      >
+                        {% comment %}
+                          <div class="tab-stars-wrapper">
+                            <div class="stars-inner-wrapper">
+                              <span>&#10030;</span><span>&#10030;</span><span>&#10030;</span><span>&#10030;</span
+                              ><span>&#10030;</span>
+                            </div>
+                            {% if block.settings[count] != blank %}
+                              <span class="reviews-count">{{ block.settings[count] }} reviews</span>
+                            {% endif %}
+                          </div>
+                        {% endcomment %}
+                        {% if block.settings[title] != blank %}
+                          <h3 class="review-title h3">{{ block.settings[title] }}</h3>
+                        {% endif %}
+                        {% if block.settings[description] != blank %}
+                          <div class="review-description">{{ block.settings[description] }}</div>
+                        {% endif %}
+                        {% if block.settings[autor] != blank %}
+                          <h4 class="review-author">{{ block.settings[autor] }}</h4>
+                        {% endif %}
+                      </div>
+                    {% endif %}
+                  {% endfor %}
+                </div>
+                <div class="after-before-image-wrapper">
+                  <div class="thumbnail-images-wrapper">
+                    {% for i in (1..6) %}
+                      {% capture image %}image{{ i }}{% endcapture %}
+                      {% if block.settings[image] != blank %}
+                        <div
+                          class="thumbnail-image tab-trigger-image {% if forloop.first %} active {% endif %}"
+                          data-image="{{ tabIndex }}-{{ i }}"
+                        >
+                          <img src="{{ block.settings[image] | img_url:"" }}" width="100%">
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                  <div class="main-wrapper-image-after-before">
+                    {% for i in (1..6) %}
+                      {% capture beforeimage %}beforeimage{{ i }}{% endcapture %}
+                      {% capture afterimage %}afterimage{{ i }}{% endcapture %}
+                      {% if block.settings[afterimage] != blank and block.settings[beforeimage] != blank %}
+                        <div
+                          class="after-before-images  {% if forloop.first %} active {% else %} hidden {% endif %}"
+                          data-after-before="{{ tabIndex }}-{{ i }}"
+                        >
+                          <input
+                            type="range"
+                            min="3"
+                            max="97"
+                            value="50"
+                            class="image-comparison-range"
+                            id="image-compare-range"
+                            data-image-comparison-range=""
+                          >
+                          <div class="image-comparison-slider befor_image">
+                            <img src="{{ block.settings[beforeimage] | img_url:"" }}" width="100%">
+                          </div>
+                          <div class="image-comparison-slider after_image">
+                            <img src="{{ block.settings[afterimage] | img_url:"" }}" width="100%">
+                          </div>
+                        </div>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}
+{% schema %}
+{
+ "name":"Before/After",
+  "settings": [
+    {
+      "id":"heading",
+      "type":"textarea",
+      "label":"Heading"
+    },
+    {
+    "type": "header",
+    "content": "Section Padding"
+  },
+  {
+    "type": "range",
+    "id": "padding_top",
+    "min": 0,
+    "max": 36,
+    "step": 4,
+    "unit": "px",
+    "label": "Paading Top",
+    "default": 20
+  },
+  {
+    "type": "range",
+    "id": "padding_bottom",
+    "min": 0,
+    "max": 36,
+    "step": 4,
+    "unit": "px",
+    "label": "Padding Bottom",
+    "default": 20
+  },
+    {
+    "type": "header",
+    "content": "Font Sizes"
+  },
+  {
+    "type": "range",
+    "id": "heading_size",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "unit": "px",
+    "label": "Heading Font Size",
+    "default": 20
+  },
+  {
+    "type": "range",
+    "id": "description_size",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "unit": "px",
+    "label": "Description Font Size",
+    "default": 20
+  },
+    {
+      "type": "color",
+      "id": "color",
+      "label": "Text Color"
+    }
+  ],
+  "blocks":[
+    {
+      "type":"after_befor_tab",
+      "name":"After Before Tabs",
+      "settings":[
+        {
+          "id":"tab_label",
+          "label":"Tab Label",
+          "type":"text"
+        },
+        {
+          "id":"image1",
+          "label":"Thumbnail image 1",
+          "type":"image_picker"
+        },
+        {
+          "id":"title1",
+          "type":"text",
+          "label":"Review Title 1"
+        },
+        {
+          "id":"description1",
+          "type":"richtext",
+          "label":"Review description 1"
+        },
+        {
+          "id":"autor1",
+          "type":"text",
+          "label":"Review Author Name 1"
+        },
+        {
+          "id":"count1",
+          "type":"number",
+          "label":"Review Count 1"
+        },
+         {
+          "id":"beforeimage1",
+          "label":"Thumbnail Before image 1",
+          "type":"image_picker"
+        },
+         {
+          "id":"afterimage1",
+          "label":"Thumbnail After image 1",
+          "type":"image_picker"
+        },
+        {
+          "id":"image2",
+          "label":"Thumbnail image 2",
+          "type":"image_picker"
+        },
+        {
+          "id":"title2",
+          "type":"text",
+          "label":"Review Title 2"
+        },
+        {
+          "id":"description2",
+          "type":"richtext",
+          "label":"Review description 2"
+        },
+        {
+          "id":"autor2",
+          "type":"text",
+          "label":"Review Author Name 2"
+        },
+        {
+          "id":"count2",
+          "type":"number",
+          "label":"Review Count 2"
+        },
+         {
+          "id":"beforeimage2",
+          "label":"Thumbnail Before image 2",
+          "type":"image_picker"
+        },
+         {
+          "id":"afterimage2",
+          "label":"Thumbnail After image 2",
+          "type":"image_picker"
+        },
+        {
+          "id":"image3",
+          "label":"Thumbnail image 3",
+          "type":"image_picker"
+        },
+        {
+          "id":"title3",
+          "type":"text",
+          "label":"Review Title 3"
+        },
+        {
+          "id":"description3",
+          "type":"richtext",
+          "label":"Review description 3"
+        },
+        {
+          "id":"autor3",
+          "type":"text",
+          "label":"Review Author Name 3"
+        },
+        {
+          "id":"count3",
+          "type":"number",
+          "label":"Review Count 3"
+        },
+         {
+          "id":"beforeimage3",
+          "label":"Thumbnail Before image 3",
+          "type":"image_picker"
+        },
+         {
+          "id":"afterimage3",
+          "label":"Thumbnail After image 3",
+          "type":"image_picker"
+        },
+        {
+          "id":"image4",
+          "label":"Thumbnail image 4",
+          "type":"image_picker"
+        },
+        {
+          "id":"title4",
+          "type":"text",
+          "label":"Review Title 4"
+        },
+        {
+          "id":"description4",
+          "type":"richtext",
+          "label":"Review description 4"
+        },
+        {
+          "id":"autor4",
+          "type":"text",
+          "label":"Review Author Name 4"
+        },
+        {
+          "id":"count4",
+          "type":"number",
+          "label":"Review Count 4"
+        },
+         {
+          "id":"beforeimage4",
+          "label":"Thumbnail Before image4",
+          "type":"image_picker"
+        },
+         {
+          "id":"afterimage4",
+          "label":"Thumbnail After image 4",
+          "type":"image_picker"
+        },
+        {
+          "id":"image5",
+          "label":"Thumbnail image 5",
+          "type":"image_picker"
+        },
+        {
+          "id":"title5",
+          "type":"text",
+          "label":"Review Title 5"
+        },
+        {
+          "id":"description5",
+          "type":"richtext",
+          "label":"Review description 5"
+        },
+        {
+          "id":"autor5",
+          "type":"text",
+          "label":"Review Author Name 5"
+        },
+        {
+          "id":"count5",
+          "type":"number",
+          "label":"Review Count 5"
+        },
+         {
+          "id":"beforeimage5",
+          "label":"Thumbnail Before image 5",
+          "type":"image_picker"
+        },
+         {
+          "id":"afterimage5",
+          "label":"Thumbnail After image 5",
+          "type":"image_picker"
+        },
+        {
+          "id":"image6",
+          "label":"Thumbnail image 6",
+          "type":"image_picker"
+        },
+        {
+          "id":"title6",
+          "type":"text",
+          "label":"Review Title 6"
+        },
+        {
+          "id":"description6",
+          "type":"richtext",
+          "label":"Review description 6"
+        },
+        {
+          "id":"autor6",
+          "type":"text",
+          "label":"Review Author Name 6"
+        },
+        {
+          "id":"count6",
+          "type":"number",
+          "label":"Review Count 6"
+        },
+         {
+          "id":"beforeimage6",
+          "label":"Thumbnail Before image 6",
+          "type":"image_picker"
+        },
+         {
+          "id":"afterimage6",
+          "label":"Thumbnail After image 6",
+          "type":"image_picker"
+        }
+      ]
+    }
+  ],
+  "presets":[
+    {
+      "name":"Before/After"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script>
+    $('.tabs-content-wrapper-upper').slick({
+    dots: false,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows:false,
+    swipeToSlide: false,
+    // asNavFor: '.slider-nav',
+    swipe: false
+    });
+    $('.slider-nav').slick({
+     slidesToShow: 4,
+     slidesToScroll: 1,
+     asNavFor: '.tabs-content-wrapper-upper',
+     dots: false,
+    infinite: false,
+     focusOnSelect: true,
+     arrows: false,
+       responsive: [
+      {
+        breakpoint: 750,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 520,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll:1
+        }
+      },
+      {
+        breakpoint: 350,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+   });
+  document.addEventListener('DOMContentLoaded', function () {
+    console.log('yes')
+    var tabsImages = document.querySelectorAll('.thumbnail-image');
+    tabsImages.forEach((tab) => {
+      tab.addEventListener('click', function(){
+       var DataValue = this.getAttribute('data-image');
+        var tumbnails = this.closest('.main-wrapper-tab-inner').querySelectorAll('.thumbnail-image')
+        tumbnails.forEach(t => t.classList.remove('active'));
+        this.classList.add('active');
+        var mainParent = this.closest('.main-wrapper-tab-inner');
+        var AllReviews = mainParent.querySelectorAll('.tab-review-inner-wrapper');
+        AllReviews.forEach(review => review.classList.add('hidden'));
+        var AllAfterBefore = mainParent.querySelectorAll('.after-before-images');
+        AllAfterBefore.forEach(image => image.classList.add('hidden'));
+        mainParent.querySelector('.tab-review-inner-wrapper[data-review="'+DataValue+'"]').classList.add('active');
+        mainParent.querySelector('.tab-review-inner-wrapper[data-review="'+DataValue+'"]').classList.remove('hidden');
+        mainParent.querySelector('.after-before-images[data-after-before="'+DataValue+'"]').classList.add('active');
+        mainParent.querySelector('.after-before-images[data-after-before="'+DataValue+'"]').classList.remove('hidden');
+          afterBeforeEffect();
+      });
+    });
+    afterBeforeEffect();
+    function afterBeforeEffect(){
+      var afterBeforeWrappers = document.querySelectorAll('.after-before-images');
+    afterBeforeWrappers.forEach((wrapper) => {
+      var rangeInput = wrapper.querySelector('.image-comparison-range');
+      var slider = wrapper;
+         var width = wrapper.querySelector('.after_image').clientWidth + "px";
+           rangeInput.value = '50';
+         var value = rangeInput.value;
+          var widthwraper = (100 - value) + "%";
+        wrapper.querySelector('.befor_image img').style.minWidth = width;
+          wrapper.querySelector('.befor_image').style.width = widthwraper;
+         window.addEventListener('resize', function() {
+          var Newwidth = wrapper.querySelector('.after_image').clientWidth + "px";
+          wrapper.querySelector('.befor_image img').style.minWidth = Newwidth;
+        });
+      if (rangeInput) {
+        rangeInput.addEventListener('input', function () {
+          var value = rangeInput.value;
+          var widthinvers = (0 + value) + "%";
+          var originalwidth = wrapper.querySelector('.after_image').clientWidth + "px";
+          wrapper.querySelector('.befor_image img').style.minWidth = originalwidth;
+       wrapper.querySelector('.befor_image').style.width = widthinvers;
+
+        });
+      }
+
+    });
+    }
+  });
+</script>
