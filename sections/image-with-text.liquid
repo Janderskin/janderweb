@@ -132,6 +132,23 @@
                       {{ block.settings.button_label | escape }}
                     </a>
                   {%- endif -%}
+                {% when 'progressbar' %}
+                  {% if block.settings.percentage != blank %}
+                    <div class="progressbar_{{ section.id }}">
+                      <div class="progressbar_text">
+                        <p class="progress_title" style="color: {{ block.settings.color }};">
+                          {{ block.settings.percentage }}%
+                        </p>
+                        <p>{{ block.settings.title }}</p>
+                      </div>
+                      <div class="progress">
+                        <div
+                          class="progress-bar"
+                          style="width: {{ block.settings.percentage }}%;background: {{ block.settings.color }};"
+                        ></div>
+                      </div>
+                    </div>
+                  {% endif %}
               {%- endcase -%}
             {%- endfor -%}
           </div>
