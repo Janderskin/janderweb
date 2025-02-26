@@ -1,6 +1,40 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
+    .progressbar_{{ section.id }}{
+   margin: 20px 0;
+     width: 100%;
+   }
+   .progressbar_{{ section.id }} .progressbar_text {
+   display: flex;
+   align-items: center;
+   margin-bottom: 5px;
+   }
+   .progressbar_{{ section.id }} .progressbar_text .progress_title {
+   margin: 0;
+   font-size: 30px;
+   font-weight: 300;
+   line-height: 30px;
+   }
+  .progressbar_{{ section.id }} .progressbar_text p {
+   font-size: 16px;
+   line-height: 16px;
+     margin: 0 0 0 5px !important;
+   }
+  .progressbar_{{ section.id }} .progress {
+   width: 100%;
+   background-color: #f0f0f0;
+   border: 1px solid #ccc;
+   border-radius: 0.5rem;
+    height: 15px;
+   }
+  .progressbar_{{ section.id }} .progress-bar {
+   width: 0;
+   height: 15px;
+   line-height: 15px;
+   border-radius: 0.5rem;
+    display: block;
+   }
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
