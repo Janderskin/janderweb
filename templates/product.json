@@ -144,6 +144,61 @@
         "step_type": "svg"
       }
     },
+    "enemy_framework_FTwUnd": {
+      "type": "enemy_framework",
+      "blocks": {
+        "html_YzthiU": {
+          "type": "html",
+          "settings": {
+            "title": "item",
+            "column1": "tick",
+            "column2": "cross"
+          }
+        },
+        "html_NLGiDi": {
+          "type": "html",
+          "settings": {
+            "title": "item",
+            "column1": "tick",
+            "column2": "cross"
+          }
+        },
+        "html_4yad9T": {
+          "type": "html",
+          "settings": {
+            "title": "item",
+            "column1": "tick",
+            "column2": "cross"
+          }
+        },
+        "html_GRPrND": {
+          "type": "html",
+          "settings": {
+            "title": "item",
+            "column1": "tick",
+            "column2": "cross"
+          }
+        }
+      },
+      "block_order": [
+        "html_YzthiU",
+        "html_NLGiDi",
+        "html_4yad9T",
+        "html_GRPrND"
+      ],
+      "settings": {
+        "title": "Why Jander?",
+        "description": "These are some of the reasons",
+        "image1": "shopify://shop_images/JANDER_BLACK.png",
+        "title1": "",
+        "title2": "OTHER BRANDS",
+        "color_bg": "#adffb6",
+        "color_text": "",
+        "color_border": "",
+        "color_brand": "#f15614",
+        "color_brand_text": ""
+      }
+    },
     "collapsible_content_gXtbgc": {
       "type": "collapsible-content",
       "blocks": {
@@ -247,11 +302,59 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "new_video_slider_EnxQUV": {
+      "type": "new_video_slider",
+      "blocks": {
+        "html_HeDqU6": {
+          "type": "html",
+          "settings": {
+            "show_image": false,
+            "video_hosted": "shopify://files/videos/4-W21-UGC1-V1-RUTINA-ST.mp4"
+          }
+        },
+        "html_fG7gwW": {
+          "type": "html",
+          "settings": {
+            "show_image": false,
+            "video_hosted": "shopify://files/videos/3-W21-INFLU-RUTINA-ST.mp4"
+          }
+        },
+        "html_6mJWTE": {
+          "type": "html",
+          "settings": {
+            "show_image": false,
+            "video_hosted": "shopify://files/videos/2-W20-AD1-UGC-RUTINA.mp4"
+          }
+        },
+        "html_Pxtkqy": {
+          "type": "html",
+          "settings": {
+            "show_image": false,
+            "video_hosted": "shopify://files/videos/1-W23-UGC-shooting-V1-CONTORNO-ST.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "html_HeDqU6",
+        "html_fG7gwW",
+        "html_6mJWTE",
+        "html_Pxtkqy"
+      ],
+      "settings": {
+        "section_title": "",
+        "background": "",
+        "color": "",
+        "spacer_mobile": 10,
+        "spacer_desktop": 20
+      }
     }
   },
   "order": [
     "main",
     "how_it_works_TcxiwW",
+    "new_video_slider_EnxQUV",
+    "enemy_framework_FTwUnd",
     "collapsible_content_gXtbgc",
     "174038238286302fd4",
     "related-products"

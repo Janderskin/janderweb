@@ -509,52 +509,6 @@
         "description_size": 20,
         "color": ""
       }
-    },
-    "enemy_framework_RNCPng": {
-      "type": "enemy_framework",
-      "blocks": {
-        "html_QCQKgK": {
-          "type": "html",
-          "settings": {
-            "title": "Title item",
-            "column1": "tick",
-            "column2": "cross"
-          }
-        },
-        "html_rNByLm": {
-          "type": "html",
-          "settings": {
-            "title": "Title item 2",
-            "column1": "tick",
-            "column2": "cross"
-          }
-        },
-        "html_CRK98n": {
-          "type": "html",
-          "settings": {
-            "title": "item 3",
-            "column1": "tick",
-            "column2": "cross"
-          }
-        }
-      },
-      "block_order": [
-        "html_QCQKgK",
-        "html_rNByLm",
-        "html_CRK98n"
-      ],
-      "settings": {
-        "title": "Why Jander?",
-        "description": "These are some of the reasons",
-        "image1": "shopify://shop_images/JANDER_BLACK.png",
-        "title1": "",
-        "title2": "OTHER BRANDS",
-        "color_bg": "#ffffff",
-        "color_text": "",
-        "color_border": "#f15614",
-        "color_brand": "#f15614",
-        "color_brand_text": ""
-      }
     }
   },
   "order": [
@@ -569,7 +523,6 @@
     "image_with_text_NqyFBn",
     "new_video_slider_KJU9G3",
     "press_release_tEERxY",
-    "before_after_dbVma3",
-    "enemy_framework_RNCPng"
+    "before_after_dbVma3"
   ]
 }
