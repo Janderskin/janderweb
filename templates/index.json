@@ -321,51 +321,51 @@
         "heading_eCYETe": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "<strong>Diego Buffa</strong>",
             "heading_size": "h1"
           }
         },
         "text_H4VKfn": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p><strong>Pharmacist</strong></p><p><em>“Jander's product formulas provide visible results within weeks.I highly recommend this routine to anyone looking for a simple, effective, and high-quality facial care regimen.”</em></p>",
             "text_style": "body"
-          }
-        },
-        "button_nhfzPG": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
           }
         },
         "progressbar_xmm6GL": {
           "type": "progressbar",
           "settings": {
-            "percentage": "98",
-            "title": "has fewer risk",
-            "color": "#028089"
+            "percentage": "95",
+            "title": "Diminishess wrinkles and signs of aging.",
+            "color": "#f15614"
           }
         },
         "progressbar_BzDNka": {
           "type": "progressbar",
           "settings": {
-            "percentage": "92",
-            "title": "has fewer risk",
-            "color": "#028089"
+            "percentage": "96",
+            "title": "Reduces dark circles and crows feet.",
+            "color": "#f15614"
+          }
+        },
+        "progressbar_G8dtXL": {
+          "type": "progressbar",
+          "settings": {
+            "percentage": "93",
+            "title": "Hydrates the skin and instantly creates a fresh look.",
+            "color": "#f15614"
           }
         }
       },
       "block_order": [
         "heading_eCYETe",
         "text_H4VKfn",
-        "button_nhfzPG",
         "progressbar_xmm6GL",
-        "progressbar_BzDNka"
+        "progressbar_BzDNka",
+        "progressbar_G8dtXL"
       ],
-      "disabled": true,
       "settings": {
+        "image": "shopify://shop_images/Jander-medical-proof-diego-buffa-min.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -378,107 +378,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "enemy_framework_dM3mMY": {
-      "type": "enemy_framework",
-      "blocks": {
-        "html_6drAMM": {
-          "type": "html",
-          "settings": {
-            "title": "Porro quaerat. Non quam aute facilisi.",
-            "column1": "tick",
-            "column2": "cross"
-          }
-        },
-        "html_TaRRPT": {
-          "type": "html",
-          "settings": {
-            "title": "Porro quaerat. Non quam aute facilisi.",
-            "column1": "tick",
-            "column2": "cross"
-          }
-        },
-        "html_mNVq3p": {
-          "type": "html",
-          "settings": {
-            "title": "Porro quaerat. Non quam aute facilisi.",
-            "column1": "tick",
-            "column2": "cross"
-          }
-        },
-        "html_JqcDDU": {
-          "type": "html",
-          "settings": {
-            "title": "Porro quaerat. Non quam aute facilisi.",
-            "column1": "tick",
-            "column2": "cross"
-          }
-        }
-      },
-      "block_order": [
-        "html_6drAMM",
-        "html_TaRRPT",
-        "html_mNVq3p",
-        "html_JqcDDU"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "description": "",
-        "image1": "shopify://shop_images/JANDER_BLACK.png",
-        "title1": "",
-        "title2": "other",
-        "color_bg": "",
-        "color_text": "",
-        "color_border": "",
-        "color_brand": "#d8d2c5",
-        "color_brand_text": ""
-      }
-    },
-    "press_release_tEERxY": {
-      "type": "press_release",
-      "blocks": {
-        "html_q9DWyN": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/4_20092bfa-f328-4023-b1c6-dc1bf78ccf86.png",
-            "title": "Modi deleniti amet repellat euismod ornare nihil maiores primis venenatis."
-          }
-        },
-        "html_VB7Dnx": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/2_439917f7-83e4-4404-9997-bcb42dd02f7b.png",
-            "title": "Modi deleniti amet repellat euismod ornare nihil maiores primis venenatis."
-          }
-        },
-        "html_8CNFpD": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/1_862fa913-7604-4253-b5de-26ef6a1b6103.png",
-            "title": "Modi deleniti amet repellat euismod ornare nihil maiores primis venenatis."
-          }
-        },
-        "html_4x8pHK": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/3_a6bb9301-f941-43b8-b3ca-2b162b41bb86.png",
-            "title": "Modi deleniti amet repellat euismod ornare nihil maiores primis venenatis.4"
-          }
-        }
-      },
-      "block_order": [
-        "html_q9DWyN",
-        "html_VB7Dnx",
-        "html_8CNFpD",
-        "html_4x8pHK"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "new_video_slider_KJU9G3": {
@@ -511,37 +410,64 @@
             "show_image": false,
             "video_hosted": "shopify://files/videos/4-W21-UGC1-V1-RUTINA-ST.mp4"
           }
-        },
-        "html_pgbrdJ": {
-          "type": "html",
-          "settings": {
-            "show_image": false,
-            "video_hosted": "shopify://files/videos/4-W21-UGC1-V1-RUTINA-ST.mp4"
-          }
-        },
-        "html_4Khe4N": {
-          "type": "html",
-          "settings": {
-            "show_image": false,
-            "video_hosted": "shopify://files/videos/4-W21-UGC1-V1-RUTINA-ST.mp4"
-          }
         }
       },
       "block_order": [
         "html_bMxDk8",
         "html_98PR8V",
         "html_kPYReE",
-        "html_NNwKQ9",
-        "html_pgbrdJ",
-        "html_4Khe4N"
+        "html_NNwKQ9"
       ],
-      "disabled": true,
       "settings": {
         "section_title": "",
         "background": "",
         "color": "",
         "spacer_mobile": 10,
         "spacer_desktop": 20
+      }
+    },
+    "press_release_tEERxY": {
+      "type": "press_release",
+      "blocks": {
+        "html_8CNFpD": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/1_862fa913-7604-4253-b5de-26ef6a1b6103.png",
+            "title": "\"Jander is the name of the new men's skincare brand that you won't stop hearing about.\""
+          }
+        },
+        "html_VB7Dnx": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/2_439917f7-83e4-4404-9997-bcb42dd02f7b.png",
+            "title": "\"Jander is the name of the new men's skincare brand that you won't stop hearing about.\""
+          }
+        },
+        "html_q9DWyN": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/4_20092bfa-f328-4023-b1c6-dc1bf78ccf86.png",
+            "title": "\"Jander is the name of the new men's skincare brand that you won't stop hearing about.\""
+          }
+        },
+        "html_4x8pHK": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/la-vanguardia-logo-trans.png",
+            "title": "\"Jander is the name of the new men's skincare brand that you won't stop hearing about.\""
+          }
+        }
+      },
+      "block_order": [
+        "html_8CNFpD",
+        "html_VB7Dnx",
+        "html_q9DWyN",
+        "html_4x8pHK"
+      ],
+      "settings": {
+        "title": "",
+        "padding_top": 12,
+        "padding_bottom": 16
       }
     },
     "before_after_dbVma3": {
@@ -575,7 +501,6 @@
       "block_order": [
         "after_befor_tab_qAVAhG"
       ],
-      "disabled": true,
       "settings": {
         "heading": "",
         "padding_top": 20,
@@ -583,6 +508,52 @@
         "heading_size": 20,
         "description_size": 20,
         "color": ""
+      }
+    },
+    "enemy_framework_RNCPng": {
+      "type": "enemy_framework",
+      "blocks": {
+        "html_QCQKgK": {
+          "type": "html",
+          "settings": {
+            "title": "Title item",
+            "column1": "tick",
+            "column2": "cross"
+          }
+        },
+        "html_rNByLm": {
+          "type": "html",
+          "settings": {
+            "title": "Title item 2",
+            "column1": "tick",
+            "column2": "cross"
+          }
+        },
+        "html_CRK98n": {
+          "type": "html",
+          "settings": {
+            "title": "item 3",
+            "column1": "tick",
+            "column2": "cross"
+          }
+        }
+      },
+      "block_order": [
+        "html_QCQKgK",
+        "html_rNByLm",
+        "html_CRK98n"
+      ],
+      "settings": {
+        "title": "Jander",
+        "description": "Jander",
+        "image1": "shopify://shop_images/JANDER_BLACK.png",
+        "title1": "",
+        "title2": "OTHER BRANDS",
+        "color_bg": "#ffffff",
+        "color_text": "",
+        "color_border": "#f15614",
+        "color_brand": "#f15614",
+        "color_brand_text": ""
       }
     }
   },
@@ -596,9 +567,9 @@
     "custom_liquid_grR3kH",
     "featured_blog_xgNUTA",
     "image_with_text_NqyFBn",
-    "enemy_framework_dM3mMY",
-    "press_release_tEERxY",
     "new_video_slider_KJU9G3",
-    "before_after_dbVma3"
+    "press_release_tEERxY",
+    "before_after_dbVma3",
+    "enemy_framework_RNCPng"
   ]
 }
