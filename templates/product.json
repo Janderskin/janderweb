@@ -87,6 +87,9 @@
         "collapsible_tab_FWXiPk",
         "collapsible_tab_KDREYF"
       ],
+      "custom_css": [
+        ".product__tax {display: none;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",
@@ -142,6 +145,52 @@
         "btn_text": "",
         "btn_url": "",
         "step_type": "svg"
+      }
+    },
+    "new_video_slider_EnxQUV": {
+      "type": "new_video_slider",
+      "blocks": {
+        "html_HeDqU6": {
+          "type": "html",
+          "settings": {
+            "show_image": false,
+            "video_hosted": "shopify://files/videos/4-W21-UGC1-V1-RUTINA-ST.mp4"
+          }
+        },
+        "html_fG7gwW": {
+          "type": "html",
+          "settings": {
+            "show_image": false,
+            "video_hosted": "shopify://files/videos/3-W21-INFLU-RUTINA-ST.mp4"
+          }
+        },
+        "html_6mJWTE": {
+          "type": "html",
+          "settings": {
+            "show_image": false,
+            "video_hosted": "shopify://files/videos/2-W20-AD1-UGC-RUTINA.mp4"
+          }
+        },
+        "html_Pxtkqy": {
+          "type": "html",
+          "settings": {
+            "show_image": false,
+            "video_hosted": "shopify://files/videos/1-W23-UGC-shooting-V1-CONTORNO-ST.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "html_HeDqU6",
+        "html_fG7gwW",
+        "html_6mJWTE",
+        "html_Pxtkqy"
+      ],
+      "settings": {
+        "section_title": "",
+        "background": "",
+        "color": "",
+        "spacer_mobile": 10,
+        "spacer_desktop": 20
       }
     },
     "enemy_framework_FTwUnd": {
@@ -301,52 +350,6 @@
         "columns_mobile": "2",
         "padding_top": 60,
         "padding_bottom": 60
-      }
-    },
-    "new_video_slider_EnxQUV": {
-      "type": "new_video_slider",
-      "blocks": {
-        "html_HeDqU6": {
-          "type": "html",
-          "settings": {
-            "show_image": false,
-            "video_hosted": "shopify://files/videos/4-W21-UGC1-V1-RUTINA-ST.mp4"
-          }
-        },
-        "html_fG7gwW": {
-          "type": "html",
-          "settings": {
-            "show_image": false,
-            "video_hosted": "shopify://files/videos/3-W21-INFLU-RUTINA-ST.mp4"
-          }
-        },
-        "html_6mJWTE": {
-          "type": "html",
-          "settings": {
-            "show_image": false,
-            "video_hosted": "shopify://files/videos/2-W20-AD1-UGC-RUTINA.mp4"
-          }
-        },
-        "html_Pxtkqy": {
-          "type": "html",
-          "settings": {
-            "show_image": false,
-            "video_hosted": "shopify://files/videos/1-W23-UGC-shooting-V1-CONTORNO-ST.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "html_HeDqU6",
-        "html_fG7gwW",
-        "html_6mJWTE",
-        "html_Pxtkqy"
-      ],
-      "settings": {
-        "section_title": "",
-        "background": "",
-        "color": "",
-        "spacer_mobile": 10,
-        "spacer_desktop": 20
       }
     }
   },
