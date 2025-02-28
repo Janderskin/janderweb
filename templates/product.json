@@ -199,7 +199,7 @@
         "html_YzthiU": {
           "type": "html",
           "settings": {
-            "title": "item",
+            "title": "{{ product.metafields.custom.enemy_framework.value.enemy_item_1.value }}",
             "column1": "tick",
             "column2": "cross"
           }
@@ -207,7 +207,7 @@
         "html_NLGiDi": {
           "type": "html",
           "settings": {
-            "title": "item",
+            "title": "{{ product.metafields.custom.enemy_framework.value.enemy_item_2.value }}",
             "column1": "tick",
             "column2": "cross"
           }
@@ -215,15 +215,15 @@
         "html_4yad9T": {
           "type": "html",
           "settings": {
-            "title": "item",
+            "title": "{{ product.metafields.custom.enemy_framework.value.enemy_item_3.value }}",
             "column1": "tick",
             "column2": "cross"
           }
         },
-        "html_GRPrND": {
+        "html_LjNJCq": {
           "type": "html",
           "settings": {
-            "title": "item",
+            "title": "{{ product.metafields.custom.enemy_framework.value.enemy_item_4.value }}",
             "column1": "tick",
             "column2": "cross"
           }
@@ -233,7 +233,7 @@
         "html_YzthiU",
         "html_NLGiDi",
         "html_4yad9T",
-        "html_GRPrND"
+        "html_LjNJCq"
       ],
       "settings": {
         "title": "Why Jander?",
