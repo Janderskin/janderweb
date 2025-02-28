@@ -59,76 +59,56 @@
         "padding_bottom": 0
       }
     },
-    "multicolumn_VpctAL": {
-      "type": "multicolumn",
+    "press_release_tEERxY": {
+      "type": "press_release",
       "blocks": {
-        "column_7HQLkz": {
-          "type": "column",
+        "html_8CNFpD": {
+          "type": "html",
           "settings": {
             "image": "shopify://shop_images/1_862fa913-7604-4253-b5de-26ef6a1b6103.png",
-            "title": "",
-            "text": "<p>“Jander is the new skincare brand that you won't stop hearing from.\"</p>",
-            "link_label": "",
-            "link": ""
+            "title": "\"Jander is the name of the new men's skincare brand that you won't stop hearing about.\""
           }
         },
-        "column_y6HCX3": {
-          "type": "column",
+        "html_VB7Dnx": {
+          "type": "html",
           "settings": {
             "image": "shopify://shop_images/2_439917f7-83e4-4404-9997-bcb42dd02f7b.png",
-            "title": "",
-            "text": "<p>“A simple but effective routine that works in just two minutes.\"</p>",
-            "link_label": "",
-            "link": ""
+            "title": "\"Jander is the name of the new men's skincare brand that you won't stop hearing about.\""
           }
         },
-        "column_daAf7r": {
-          "type": "column",
+        "html_4pfayx": {
+          "type": "html",
           "settings": {
-            "image": "shopify://shop_images/3_a6bb9301-f941-43b8-b3ca-2b162b41bb86.png",
-            "title": "",
-            "text": "<p>“Light textures, mild fragrance and effective results.”</p>",
-            "link_label": "",
-            "link": ""
+            "title": ""
           }
         },
-        "column_XhyWyX": {
-          "type": "column",
+        "html_q9DWyN": {
+          "type": "html",
           "settings": {
             "image": "shopify://shop_images/4_20092bfa-f328-4023-b1c6-dc1bf78ccf86.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "title": "\"Jander is the name of the new men's skincare brand that you won't stop hearing about.\""
+          }
+        },
+        "html_4x8pHK": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/la-vanguardia-logo-trans.png",
+            "title": "\"Jander is the name of the new men's skincare brand that you won't stop hearing about.\""
           }
         }
       },
       "block_order": [
-        "column_7HQLkz",
-        "column_y6HCX3",
-        "column_daAf7r",
-        "column_XhyWyX"
+        "html_8CNFpD",
+        "html_VB7Dnx",
+        "html_4pfayx",
+        "html_q9DWyN",
+        "html_4x8pHK"
       ],
-      "custom_css": [
-        "{font-size: 20px;}",
-        "div.multicolumn-card {display: grid;}",
-        "div.multicolumn-card__image-wrapper {order: 2;}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-5",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 52,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "steps_section_Apnffp": {
@@ -289,32 +269,6 @@
         "padding_bottom": 36
       }
     },
-    "custom_liquid_grR3kH": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"row-video-column\">\n  <div class=\"video-column-4\">\n\t\t<video preload=\"none\" width=\"100%\" height=\"auto\" controls poster=\"https://cdn.shopify.com/s/files/1/0556/0795/1552/files/1-PORTADA.png?v=1719765701\">\n\t\t  <source src=\"https://cdn.shopify.com/videos/c/o/v/5c41340006454f3c85634b7d4b113945.mp4\" type=\"video/mp4\">\n\t\t</video>\n  </div>\n  <div class=\"video-column-4\">\n\t\t<video preload=\"none\" width=\"100%\" height=\"auto\" controls poster=\"https://cdn.shopify.com/s/files/1/0556/0795/1552/files/2-PORTADA.png?v=1719765701\">\n\t\t  <source src=\"https://cdn.shopify.com/videos/c/o/v/2be6595e6c30405cad4e4f70efb14f2e.mp4\" type=\"video/mp4\">\n\t\t</video>\n  </div>\n  <div class=\"video-column-4\">\n\t\t<video preload=\"none\" width=\"100%\" height=\"auto\" controls poster=\"https://cdn.shopify.com/s/files/1/0556/0795/1552/files/3-PORTADA.png?v=1719765701\">\n\t\t  <source src=\"https://cdn.shopify.com/videos/c/o/v/3bf4f89497ba48758410b4a6fa6cacb4.mp4\" type=\"video/mp4\">\n\t\t</video>\n  </div>\n  <div class=\"video-column-4\">\n\t\t<video preload=\"none\" width=\"100%\" height=\"auto\" controls poster=\"https://cdn.shopify.com/s/files/1/0556/0795/1552/files/4.png?v=1719765701\">\n\t\t  <source src=\"https://cdn.shopify.com/videos/c/o/v/bbfe325ee46f4cd4979f7df53ab517f8.mp4\" type=\"video/mp4\">\n\t\t</video>\n  </div>\n</div>\n<div class=\"row-video-column-clear\"> </div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "featured_blog_xgNUTA": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "Tips & Trends for the Modern Man",
-        "heading_size": "h1",
-        "blog": "blog",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "scheme-5",
-        "show_image": true,
-        "show_date": false,
-        "show_author": false,
-        "show_view_all": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "image_with_text_NqyFBn": {
       "type": "image-with-text",
       "blocks": {
@@ -426,103 +380,33 @@
         "spacer_desktop": 20
       }
     },
-    "press_release_tEERxY": {
-      "type": "press_release",
-      "blocks": {
-        "html_8CNFpD": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/1_862fa913-7604-4253-b5de-26ef6a1b6103.png",
-            "title": "\"Jander is the name of the new men's skincare brand that you won't stop hearing about.\""
-          }
-        },
-        "html_VB7Dnx": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/2_439917f7-83e4-4404-9997-bcb42dd02f7b.png",
-            "title": "\"Jander is the name of the new men's skincare brand that you won't stop hearing about.\""
-          }
-        },
-        "html_q9DWyN": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/4_20092bfa-f328-4023-b1c6-dc1bf78ccf86.png",
-            "title": "\"Jander is the name of the new men's skincare brand that you won't stop hearing about.\""
-          }
-        },
-        "html_4x8pHK": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/la-vanguardia-logo-trans.png",
-            "title": "\"Jander is the name of the new men's skincare brand that you won't stop hearing about.\""
-          }
-        }
-      },
-      "block_order": [
-        "html_8CNFpD",
-        "html_VB7Dnx",
-        "html_q9DWyN",
-        "html_4x8pHK"
-      ],
+    "featured_blog_xgNUTA": {
+      "type": "featured-blog",
       "settings": {
-        "title": "",
-        "padding_top": 12,
-        "padding_bottom": 16
-      }
-    },
-    "before_after_dbVma3": {
-      "type": "before_after",
-      "blocks": {
-        "after_befor_tab_qAVAhG": {
-          "type": "after_befor_tab",
-          "settings": {
-            "tab_label": "",
-            "title1": "",
-            "description1": "",
-            "autor1": "",
-            "title2": "",
-            "description2": "",
-            "autor2": "",
-            "title3": "",
-            "description3": "",
-            "autor3": "",
-            "title4": "",
-            "description4": "",
-            "autor4": "",
-            "title5": "",
-            "description5": "",
-            "autor5": "",
-            "title6": "",
-            "description6": "",
-            "autor6": ""
-          }
-        }
-      },
-      "block_order": [
-        "after_befor_tab_qAVAhG"
-      ],
-      "settings": {
-        "heading": "",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "heading_size": 20,
-        "description_size": 20,
-        "color": ""
+        "heading": "Tips & Trends for the Modern Man",
+        "heading_size": "h1",
+        "blog": "blog",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-5",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "image_with_text_w49TBx",
-    "multicolumn_VpctAL",
+    "press_release_tEERxY",
     "steps_section_Apnffp",
     "scrolling_promotion_DmP8Cq",
     "how_it_works_YVJp3E",
     "featured_collection_pk6LKh",
-    "custom_liquid_grR3kH",
-    "featured_blog_xgNUTA",
     "image_with_text_NqyFBn",
     "new_video_slider_KJU9G3",
-    "press_release_tEERxY",
-    "before_after_dbVma3"
+    "featured_blog_xgNUTA"
   ]
 }
