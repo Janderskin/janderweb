@@ -76,12 +76,6 @@
             "title": "\"Jander is the name of the new men's skincare brand that you won't stop hearing about.\""
           }
         },
-        "html_4pfayx": {
-          "type": "html",
-          "settings": {
-            "title": ""
-          }
-        },
         "html_q9DWyN": {
           "type": "html",
           "settings": {
@@ -100,7 +94,6 @@
       "block_order": [
         "html_8CNFpD",
         "html_VB7Dnx",
-        "html_4pfayx",
         "html_q9DWyN",
         "html_4x8pHK"
       ],
