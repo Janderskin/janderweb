@@ -1,59 +1,4 @@
 
-<style>
-
-  .section-{{ section.id }}.custom-marquee {
-    display: flex;
-    align-items: center;
-    height: {{section.settings.marquee_height}}px;
-    width: 100vw;
-    max-width: 100%;
-    overflow-x: hidden;
-    background: {{section.settings.colorBackground}}; 
-    color: {{section.settings.colorText}}; 
-  }
-
-  .section-{{ section.id }}.custom-marquee a {
-    color: {{section.settings.colorText}}; 
-    text-decoration: none;
-  }
-
-  .section-{{ section.id }}.custom-marquee .track {
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-    will-change: transform;
-    animation: marquee 20s linear infinite;
-  }
-
-  .section-{{ section.id }}.custom-marquee:hover .track {
-    animation-play-state: paused;
-  }
-
-  span.content.marquee-text:after {
-    content: ' • ';
-    position: absolute;
-    right: -15%;
-    top: 0%;
-  }
-
-  .section-{{ section.id }}.custom-marquee .content {
-    margin-left: 60px;
-    font-size: {{section.settings.font_size}}px;
-    font-weight: 700;
-    position: relative;
-  }
-.section-{{ section.id }}.custom-marquee:hover .track {
-  animation-play-state: paused;
-}
-  @keyframes marquee {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-20%);
-    }
-  }
-</style>
   <div class="section-{{ section.id }} custom-marquee " role="region" {{ block.shopify_attributes }}>
       {%- if section.settings.link != blank -%}
         <a href="{{ section.settings.link }}" class="">
@@ -167,3 +112,66 @@
   ]
 }
 {% endschema %}
+
+
+<style>
+
+  .section-{{ section.id }}.custom-marquee {
+    display: flex;
+    align-items: center;
+    height: {{section.settings.marquee_height}}px;
+    width: 100vw;
+    max-width: 100%;
+    overflow-x: hidden;
+    background: {{section.settings.colorBackground}}; 
+    color: {{section.settings.colorText}}; 
+  }
+
+  .section-{{ section.id }}.custom-marquee a {
+    color: {{section.settings.colorText}}; 
+    text-decoration: none;
+  }
+
+  .section-{{ section.id }}.custom-marquee .track {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 20s linear infinite;
+  }
+
+  .section-{{ section.id }}.custom-marquee:hover .track {
+    animation-play-state: paused;
+  }
+
+  span.content.marquee-text:after {
+    content: ' • ';
+    position: absolute;
+    right: -15%;
+    top: 0%;
+  }
+
+  .section-{{ section.id }}.custom-marquee .content {
+    margin-left: 60px;
+    font-size: {{section.settings.font_size}}px;
+    font-weight: 700;
+    position: relative;
+  }
+.section-{{ section.id }}.custom-marquee:hover .track {
+  animation-play-state: paused;
+}
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-20%);
+    }
+  }
+
+  @media screen and (max-width:768px){
+  .section-{{ section.id }}.custom-marquee .content {
+    font-size: 18px;
+  }
+  }
+</style>
