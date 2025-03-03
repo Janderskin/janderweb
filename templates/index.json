@@ -222,6 +222,48 @@
         "padding_bottom": 20
       }
     },
+    "tl_marquee_WbPJft": {
+      "type": "tl-marquee",
+      "blocks": {
+        "text_DwRnph": {
+          "type": "text",
+          "settings": {
+            "new_text": "Welcome to store"
+          }
+        },
+        "text_rC9kMe": {
+          "type": "text",
+          "settings": {
+            "new_text": "Welcome to store"
+          }
+        },
+        "text_dzeG48": {
+          "type": "text",
+          "settings": {
+            "new_text": "Welcome to store"
+          }
+        },
+        "text_3P4U6z": {
+          "type": "text",
+          "settings": {
+            "new_text": "Welcome to store"
+          }
+        }
+      },
+      "block_order": [
+        "text_DwRnph",
+        "text_rC9kMe",
+        "text_dzeG48",
+        "text_3P4U6z"
+      ],
+      "settings": {
+        "colorBackground": "#f15613",
+        "colorText": "#ffffff",
+        "link": "",
+        "marquee_height": 70,
+        "font_size": 24
+      }
+    },
     "how_it_works_YVJp3E": {
       "type": "how-it-works",
       "blocks": {
@@ -389,41 +431,6 @@
         "show_view_all": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "tl_marquee_WbPJft": {
-      "type": "tl-marquee",
-      "blocks": {
-        "text_DwRnph": {
-          "type": "text",
-          "settings": {
-            "new_text": "Welcome to store"
-          }
-        },
-        "text_rC9kMe": {
-          "type": "text",
-          "settings": {
-            "new_text": "Welcome to store"
-          }
-        },
-        "text_dzeG48": {
-          "type": "text",
-          "settings": {
-            "new_text": "Welcome to store"
-          }
-        }
-      },
-      "block_order": [
-        "text_DwRnph",
-        "text_rC9kMe",
-        "text_dzeG48"
-      ],
-      "settings": {
-        "colorBackground": "#f15613",
-        "colorText": "#fff",
-        "link": "",
-        "marquee_height": 70,
-        "font_size": 24
       }
     }
   },
