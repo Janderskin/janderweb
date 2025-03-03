@@ -1,6 +1,86 @@
+{% if section.settings.desk-img != blank %}
+  <div class="tl-product-img-main">
+  <div class="tl-product-img-container">
+    <div class="tl-product-img-body">
+    <a class="tl-images-wapper" href="{{ section.settings.section-url }}">
+     {% if section.settings.desk-img != blank %}
+       <div class="tl-product-desk-img">
+        <img src="{{ section.settings.desk-img | image_url }}" loading="lazy">
+      </div>
+     {% endif %}
+      
+     {% if section.settings.mob-img != blank %}
+       <div class="tl-product-mob-img">
+        <img src="{{ section.settings.mob-img | image_url }}" loading="lazy">
+      </div>
+     {% endif %}
+     </a>
+      
+      
+    </div>
+  </div>
+</div>
+{% endif %}
+
+
 {% schema %}
+{
+  "name": "Product Image Banner",
+  "settings": [
+   {
+    "type": "image_picker",
+    "id": "desk-img",
+    "label": "Desktop Image"
+  },
   {
-    "name": "Section name",
-    "settings": []
-  }
+    "type": "image_picker",
+    "id": "mob-img",
+    "label": "Mobile Image"
+  },
+   {
+     "type": "checkbox",
+     "id": "container",
+     "label": "Full Width",
+     "default":false
+   },
+    {
+      "type": "url",
+      "id": "section-url",
+      "label": "Section URl"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Image Banner"
+    }
+  ]
+}
 {% endschema %}
+
+<style>
+
+.tl-product-img-container {
+  {% if section.settings.container == false %}
+    width: 100% ;
+  {% endif %}
+    margin: 0 auto;
+}
+.tl-product-desk-img img {
+    width: 100%;
+}
+.tl-product-mob-img {
+    display: none;
+}
+  .tl-product-mob-img img {
+    width: 100%;
+}
+
+  @media screen and (max-width:768px){
+.tl-product-mob-img {
+    display: block;
+}
+.tl-product-desk-img {
+    display: none;
+}
+  }
+</style>
