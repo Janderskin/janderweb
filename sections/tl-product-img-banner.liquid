@@ -1,5 +1,5 @@
 {% if section.settings['desk-img'] != blank %}
-  <div class="tl-product-img-main">
+  <div class="tl-product-img-main {% if section.settings.container %} page-width {% endif %}">
     <div class="tl-product-img-container">
       <div class="tl-product-img-body">
         <a class="tl-images-wapper" href="{{ section.settings.section-url }}">
@@ -47,7 +47,7 @@
    {
      "type": "checkbox",
      "id": "container",
-     "label": "Full Width",
+     "label": "Apply Container",
      "default":false
    },
     {
