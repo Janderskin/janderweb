@@ -285,6 +285,15 @@
         "padding_top": 0,
         "padding_bottom": 60
       }
+    },
+    "tl_product_img_banner_z9dqnr": {
+      "type": "tl-product-img-banner",
+      "settings": {
+        "desk-img": "{{ product.metafields.custom.product_desk_img.value }}",
+        "mob-img": "{{ product.metafields.custom.product_mob_img.value }}",
+        "container": false,
+        "section-url": ""
+      }
     }
   },
   "order": [
@@ -293,6 +302,7 @@
     "slideshow_PiyJUh",
     "173952586927889482",
     "collapsible_content_bThkDm",
-    "related-products"
+    "related-products",
+    "tl_product_img_banner_z9dqnr"
   ]
 }
