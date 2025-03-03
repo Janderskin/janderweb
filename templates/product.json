@@ -150,40 +150,53 @@
     "new_video_slider_EnxQUV": {
       "type": "new_video_slider",
       "blocks": {
-        "html_HeDqU6": {
+        "html_fDG34V": {
           "type": "html",
           "settings": {
             "show_image": false,
-            "video_hosted": "shopify://files/videos/4-W21-UGC1-V1-RUTINA-ST.mp4"
+            "image": "{{ product.metafields.custom.ugc.value.ugc_1_imagen.value }}",
+            "video_hosted": "{{ product.metafields.custom.ugc.value.ugc_1_video.value }}"
           }
         },
-        "html_fG7gwW": {
+        "html_wGQjGr": {
           "type": "html",
           "settings": {
             "show_image": false,
-            "video_hosted": "shopify://files/videos/3-W21-INFLU-RUTINA-ST.mp4"
+            "image": "{{ product.metafields.custom.ugc.value.ugc_2_imagen.value }}",
+            "video_hosted": "{{ product.metafields.custom.ugc.value.ugc_2_video.value }}"
           }
         },
-        "html_6mJWTE": {
+        "html_aqLnRG": {
           "type": "html",
           "settings": {
             "show_image": false,
-            "video_hosted": "shopify://files/videos/2-W20-AD1-UGC-RUTINA.mp4"
+            "image": "{{ product.metafields.custom.ugc.value.ugc_3_imagen.value }}",
+            "video_hosted": "{{ product.metafields.custom.ugc.value.ugc_3_video.value }}"
           }
         },
-        "html_Pxtkqy": {
+        "html_WPTQ9U": {
           "type": "html",
           "settings": {
             "show_image": false,
-            "video_hosted": "shopify://files/videos/1-W23-UGC-shooting-V1-CONTORNO-ST.mp4"
+            "image": "{{ product.metafields.custom.ugc.value.ugc_4_imagen.value }}",
+            "video_hosted": "{{ product.metafields.custom.ugc.value.ugc_4_video.value }}"
+          }
+        },
+        "html_ydh8mn": {
+          "type": "html",
+          "settings": {
+            "show_image": false,
+            "image": "{{ product.metafields.custom.ugc.value.ugc_5_imagen.value }}",
+            "video_hosted": "{{ product.metafields.custom.ugc.value.ugc_5_video.value }}"
           }
         }
       },
       "block_order": [
-        "html_HeDqU6",
-        "html_fG7gwW",
-        "html_6mJWTE",
-        "html_Pxtkqy"
+        "html_fDG34V",
+        "html_wGQjGr",
+        "html_aqLnRG",
+        "html_WPTQ9U",
+        "html_ydh8mn"
       ],
       "settings": {
         "section_title": "",
@@ -191,6 +204,50 @@
         "color": "",
         "spacer_mobile": 10,
         "spacer_desktop": 20
+      }
+    },
+    "press_release_dyD97V": {
+      "type": "press_release",
+      "blocks": {
+        "html_yrbBCR": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/1_862fa913-7604-4253-b5de-26ef6a1b6103.png",
+            "title": "Jander is the name of the new men's skincare brand that you won't stop hearing about."
+          }
+        },
+        "html_F47wQn": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/2_439917f7-83e4-4404-9997-bcb42dd02f7b.png",
+            "title": ""
+          }
+        },
+        "html_kThGqm": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/4_20092bfa-f328-4023-b1c6-dc1bf78ccf86.png",
+            "title": ""
+          }
+        },
+        "html_7ACcEJ": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/la-vanguardia-logo-trans.png",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "html_yrbBCR",
+        "html_F47wQn",
+        "html_kThGqm",
+        "html_7ACcEJ"
+      ],
+      "settings": {
+        "title": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "enemy_framework_FTwUnd": {
@@ -386,50 +443,6 @@
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "press_release_dyD97V": {
-      "type": "press_release",
-      "blocks": {
-        "html_yrbBCR": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/1_862fa913-7604-4253-b5de-26ef6a1b6103.png",
-            "title": "Jander is the name of the new men's skincare brand that you won't stop hearing about."
-          }
-        },
-        "html_F47wQn": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/2_439917f7-83e4-4404-9997-bcb42dd02f7b.png",
-            "title": ""
-          }
-        },
-        "html_kThGqm": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/4_20092bfa-f328-4023-b1c6-dc1bf78ccf86.png",
-            "title": ""
-          }
-        },
-        "html_7ACcEJ": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/la-vanguardia-logo-trans.png",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "html_yrbBCR",
-        "html_F47wQn",
-        "html_kThGqm",
-        "html_7ACcEJ"
-      ],
-      "settings": {
-        "title": "",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     }
   },
