@@ -444,6 +444,15 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "tl_product_img_banner_QnzhHq": {
+      "type": "tl-product-img-banner",
+      "settings": {
+        "desk-img": "{{ product.metafields.custom.product_desk_img.value }}",
+        "mob-img": "{{ product.metafields.custom.product_mob_img.value }}",
+        "container": false,
+        "section-url": ""
+      }
     }
   },
   "order": [
@@ -455,6 +464,7 @@
     "collapsible_content_gXtbgc",
     "174038238286302fd4",
     "related-products",
-    "slideshow_mVjFcV"
+    "slideshow_mVjFcV",
+    "tl_product_img_banner_QnzhHq"
   ]
 }
