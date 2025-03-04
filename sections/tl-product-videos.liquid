@@ -1,6 +1,76 @@
+
+<div class="tl-product-video-main">
+  <div class="tl-product-video-container">
+    <div class="tl-product-video-body">
+      <div class="tl-product-video-flex-body">
+        {% for block in section.blocks %}
+          {% if block.settings.video != blank %}
+            <a class="popup-gallery" href="{{ block.settings.video }}"><video class="tl-product-video" controls autoplay muted loop width="100%" height="auto">
+             <source src="{{ block.settings.video | video_tag }}
+           </video></a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Product Videos",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "block",
+        "name":"items",
+        "settings": [
+          {
+        "type": "video",
+        "id": "video",
+        "label": "Video"
+      }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Product Videos"
+      }
+    ]
   }
 {% endschema %}
+
+
+<style>
+
+.tl-product-video-flex-body {
+    display: flex;
+}
+.popup-gallery {
+    width: 33.333%;
+}
+.tl-product-video-flex-body {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    gap: 20px;
+}
+</style>
+
+
+   <script>
+
+$(document).ready(function() {
+	$('.popup-gallery').magnificPopup({
+		disableOn: 700,
+		type: 'iframe',
+		mainClass: 'mfp-fade',
+		removalDelay: 160,
+		preloader: false,
+
+		fixedContentPos: false
+	});
+});
+      
+    </script>
