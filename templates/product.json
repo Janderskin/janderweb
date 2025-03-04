@@ -250,6 +250,15 @@
         "padding_bottom": 52
       }
     },
+    "tl_product_img_banner_QnzhHq": {
+      "type": "tl-product-img-banner",
+      "settings": {
+        "desk-img": "{{ product.metafields.custom.product_desk_img.value }}",
+        "mob-img": "{{ product.metafields.custom.product_mob_img.value }}",
+        "container": false,
+        "section-url": ""
+      }
+    },
     "enemy_framework_FTwUnd": {
       "type": "enemy_framework",
       "blocks": {
@@ -445,14 +454,34 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "tl_product_img_banner_QnzhHq": {
-      "type": "tl-product-img-banner",
-      "settings": {
-        "desk-img": "{{ product.metafields.custom.product_desk_img.value }}",
-        "mob-img": "{{ product.metafields.custom.product_mob_img.value }}",
-        "container": false,
-        "section-url": ""
-      }
+    "tl_product_videos_BBphnV": {
+      "type": "tl-product-videos",
+      "blocks": {
+        "block_WByMdx": {
+          "type": "block",
+          "settings": {
+            "video": "{{ product.metafields.custom.product_video.value }}"
+          }
+        },
+        "block_x76x7t": {
+          "type": "block",
+          "settings": {
+            "video": "{{ product.metafields.custom.product_video.value }}"
+          }
+        },
+        "block_tdzDVX": {
+          "type": "block",
+          "settings": {
+            "video": "{{ product.metafields.custom.product_video.value }}"
+          }
+        }
+      },
+      "block_order": [
+        "block_WByMdx",
+        "block_x76x7t",
+        "block_tdzDVX"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -465,6 +494,7 @@
     "collapsible_content_gXtbgc",
     "174038238286302fd4",
     "related-products",
-    "slideshow_mVjFcV"
+    "slideshow_mVjFcV",
+    "tl_product_videos_BBphnV"
   ]
 }
