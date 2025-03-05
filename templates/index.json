@@ -184,33 +184,19 @@
         "text_DwRnph": {
           "type": "text",
           "settings": {
-            "new_text": "Welcome to store"
+            "new_text": "Made in Spain"
           }
         },
         "text_rC9kMe": {
           "type": "text",
           "settings": {
-            "new_text": "Welcome to store"
-          }
-        },
-        "text_dzeG48": {
-          "type": "text",
-          "settings": {
-            "new_text": "Welcome to store"
-          }
-        },
-        "text_3P4U6z": {
-          "type": "text",
-          "settings": {
-            "new_text": "Welcome to store"
+            "new_text": "Vegano & Natural"
           }
         }
       },
       "block_order": [
         "text_DwRnph",
-        "text_rC9kMe",
-        "text_dzeG48",
-        "text_3P4U6z"
+        "text_rC9kMe"
       ],
       "settings": {
         "colorBackground": "#f15613",
