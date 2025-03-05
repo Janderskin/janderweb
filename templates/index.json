@@ -178,50 +178,6 @@
         "btn_url": "shopify://products/facial-routine-for-men"
       }
     },
-    "scrolling_promotion_DmP8Cq": {
-      "type": "scrolling-promotion",
-      "blocks": {
-        "announcement_WGaJ4Y": {
-          "type": "announcement",
-          "settings": {
-            "text": "Vegan & Natural",
-            "text_size": 24,
-            "link": ""
-          }
-        },
-        "announcement_az8RG8": {
-          "type": "announcement",
-          "settings": {
-            "text": "Reduce Plastic",
-            "text_size": 24,
-            "link": ""
-          }
-        },
-        "announcement_XFVqFX": {
-          "type": "announcement",
-          "settings": {
-            "text": "Made in Spain",
-            "text_size": 24,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_WGaJ4Y",
-        "announcement_az8RG8",
-        "announcement_XFVqFX"
-      ],
-      "disabled": true,
-      "settings": {
-        "direction": "left",
-        "speed": 1.6,
-        "show_divider": false,
-        "colors_text": "#ffffff",
-        "colors_background": "#f15614",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "tl_marquee_WbPJft": {
       "type": "tl-marquee",
       "blocks": {
@@ -439,7 +395,6 @@
     "press_release_tEERxY",
     "featured_collection_pk6LKh",
     "steps_section_Apnffp",
-    "scrolling_promotion_DmP8Cq",
     "tl_marquee_WbPJft",
     "how_it_works_YVJp3E",
     "image_with_text_NqyFBn",
