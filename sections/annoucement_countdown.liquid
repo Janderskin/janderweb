@@ -1,6 +1,264 @@
+{%- if section.settings.annoucement_bar_show -%}
+  <section
+    id="section-{{ section.id }}"
+    style="position: relative;"
+  >
+    <style>
+            #clockdiv {
+         color: {{ section.settings.color_text }};
+         display: inline-block;
+         position: fixed;
+         top: 0; right: 15px;
+         letter-spacing: 0.2px; line-height: 1;
+       }
+
+       #clockdiv .title {
+         position: relative; margin-right: 8px;
+         vertical-align: text-top; text-transform: uppercase;
+       }
+
+       #clockdiv > div, #clockdiv div > span {
+         display: inline-block; text-align: center;
+         vertical-align: middle; font-weight: bold;
+       }
+
+       #clockdiv div > span {
+         font-size: 18px; padding-top: 8px; margin-bottom: 5px;
+       }
+
+       #clockdiv .smalltext, #clockdiv .separator {
+         font-size: 10px; text-transform: uppercase;
+         color: {{ section.settings.color_text }};
+         background: transparent; width: auto;
+       }
+
+       @media (max-width: 639px) {
+         #clockdiv { right: 10px;   top: 4px; }
+         #clockdiv div > span { font-size: 14px; }
+         #clockdiv .title { vertical-align: baseline; }
+         #clockdiv .smalltext { font-size: 8px; }
+         #clockdiv .separator { margin: 0 -2px; }
+       }
+
+       @media (max-width: 480px) {
+         #clockdiv .title { display: none; }
+       }
+
+       .replacement_abc_text { display: none; }
+
+       {% if section.settings.annoucement_bar_sticky %}
+      header.shopify-section-group-header-group, product-sticky-bar.product-sticky-bar.is-visible {
+         padding-top: 50px;
+       }
+       .top-banner, #clockdiv {
+         position: fixed !important; z-index: 999;
+
+       }
+       {% endif %}
+
+       .top-banner {
+         top: 0; width: 100%; padding: 5px;
+         text-align: {{ section.settings.text_alignment }};
+         color: {{ section.settings.color_text }};
+         background-color: {{ section.settings.color_bg }};
+         line-height: 38px;
+       }
+
+       .top-banner-inner a, .top-banner-inner a span {
+         color: {{ section.settings.color_text }} !important;
+         background-color: {{ section.settings.color_bg }} !important;
+         font-weight: bold !important;
+             text-decoration: unset;
+       }
+
+       #banner-mobile, .banner_txt_span {
+         font-size: 16px; font-weight: bold;
+       }
+
+       @media (max-width: 800px) {
+         .top-banner-inner {
+           padding-left: 10px !important;
+           {% if section.settings.countdown_enable %} text-align: left; {% endif %}
+         }
+       }
+
+       @media (max-width: 639px) {
+         .top-banner-inner {
+           padding: 5px 0; line-height: 16px;
+           {% if section.settings.countdown_enable %} text-align: left; {% endif %}
+         }
+         #banner-mobile, .banner_txt_span { font-size: 12px; }
+         #banner-desktop { display: none; }
+         #banner-mobile { display: block !important; }
+         {% if section.settings.mobile_second_line != "" %}
+         #banner-mobile-sun-2 { display: block !important; }
+         {% endif %}
+       }
+    </style>
+
+    <div class="top-banner" id="banner-desktop">
+      <div class="top-banner-inner">
+        {% if section.settings.promo_link %}
+          <a
+            href="{{ section.settings.promo_link }}"
+            class="promo_link"
+            {% if section.settings.promo_link == '#open_newsletter' %}
+              onclick="openPopup()"
+            {% endif %}
+          >
+        {% endif %}
+        <span class="banner_txt_span default_abc_text">{{ section.settings.desktop_promo_text }}</span>
+        {% if section.settings.promo_link %}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="top-banner hidden-sm hidden-md hidden-lg" id="banner-mobile" style="display:none">
+      <div class="top-banner-inner">
+        {% if section.settings.promo_link %}
+          <a
+            href="{{ section.settings.promo_link }}"
+            class="promo_link"
+            {% if section.settings.promo_link == '#open_newsletter' %}
+              onclick="openPopup()"
+            {% endif %}
+          >
+        {% endif %}
+        <span id="banner-mobile-sun" class="default_abc_text">{{ section.settings.mobile_first_line }}</span>
+        {% if section.settings.mobile_second_line != '' %}
+          <br>
+          <span id="banner-mobile-sun-2" class="default_abc_text" style="display:none">
+            {{- section.settings.mobile_second_line -}}
+          </span>
+        {% endif %}
+        {% if section.settings.promo_link %}
+          </a>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if section.settings.countdown_enable %}
+      <div
+        id="clockdiv"
+        data-date="{{ section.settings.countdown_end_date_masdrem }}"
+      >
+        <!--
+          <div class="title">
+          <p class="hidden-xs">Termina en</p>
+          </div>
+        -->
+        <!-- Days -->
+        <div>
+          <div>
+            <span class="">
+              <span id="anitials_days"></span>
+            </span>
+          </div>
+
+          <div class="smalltext">{{ section.settings.day }}</div>
+        </div>
+        <div><span class="separator">:</span></div>
+        <!-- Hours -->
+        <div>
+          <div>
+            <span class="">
+              <span id="anitials_hours"></span>
+            </span>
+          </div>
+          <div class="smalltext">{{ section.settings.hour }}</div>
+        </div>
+        <div><span class="separator">:</span></div>
+        <!-- Minutes -->
+        <div>
+          <div>
+            <span class="">
+              <span id="anitials_minutes"></span>
+            </span>
+          </div>
+          <div class="smalltext">{{ section.settings.min }}</div>
+        </div>
+        <div><span class="separator">:</span></div>
+        <!-- Seconds -->
+        <div>
+          <div>
+            <span class="">
+              <span id="anitials_seconds"></span>
+            </span>
+          </div>
+          <div class="smalltext">{{ section.settings.sec }}</div>
+        </div>
+      </div>
+    {% endif %}
+  </section>
+
+  <script>
+    const countDownDate = {% if section.settings.countdown_repeat %}
+      (() => {
+        const tomorrow = new Date();
+        tomorrow.setHours(0, 0, 0, 0);
+        return tomorrow.setDate(tomorrow.getDate() + 1);
+      })()
+    {% else %} new Date("{{ section.settings.countdown_end_date }}").getTime() {% endif %};
+
+    const countdownInterval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = countDownDate - now;
+
+      if (distance < 0) {
+        clearInterval(countdownInterval);
+        document.getElementById("clockdiv").style.display = "none";
+      } else {
+        document.getElementById("anitials_days").textContent = ('0' + Math.floor(distance / (1000 * 60 * 60 * 24))).slice(-2);
+        document.getElementById("anitials_hours").textContent = ('0' + Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).slice(-2);
+        document.getElementById("anitials_minutes").textContent = ('0' + Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60))).slice(-2);
+        document.getElementById("anitials_seconds").textContent = ('0' + Math.floor((distance % (1000 * 60)) / 1000)).slice(-2);
+      }
+    }, 1000);
+
+    function openPopup() {
+      document.getElementById("newsletterPopup").style.display = "block";
+    }
+
+    function closePopup() {
+      document.getElementById("newsletterPopup").style.display = "none";
+    }
+  </script>
+{%- endif -%}
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Countdown Announcement",
+  "enabled_on": { "groups": ["header"] },
+  "settings": [
+    { "type": "header", "content": "Announcement Bar" },
+    { "type": "checkbox", "id": "annoucement_bar_show", "label": "Show Announcement Bar" },
+    { "type": "text", "id": "desktop_promo_text", "label": "Desktop Promo Message" },
+    { "type": "text", "id": "mobile_first_line", "label": "Promo Message: First Line" },
+    { "type": "text", "id": "mobile_second_line", "label": "Promo Message: Second Line" },
+    { "type": "url", "id": "promo_link", "label": "Link" },
+    {
+      "label": "Alignment",
+      "id": "text_alignment",
+      "type": "select",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" }
+      ],
+      "default": "center"
+    },
+    { "label": "Enable Countdown", "id": "countdown_enable", "type": "checkbox", "default": false },
+    { "label": "Countdown Date", "id": "countdown_end_date", "type": "text" },
+    { "label": "Repeat Every Day", "id": "countdown_repeat", "type": "checkbox", "default": false },
+    { "type": "header", "content": "Count Text" },
+    { "type": "text", "id": "day", "label": "Day" },
+    { "type": "text", "id": "hour", "label": "Hour" },
+    { "type": "text", "id": "min", "label": "Minutes" },
+    { "type": "text", "id": "sec", "label": "Seconds" },
+    { "type": "color", "id": "color_bg", "label": "Background Color", "default": "#000000" },
+    { "type": "color", "id": "color_text", "label": "Text Color", "default": "#ffffff" }
+  ],
+  "presets": [
+    { "name": "Countdown Announcement" }
+  ]
+}
 {% endschema %}
