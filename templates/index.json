@@ -101,7 +101,8 @@
       "settings": {
         "title": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "max-width": 160
       }
     },
     "featured_collection_pk6LKh": {
@@ -319,6 +320,7 @@
           "type": "html",
           "settings": {
             "show_image": false,
+            "image": "shopify://shop_images/up_there_2.jpg",
             "video_hosted": "shopify://files/videos/deo1.MOV"
           }
         },
@@ -326,6 +328,7 @@
           "type": "html",
           "settings": {
             "show_image": false,
+            "image": "shopify://shop_images/joan_marc.jpg",
             "video_hosted": "shopify://files/videos/skin1.MOV"
           }
         },
@@ -333,6 +336,7 @@
           "type": "html",
           "settings": {
             "show_image": false,
+            "image": "shopify://shop_images/Desodorante1.jpg",
             "video_hosted": "shopify://files/videos/deo2.mov"
           }
         },
@@ -340,6 +344,7 @@
           "type": "html",
           "settings": {
             "show_image": false,
+            "image": "shopify://shop_images/ugc-routine.jpg",
             "video_hosted": "shopify://files/videos/skin2.mov"
           }
         }
