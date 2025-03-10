@@ -366,7 +366,7 @@
     "featured_blog_xgNUTA": {
       "type": "featured-blog",
       "custom_css": [
-        ".title-wrapper-with-link {justify-content: center;}"
+        "@media screen and (min-width: 750px) {.title-wrapper-with-link {justify-content: center;}}"
       ],
       "settings": {
         "heading": "Tips & Trends for the Modern Man",
