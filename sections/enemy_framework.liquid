@@ -1,104 +1,107 @@
 <style>
-    .enemy_comparision{
-      width: 100%;
-              background: {{ section.settings.color_bg }};
-    }
-            .comparision_container {
-              padding: 5rem 3rem;
-              margin: 0 auto;
-              max-width: 1200px;
-            }
-      .table_comparision tr td:first-child, .other_brands, .comparision_header h2, .comparision_header p {
-        color: {{ section.settings.color_text}};
-    }
-          .comparision_header {
-              text-align: center;
-          }
-            .comparision_header h3 {
-              margin: 0;
-            }
-            .comparision_row_inline p {
-
-              margin-top: 10px;
-              margin-bottom: 0;
-            }
-  .table_comparision tbody > tr:last-child  td:nth-child(2) {
-      border-bottom-left-radius: 15px;
-      border-bottom-right-radius: 15px;
-    padding-bottom: 20px;
-  }
-  th.main_brand{
-     border-top-left-radius: 15px;
-      border-top-right-radius: 15px;
-  }
-            table.table_comparision {
-              width: 100%;
-              border-collapse: collapse;
-              border-top: unset;
-              border-bottom: unset;
-            }
-
-            table.table_comparision, .table_comparision th, .table_comparision td {
-              border-left: unset;
-              border-right: unset;
-              margin: 0;
-            }
-
-            /* table.table_comparision :is(td, th) {
-              padding: 20px 0;
-              text-align: center;
-            } */
-
-            table.table_comparision th {
-              text-transform: uppercase;
-              border-top: unset;
-              text-align: center !important;
-              font-weight: 500 !important;
-              padding: 10px 20px !important;
-              background: {{ section.settings.color_bg }};
-              box-sizing: border-box;
-            }
-
-            .table_comparision td:first-child, .table_comparision td:nth-child(3) {
-              border: unset !important;
-              {% comment %}
-              border-bottom: 1px solid {{ section.settings.color_border }};
-              {% endcomment %}
-            }
-
-            .table_comparision tr td:first-child, .table_comparision tr th:first-child {
-              text-align: left;
-              font-size: inherit;
-              /* font-weight: 700; */
-              padding: 10px 10px 10px 0;
-              width: 50%;
-            }
-
-            .other_brands, .main_brand {
-              width: 25%;
-            }
-
-            .main_brand {
-              width: 25%;
-              background: {{ section.settings.color_brand }} !important;
-              color: {{ section.settings.color_brand_text }} !important;
-            }
-        .icon_svg {
-          width: 30px;
-          height: 30px;
-          margin: 0 auto;
+      .enemy_comparision{
+        width: 100%;
+                background: {{ section.settings.color_bg }};
       }
-           table:not(.shop_table) tbody tr:nth-child(2n){
-        background: unset !important;
-          }
-    @media(max-width: 520px){
-            .comparision_container {
-              padding: 3rem 1rem;
-            }
-      table.table_comparision th{
-        padding: 10px 10px !important;
+              .comparision_container {
+                padding: 5rem 3rem;
+                margin: 0 auto;
+                max-width: 1200px;
+              }
+        .table_comparision tr td:first-child, .other_brands, .comparision_header h2, .comparision_header p {
+          color: {{ section.settings.color_text}};
       }
+            .comparision_header {
+                text-align: center;
+            }
+              .comparision_header h3 {
+                margin: 0;
+              }
+              .comparision_row_inline p {
+
+                margin-top: 10px;
+                margin-bottom: 0;
+              }
+    .enemy_comparision svg {
+      fill: white;
+  }
+    .table_comparision tbody > tr:last-child  td:nth-child(2) {
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+      padding-bottom: 20px;
     }
+    th.main_brand{
+       border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+              table.table_comparision {
+                width: 100%;
+                border-collapse: collapse;
+                border-top: unset;
+                border-bottom: unset;
+              }
+
+              table.table_comparision, .table_comparision th, .table_comparision td {
+                border-left: unset;
+                border-right: unset;
+                margin: 0;
+              }
+
+              /* table.table_comparision :is(td, th) {
+                padding: 20px 0;
+                text-align: center;
+              } */
+
+              table.table_comparision th {
+                text-transform: uppercase;
+                border-top: unset;
+                text-align: center !important;
+                font-weight: 500 !important;
+                padding: 10px 20px !important;
+                background: {{ section.settings.color_bg }};
+                box-sizing: border-box;
+              }
+
+              .table_comparision td:first-child, .table_comparision td:nth-child(3) {
+                border: unset !important;
+                {% comment %}
+                border-bottom: 1px solid {{ section.settings.color_border }};
+                {% endcomment %}
+              }
+
+              .table_comparision tr td:first-child, .table_comparision tr th:first-child {
+                text-align: left;
+                font-size: inherit;
+                /* font-weight: 700; */
+                padding: 10px 10px 10px 0;
+                width: 50%;
+              }
+
+              .other_brands, .main_brand {
+                width: 25%;
+              }
+
+              .main_brand {
+                width: 25%;
+                background: {{ section.settings.color_brand }} !important;
+                color: {{ section.settings.color_brand_text }} !important;
+              }
+          .icon_svg {
+            width: 30px;
+            height: 30px;
+            margin: 0 auto;
+        }
+             table:not(.shop_table) tbody tr:nth-child(2n){
+          background: unset !important;
+            }
+      @media(max-width: 520px){
+              .comparision_container {
+                padding: 3rem 1rem;
+              }
+        table.table_comparision th{
+          padding: 10px 10px !important;
+        }
+      }
 </style>
 <section class="enemy_comparision">
   <div class="comparision_container">
