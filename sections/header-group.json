@@ -11,6 +11,26 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "annoucement_countdown_KfraWy": {
+      "type": "annoucement_countdown",
+      "settings": {
+        "annoucement_bar_show": false,
+        "desktop_promo_text": "10% OFF CODE: JANDER10 - FREE SHIPPING FOR ORDERS ABOVE 25€",
+        "mobile_first_line": "10% OFF CODE: JANDER10",
+        "mobile_second_line": "FREE SHIPPING  ORDERS ABOVE 25€",
+        "promo_link": "",
+        "text_alignment": "center",
+        "countdown_enable": false,
+        "countdown_end_date": "",
+        "countdown_repeat": false,
+        "day": "",
+        "hour": "",
+        "min": "",
+        "sec": "",
+        "color_bg": "#000000",
+        "color_text": "#ffffff"
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -36,26 +56,6 @@
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
-      }
-    },
-    "annoucement_countdown_KfraWy": {
-      "type": "annoucement_countdown",
-      "settings": {
-        "annoucement_bar_show": false,
-        "desktop_promo_text": "",
-        "mobile_first_line": "",
-        "mobile_second_line": "",
-        "promo_link": "",
-        "text_alignment": "center",
-        "countdown_enable": false,
-        "countdown_end_date": "",
-        "countdown_repeat": false,
-        "day": "",
-        "hour": "",
-        "min": "",
-        "sec": "",
-        "color_bg": "#000000",
-        "color_text": "#ffffff"
       }
     },
     "header": {
