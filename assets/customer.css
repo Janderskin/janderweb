@@ -756,7 +756,3 @@ li[data-address] > h2 {
 .addresses form > div:nth-of-type(7) + div[id] {
   margin-top: 1.5rem;
 }
-button#shopify-pc__banner__btn-accept {
-  background: black;
-  color: white;
-}
