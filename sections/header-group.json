@@ -14,20 +14,20 @@
     "annoucement_countdown_KfraWy": {
       "type": "annoucement_countdown",
       "settings": {
-        "annoucement_bar_show": false,
+        "annoucement_bar_show": true,
         "desktop_promo_text": "10% OFF CODE: JANDER10 - FREE SHIPPING FOR ORDERS ABOVE 25€",
         "mobile_first_line": "10% OFF CODE: JANDER10",
         "mobile_second_line": "FREE SHIPPING  ORDERS ABOVE 25€",
         "promo_link": "",
         "text_alignment": "center",
         "countdown_enable": false,
-        "countdown_end_date": "",
+        "countdown_end_date": "2025/3/20",
         "countdown_repeat": false,
-        "day": "",
-        "hour": "",
-        "min": "",
-        "sec": "",
-        "color_bg": "#000000",
+        "day": "Day",
+        "hour": "Hour",
+        "min": "Min",
+        "sec": "Sec",
+        "color_bg": "#f15614",
         "color_text": "#ffffff"
       }
     },
@@ -45,6 +45,7 @@
       "block_order": [
         "announcement-bar-0"
       ],
+      "disabled": true,
       "custom_css": [
         "div.utility-bar.color-scheme-5.gradient * {background: #f15614; color: white !important;}"
       ],
