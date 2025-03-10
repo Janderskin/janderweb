@@ -365,6 +365,9 @@
     },
     "featured_blog_xgNUTA": {
       "type": "featured-blog",
+      "custom_css": [
+        "h2 {text-align: center}"
+      ],
       "settings": {
         "heading": "Tips & Trends for the Modern Man",
         "heading_size": "h1",
