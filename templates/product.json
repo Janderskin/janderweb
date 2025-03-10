@@ -147,7 +147,8 @@
       "settings": {
         "title": "",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 52,
+        "max-width": 280
       }
     },
     "tl_product_img_banner_dUDrpx": {
