@@ -2,6 +2,13 @@ button#shopify-pc__banner__btn-accept {
   background: black;
   color: white;
 }
+.collection__view-all {
+  margin-top: 20px;
+}
+
+a.button {
+  font-weight: bold;
+}
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
