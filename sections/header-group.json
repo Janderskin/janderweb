@@ -38,6 +38,26 @@
         "enable_language_selector": false
       }
     },
+    "annoucement_countdown_KfraWy": {
+      "type": "annoucement_countdown",
+      "settings": {
+        "annoucement_bar_show": false,
+        "desktop_promo_text": "",
+        "mobile_first_line": "",
+        "mobile_second_line": "",
+        "promo_link": "",
+        "text_alignment": "center",
+        "countdown_enable": false,
+        "countdown_end_date": "",
+        "countdown_repeat": false,
+        "day": "",
+        "hour": "",
+        "min": "",
+        "sec": "",
+        "color_bg": "#000000",
+        "color_text": "#ffffff"
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -59,6 +79,7 @@
     }
   },
   "order": [
+    "annoucement_countdown_KfraWy",
     "announcement-bar",
     "header"
   ]
