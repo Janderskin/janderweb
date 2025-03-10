@@ -1,116 +1,118 @@
 <style>
-  /* General padding and text styles */
-  #press__release {
-    padding: 0 3rem;
-  }
-
-  #press__release h2 {
-    text-align: center;
-    margin: 0;
-    padding-top: 20px;
-  }
-
-  /* Press Quotes Section */
-  .press_quotes {
-    margin: 1rem auto 0;
-    text-align: center;
-  }
-
-  .press__item__quote {
-    display: none;
-  }
-
-  .press__item__selected {
-    display: block;
-  }
-
-  /* Press Logos Section */
-  .press_logos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* flex-wrap: wrap; */
-    margin-top: 15px; /* Added default margin-top for responsiveness */
-  }
-
-  .single_press_logo {
-    width: {{ section.settings.max-width }}px;
-    padding: 10px;
-        flex-shrink: 0;
-  }
-
-  .single_press_logo img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain; /* Ensures logos do not stretch */
-    transition: opacity 0.3s ease; /* Smooth transition on hover */
-  }
-
-  .press_logo_selected {
-    opacity: 1 !important;
-  }
-
-  /* Animated Text Section */
-  .animated-text {
-    overflow: hidden;
-    position: relative;
-    height: 70px;
-  }
-
-  .text {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    animation: slide-up 2s ease forwards;
-  }
-
-  @keyframes slide-up {
-    0% {
-      transform: translateY(100%);
+    /* General padding and text styles */
+    #press__release {
+      padding: 0 3rem;
     }
-    100% {
-      transform: translateY(0);
+
+    #press__release h2 {
+      text-align: center;
+      margin: 0;
+      padding-top: 20px;
     }
-  }
 
-  .animated {
-    animation: none; /* Remove animation once played */
-  }
+    /* Press Quotes Section */
+    .press_quotes {
+      margin: 1rem auto 0;
+      text-align: center;
+    }
 
-  /* Mobile Responsiveness */
-  @media(max-width: 520px) {
+    .press__item__quote {
+      display: none;
+    }
+
+    .press__item__selected {
+      display: block;
+    }
+
+    /* Press Logos Section */
     .press_logos {
-      margin-top: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* flex-wrap: wrap; */
+      margin-top: 15px; /* Added default margin-top for responsiveness */
     }
 
     .single_press_logo {
-      width: 50%;
+      width: {{ section.settings.max-width }}px;
       padding: 10px;
+          flex-shrink: 0;
     }
 
+    .single_press_logo img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain; /* Ensures logos do not stretch */
+      transition: opacity 0.3s ease; /* Smooth transition on hover */
+    }
+
+    .press_logo_selected {
+      opacity: 1 !important;
+    }
+
+    /* Animated Text Section */
     .animated-text {
-      height: 100px;
+      overflow: hidden;
+      position: relative;
+      height: 70px;
     }
-      #press__release {
-    padding: 0;
-  }
 
-  }
+    .text {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      animation: slide-up 2s ease forwards;
+    }
 
-  /* Section padding customization */
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
+    @keyframes slide-up {
+      0% {
+        transform: translateY(100%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
 
-  @media screen and (min-width: 750px) {
+    .animated {
+      animation: none; /* Remove animation once played */
+    }
+
+    /* Mobile Responsiveness */
+    @media(max-width: 520px) {
+      .press_logos {
+        margin-top: 15px;
+      }
+  .press_logos.scrollable {
+      flex-wrap: wrap;
+  }
+      .single_press_logo {
+        width: 50%;
+        padding: 20px;
+      }
+
+      .animated-text {
+        height: 100px;
+      }
+        #press__release {
+      padding: 0;
+    }
+
+    }
+
+    /* Section padding customization */
     .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
-  }
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
 </style>
 
 <section id="press__release" class="color-{{ section.settings.color_scheme }}">
