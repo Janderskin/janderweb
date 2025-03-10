@@ -66,14 +66,14 @@
           "type": "html",
           "settings": {
             "image": "shopify://shop_images/1_862fa913-7604-4253-b5de-26ef6a1b6103.png",
-            "title": ""
+            "title": "gd"
           }
         },
         "html_VB7Dnx": {
           "type": "html",
           "settings": {
             "image": "shopify://shop_images/2_439917f7-83e4-4404-9997-bcb42dd02f7b.png",
-            "title": ""
+            "title": "dsad"
           }
         },
         "html_q9DWyN": {
@@ -102,7 +102,7 @@
         "title": "",
         "padding_top": 0,
         "padding_bottom": 0,
-        "max-width": 275
+        "max-width": 160
       }
     },
     "featured_collection_pk6LKh": {
