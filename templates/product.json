@@ -16,6 +16,13 @@
           "type": "title",
           "settings": {}
         },
+        "text_hymVmY": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.custom.description.value }}",
+            "text_style": "body"
+          }
+        },
         "judge_me_reviews_preview_badge_GAPefR": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
@@ -87,6 +94,7 @@
       },
       "block_order": [
         "title",
+        "text_hymVmY",
         "judge_me_reviews_preview_badge_GAPefR",
         "rating",
         "price",
