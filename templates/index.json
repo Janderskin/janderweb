@@ -108,7 +108,8 @@
     "featured_collection_pk6LKh": {
       "type": "featured-collection",
       "custom_css": [
-        "{text-align: center;}"
+        "{text-align: center;}",
+        "a.button {margin-top: 2rem;}"
       ],
       "settings": {
         "title": "Crafted for the Modern man",
