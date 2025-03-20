@@ -215,7 +215,7 @@
           "type": "step",
           "settings": {
             "image": "shopify://shop_images/1_fb65e8ab-254f-4384-ace3-9960245c908f.jpg",
-            "title": "<p><strong>We get men. </strong></p>",
+            "title": "<p><strong>We get men, we get you. </strong></p>",
             "description": "No complicated steps, no nonsense - just simple, straightforward products that fit into your routine effortlessly."
           }
         },
@@ -242,7 +242,7 @@
         "step_FAqU4A"
       ],
       "settings": {
-        "title": "How It Works",
+        "title": "Why Jander?",
         "description": "",
         "btn_text": "Shop The Routine Set",
         "btn_url": "shopify://products/facial-routine-for-men",
