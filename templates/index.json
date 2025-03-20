@@ -244,8 +244,8 @@
       "settings": {
         "title": "Why Jander?",
         "description": "",
-        "btn_text": "Shop The Routine Set",
-        "btn_url": "shopify://products/facial-routine-for-men",
+        "btn_text": "Shop now",
+        "btn_url": "shopify://collections/all",
         "step_type": "svg"
       }
     },
