@@ -29,7 +29,7 @@
         "button_dxVqGt": {
           "type": "button",
           "settings": {
-            "button_label": "Shop now",
+            "button_label": "Shop all",
             "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
