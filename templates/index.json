@@ -216,7 +216,7 @@
           "settings": {
             "image": "shopify://shop_images/1_fb65e8ab-254f-4384-ace3-9960245c908f.jpg",
             "title": "<p><strong>We get men. </strong></p>",
-            "description": "No complicated steps, no nonsense - just simple, effective products that fit into your routine effortlessly."
+            "description": "No complicated steps, no nonsense - just simple, straightforward products that fit into your routine effortlessly."
           }
         },
         "step_Fn9Q3d": {
@@ -224,15 +224,15 @@
           "settings": {
             "image": "shopify://shop_images/2_87ba24b0-0c64-40bb-b88b-e09b47fe07eb.jpg",
             "title": "<p><strong>Innovative formulas.</strong></p>",
-            "description": "We go all in to create game-changing solutions for men’s personal care: straightforward, and built to deliver real results."
+            "description": "We go all in to create game-changing solutions: straightforward, and built to deliver real results."
           }
         },
         "step_FAqU4A": {
           "type": "step",
           "settings": {
             "image": "shopify://shop_images/3_c897aafa-8022-41f1-b62f-0c7ba2fc0b63.jpg",
-            "title": "<p><strong>Hydrate your skin</strong></p>",
-            "description": "Nourish and rejuvenate with our hydrating solutions. Achieve a smoother, healthier complexion that radiates confidence."
+            "title": "<p><strong>We take care of everything.</strong></p>",
+            "description": "We created the ultimate deodorants - for up and down there."
           }
         }
       },
