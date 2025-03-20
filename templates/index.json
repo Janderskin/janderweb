@@ -29,8 +29,8 @@
         "button_dxVqGt": {
           "type": "button",
           "settings": {
-            "button_label": "Shop the Facial Routine",
-            "button_link": "shopify://products/facial-routine-for-men",
+            "button_label": "Shop now",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
         }
