@@ -384,9 +384,36 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "tl_banner_mtniyi": {
+      "type": "tl-banner",
+      "disabled": true,
+      "settings": {
+        "img1": "shopify://shop_images/1_39c71561-551a-4065-b9bb-f29732fe921c.png",
+        "img2": "shopify://shop_images/IMG_1479.heic",
+        "star-rattings": "4",
+        "title": "Title",
+        "para": "paragraph",
+        "btn-url": "",
+        "btn-txt": "",
+        "full-width": true,
+        "height-desktop": 40,
+        "height-mobile": 120,
+        "review-star-color": "#ffd700",
+        "review-text-color": "#834d4d",
+        "section-title-color": "#952c2c",
+        "section-para-color": "#3a8f7f",
+        "btn-txt-color": "#ffffff",
+        "btn-bg-color": "#000000",
+        "content-vertical-position": 50,
+        "content-horizontal-position": 4,
+        "content-vertical-position-mob": 40,
+        "content-horizontal-position-mob": 7
+      }
     }
   },
   "order": [
+    "tl_banner_mtniyi",
     "image_with_text_w49TBx",
     "press_release_tEERxY",
     "featured_collection_pk6LKh",
