@@ -11,9 +11,8 @@
   "sections": {
     "tl_banner_mtniyi": {
       "type": "tl-banner",
-      "disabled": true,
       "settings": {
-        "img1": "shopify://shop_images/1_39c71561-551a-4065-b9bb-f29732fe921c.png",
+        "img1": "shopify://shop_images/Diseno_sin_titulo_3eedda8b-60b0-4d7f-8aba-a4703348944b.png",
         "img2": "shopify://shop_images/IMG_1479.heic",
         "star-rattings": "+1.500 happy customers",
         "title": "The new face of men.",
@@ -23,12 +22,12 @@
         "full-width": true,
         "height-desktop": 40,
         "height-mobile": 120,
-        "review-star-color": "#ffd700",
+        "review-star-color": "#adffb6",
         "review-text-color": "#ffffff",
         "section-title-color": "#ffffff",
         "section-para-color": "#ffffff",
-        "btn-txt-color": "#ffffff",
-        "btn-bg-color": "#000000",
+        "btn-txt-color": "#000000",
+        "btn-bg-color": "#ADFFB6",
         "content-vertical-position": 50,
         "content-horizontal-position": 4,
         "content-vertical-position-mob": 40,
