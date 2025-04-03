@@ -20,7 +20,7 @@
         "btn-url": "shopify://collections/shop-all",
         "btn-txt": "Shop All",
         "full-width": true,
-        "height-desktop": 50,
+        "height-desktop": 44,
         "height-mobile": 120,
         "review-star-color": "#adffb6",
         "review-text-color": "#ffffff",
