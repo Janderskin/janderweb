@@ -168,11 +168,13 @@
     </div>
   {%- endif -%}
 </div>
- <div class="customer manage-subscriptions center">
-        <h2 class="h2" tabindex="-1">{{ section.settings.subscriptions_title }}</h1>
-        <p>{{ section.settings.subscriptions_subtitle }}</p>
-        <a href="https://janderskin.com/tools/recurring/get-subscription-access" class="button button--primary">{{ section.settings. subscriptions_btn }}</a>
-  </div>
+<div class="customer manage-subscriptions center">
+  <h2 class="h2" tabindex="-1">{{ section.settings.subscriptions_title }}</h2>
+  <p>{{ section.settings.subscriptions_subtitle }}</p>
+  <a href="https://janderskin.com/tools/recurring/get-subscription-access" class="button button--primary">
+    {{- section.settings.subscriptions_btn -}}
+  </a>
+</div>
 {% schema %}
 {
   "name": "t:sections.main-login.name",
