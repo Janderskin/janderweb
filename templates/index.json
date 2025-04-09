@@ -11,6 +11,7 @@
   "sections": {
     "tl_banner_mtniyi": {
       "type": "tl-banner",
+      "disabled": true,
       "settings": {
         "img1": "shopify://shop_images/Diseno_sin_titulo_3eedda8b-60b0-4d7f-8aba-a4703348944b.png",
         "img2": "shopify://shop_images/IMG_1479.heic",
@@ -65,7 +66,6 @@
         "text_D9eKFU",
         "button_dxVqGt"
       ],
-      "disabled": true,
       "custom_css": [
         "{background-color: #ffffff !important; width: 100%; max-width: 100%;}"
       ],
