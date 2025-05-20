@@ -42,11 +42,19 @@
           "type": "heading",
           "settings": {
             "heading": "The new face of men.",
-            "heading_size": "h1"
+            "heading_size": "h0"
+          }
+        },
+        "heading_dzEF6x": {
+          "type": "heading",
+          "settings": {
+            "heading": "Head-to-toe personal care crafted for the modern man",
+            "heading_size": "h2"
           }
         },
         "text_D9eKFU": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Head-to-toe personal care crafted for the modern man.</p>",
             "text_style": "subtitle"
@@ -63,6 +71,7 @@
       },
       "block_order": [
         "heading_bmcfPF",
+        "heading_dzEF6x",
         "text_D9eKFU",
         "button_dxVqGt"
       ],
