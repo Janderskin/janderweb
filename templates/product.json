@@ -63,6 +63,15 @@
           "type": "description",
           "settings": {}
         },
+        "collapsible_tab_gLmg7M": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "% Promotions",
+            "icon": "none",
+            "content": "<ul><li>10% OFF 1st order. Code: JANDER10</li><li>Free shipping for orders above 25€</li></ul>",
+            "page": ""
+          }
+        },
         "collapsible_tab_aWYJ69": {
           "type": "collapsible_tab",
           "settings": {
@@ -102,6 +111,7 @@
         "buy_buttons",
         "recharge_subscriptions_subscription_widget_v2_bwizzX",
         "description",
+        "collapsible_tab_gLmg7M",
         "collapsible_tab_aWYJ69",
         "collapsible_tab_FWXiPk",
         "collapsible_tab_KDREYF"
@@ -118,7 +128,7 @@
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
         "image_zoom": "lightbox",
-        "mobile_thumbnails": "show",
+        "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 60,
