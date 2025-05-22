@@ -70,7 +70,11 @@
             "heading": "% Promotions",
             "icon": "none",
             "content": "<ul><li>10% OFF 1st order. Code: JANDER10</li><li>Free shipping for orders above 25€</li></ul>",
-            "page": ""
+            "page": "",
+            "color_bg": "#f15614",
+            "color_text": "#000000",
+            "color_border": "#f15613",
+            "content_bg": "#c66b43"
           }
         },
         "collapsible_tab_aWYJ69": {
@@ -80,7 +84,11 @@
             "heading": "How to Use",
             "icon": "none",
             "content": "<p>{{ product.metafields.my_fields.essential_trio_set | metafield_tag }}</p>",
-            "page": ""
+            "page": "",
+            "color_bg": "",
+            "color_text": "",
+            "color_border": "",
+            "content_bg": ""
           }
         },
         "collapsible_tab_FWXiPk": {
@@ -90,7 +98,11 @@
             "heading": "Benefits",
             "icon": "none",
             "content": "<p>{{ product.metafields.my_fields.helps_fight | metafield_tag }}</p>",
-            "page": ""
+            "page": "",
+            "color_bg": "",
+            "color_text": "",
+            "color_border": "",
+            "content_bg": ""
           }
         },
         "collapsible_tab_KDREYF": {
@@ -100,7 +112,11 @@
             "heading": "Ingredients",
             "icon": "none",
             "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}</p>",
-            "page": ""
+            "page": "",
+            "color_bg": "",
+            "color_text": "",
+            "color_border": "",
+            "content_bg": ""
           }
         }
       },
