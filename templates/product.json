@@ -69,12 +69,12 @@
             "open": true,
             "heading": "% Promotions",
             "icon": "none",
-            "content": "<ul><li>10% OFF 1st order. Code: JANDER10</li><li>Free shipping for orders above 25€</li></ul>",
+            "content": "<p></p><ul><li>10% OFF 1st order. Code: JANDER10</li><li>Free shipping for orders above 25€</li></ul>",
             "page": "",
-            "color_bg": "#fde8ef",
+            "color_bg": "#adffb6",
             "color_text": "#000000",
-            "color_border": "#fde8ef",
-            "content_bg": "#fef3f5"
+            "color_border": "#adffb6",
+            "content_bg": "#d8fcdb"
           }
         },
         "collapsible_tab_aWYJ69": {
