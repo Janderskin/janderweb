@@ -211,22 +211,23 @@
                 {{ block.settings.custom_liquid }}
               {%- when 'collapsible_tab' -%}
                 <style>
-                      .accordion_{{ block.id }} {
-                      border-color: {{ block.settings.color_border }} !important;
+                          .accordion_{{ block.id }} {
+                          border-color: {{ block.settings.color_border }} !important;
+                  margin: 0 !important;
+                          }
+                          #Details-{{ block.id }}-{{ section.id }} summary{
+                            background: {{ block.settings.color_bg }};
+                                /* padding: 10px auto; */
+                          }
+                          #Details-{{ block.id }}-{{ section.id }} *, #Details-{{ block.id }}-{{ section.id }} a{
+                            color: {{ block.settings.color_text }};
+                          }
+                          #Details-{{ block.id }}-{{ section.id }} summary span:before, #Details-{{ block.id }}-{{ section.id }} summary span:after{
+                             background: {{ block.settings.color_text }};
+                          }
+                      #Details-{{ block.id }}-{{ section.id }} .accordion__content{
+                        background: {{ block.settings.content_bg }};
                       }
-                      #Details-{{ block.id }}-{{ section.id }} summary{
-                        background: {{ block.settings.color_bg }};
-                            padding: 10px auto;
-                      }
-                      #Details-{{ block.id }}-{{ section.id }} *, #Details-{{ block.id }}-{{ section.id }} a{
-                        color: {{ block.settings.color_text }};
-                      }
-                      #Details-{{ block.id }}-{{ section.id }} summary span:before, #Details-{{ block.id }}-{{ section.id }} summary span:after{
-                         background: {{ block.settings.color_text }};
-                      }
-                  #Details-{{ block.id }}-{{ section.id }} .accordion__content{
-                    background: {{ block.settings.content_bg }};
-                  }
                 </style>
                 <div
                   class="product__accordion accordion quick-add-hidden accordion_{{ block.id }}"
