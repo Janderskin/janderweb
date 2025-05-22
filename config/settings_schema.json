@@ -317,6 +317,21 @@
     ]
   },
   {
+    "name": "Whatsapp",
+    "settings": [
+      {
+        "type": "number",
+        "id": "whatsapp_number",
+        "label": "Whatsapp number"
+      },
+      {
+        "type": "image_picker",
+        "id": "whatsapp_icon",
+        "label": "Whatsapp icon"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.variant_pills.name",
     "settings": [
       {
