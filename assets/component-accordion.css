@@ -48,7 +48,7 @@
 }
 
 .accordion__content {
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.5rem !important;
   word-break: break-word;
   overflow-x: auto;
   padding: 0 0.6rem;
