@@ -7,7 +7,7 @@
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
     {{ 'magnific-popup.css' | asset_url | stylesheet_tag }}
-    
+
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
@@ -301,15 +301,14 @@
     </script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "rnfsgv344w");
-</script>
-
-</head>
+    <script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "rnfsgv344w");
+    </script>
+  </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -385,5 +384,38 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    {% if settings.whatsapp_number != blank and settings.whatsapp_icon != blank %}
+      <a
+        href="https://wa.me/{{ settings.whatsapp_number }}"
+        target="_blank"
+        id="whatsapp-button"
+        aria-label="Chat on WhatsApp"
+      >
+        <img
+          src="{{ settings.whatsapp_icon | image_url: width: '100px' }}"
+          width="40px"
+          height="auto"
+          alt="WhatsApp"
+        >
+      </a>
+
+      <style>
+        #whatsapp-button {
+          position: fixed;
+          bottom: 20px;
+          right: 20px;
+          z-index: 9999;
+          background: transparent;
+          padding: 0;
+          border: none;
+        }
+        #whatsapp-button img {
+          transition: transform 0.2s ease-in-out;
+        }
+        #whatsapp-button:hover img {
+          transform: scale(1.1);
+        }
+      </style>
+    {% endif %}
   </body>
 </html>
