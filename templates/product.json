@@ -66,6 +66,7 @@
         "collapsible_tab_gLmg7M": {
           "type": "collapsible_tab",
           "settings": {
+            "open": true,
             "heading": "% Promotions",
             "icon": "none",
             "content": "<ul><li>10% OFF 1st order. Code: JANDER10</li><li>Free shipping for orders above 25€</li></ul>",
@@ -75,6 +76,7 @@
         "collapsible_tab_aWYJ69": {
           "type": "collapsible_tab",
           "settings": {
+            "open": false,
             "heading": "How to Use",
             "icon": "none",
             "content": "<p>{{ product.metafields.my_fields.essential_trio_set | metafield_tag }}</p>",
@@ -84,6 +86,7 @@
         "collapsible_tab_FWXiPk": {
           "type": "collapsible_tab",
           "settings": {
+            "open": false,
             "heading": "Benefits",
             "icon": "none",
             "content": "<p>{{ product.metafields.my_fields.helps_fight | metafield_tag }}</p>",
@@ -93,6 +96,7 @@
         "collapsible_tab_KDREYF": {
           "type": "collapsible_tab",
           "settings": {
+            "open": false,
             "heading": "Ingredients",
             "icon": "none",
             "content": "<p>{{ product.metafields.my_fields.ingredients | metafield_tag }}</p>",
