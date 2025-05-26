@@ -18,7 +18,7 @@
         "desktop_promo_text": "10% OFF CODE: JANDER10 - FREE SHIPPING FOR ORDERS ABOVE 25€",
         "mobile_first_line": "10% OFF CODE: JANDER10",
         "mobile_second_line": "FREE SHIPPING  ORDERS ABOVE 25€",
-        "promo_link": "",
+        "promo_link": "shopify://pages/10-off",
         "text_alignment": "center",
         "countdown_enable": false,
         "countdown_end_date": "2025/3/20",
