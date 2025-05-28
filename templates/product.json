@@ -118,6 +118,12 @@
             "color_border": "",
             "content_bg": ""
           }
+        },
+        "bundler_custom_bundle_4GKxrq": {
+          "type": "shopify://apps/bundler/blocks/custom-bundle/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {
+            "shortcode": ""
+          }
         }
       },
       "block_order": [
@@ -134,7 +140,8 @@
         "collapsible_tab_gLmg7M",
         "collapsible_tab_aWYJ69",
         "collapsible_tab_FWXiPk",
-        "collapsible_tab_KDREYF"
+        "collapsible_tab_KDREYF",
+        "bundler_custom_bundle_4GKxrq"
       ],
       "custom_css": [
         ".product__tax {display: none;}"
