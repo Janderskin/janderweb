@@ -67,6 +67,7 @@
         },
         "recharge_subscriptions_subscription_widget_v2_bwizzX": {
           "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
           "settings": {}
         },
         "description": {
@@ -134,16 +135,6 @@
           "settings": {
             "shortcode": ""
           }
-        },
-        "klarna_on_site_messaging_app_block_4Rf6XB": {
-          "type": "shopify://apps/klarna-on-site-messaging/blocks/app-block/b95936a9-74b6-4a95-8103-6a1b6459c25e",
-          "settings": {
-            "data_key": "top-strip-promotion-badge",
-            "theme": "default",
-            "topPadding": "0",
-            "bottomPadding": "0",
-            "messagePrefix": ""
-          }
         }
       },
       "block_order": [
@@ -162,8 +153,7 @@
         "collapsible_tab_aWYJ69",
         "collapsible_tab_FWXiPk",
         "collapsible_tab_KDREYF",
-        "bundler_custom_bundle_4GKxrq",
-        "klarna_on_site_messaging_app_block_4Rf6XB"
+        "bundler_custom_bundle_4GKxrq"
       ],
       "custom_css": [
         ".product__tax {display: none;}"
