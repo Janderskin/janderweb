@@ -36,6 +36,19 @@
           "type": "price",
           "settings": {}
         },
+        "bundlex_volume_discount_block_Ge3P8g": {
+          "type": "shopify://apps/bundlex/blocks/volume-discount-block/c017a4b2-071a-4809-a2c2-1c5768f46bb9",
+          "settings": {
+            "hide_quantity": true,
+            "custom_placement_selector": "",
+            "add_to_cart_button_selector": "",
+            "quantity_container_selector": "",
+            "quantity_input_selector": "",
+            "variants_container_selector": "",
+            "product_form_selector": "",
+            "custom_css": ""
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -143,6 +156,7 @@
         "judge_me_reviews_preview_badge_GAPefR",
         "rating",
         "price",
+        "bundlex_volume_discount_block_Ge3P8g",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
