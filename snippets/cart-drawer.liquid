@@ -56,7 +56,39 @@
           </div>
           {%- if settings.cart_drawer_collection != blank -%}
             <div class="cart-drawer__collection">
-              {% render 'card-collection', card_collection: settings.cart_drawer_collection, columns: 1 %}
+              {% comment %}
+                {% render 'card-collection', card_collection: settings.cart_drawer_collection, columns: 1 %}
+              {% endcomment %}
+              <div class="custom_collection_drawer">
+                <h2 class="h3">
+                  {% if settings.cart_drawer_collection_title != blank %}
+                    {{ settings.cart_drawer_collection_title }}
+                  {% else %}
+                    {{ settings.cart_drawer_collection.title }}
+                  {% endif %}
+                </h2>
+                <div
+                  class="scrollable"
+                >
+                  {%- for product in settings.cart_drawer_collection.products -%}
+                    <div
+                      class="scrollable_item"
+                    >
+                      {% render 'card-product',
+                        card_product: product,
+                        media_aspect_ratio: 'portrait',
+                        image_shape: 'default',
+                        show_secondary_image: true,
+                        show_vendor: false,
+                        show_rating: false,
+                        lazy_load: false,
+                        skip_styles: false,
+                        quick_add: false
+                      %}
+                    </div>
+                  {%- endfor -%}
+                </div>
+              </div>
             </div>
           {%- endif -%}
         </div>
