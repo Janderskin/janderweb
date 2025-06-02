@@ -44,7 +44,7 @@ a.button {
 }
 .scrollable_item {
   flex-shrink: 0;
-  width: 45%;
+  width: 75%;
 }
 :root {
   --alpha-button-background: 1;
