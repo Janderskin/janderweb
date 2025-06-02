@@ -74,11 +74,9 @@ a.button {
 .cross_selling_cart * {
   font-size: 12px;
 }
-.cross_selling_cart button {
+.cross_selling_cart a.button {
   margin: unset;
   width: 50px;
-  background: #3c1a29;
-  color: white;
 }
 .cross_selling_cart .promotion_product {
   width: 80%;
