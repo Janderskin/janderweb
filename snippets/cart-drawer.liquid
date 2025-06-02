@@ -507,14 +507,7 @@
                         <p>{{ prod.title }}</p>
                         {{ prod.price | money }}
                       </div>
-                      <button
-                        type="button"
-                        data-quick-add="{{ prod.handle }}"
-                        aria-expanded="false"
-                        aria-controls="cart-flyout-drawer"
-                      >
-                        <span>Add</span>
-                      </button>
+                      <a class="button button--primary" href="{{ prod.url }}">View</a>
                     </div>
                   </div>
                 {% endif %}
