@@ -46,7 +46,7 @@
             "quantity_input_selector": "",
             "variants_container_selector": "",
             "product_form_selector": "",
-            "custom_css": ".bx-header{\ndisplay: none;\n}\n.bx-footer {\n    display: none;\n}\n.price__container {\n    display: none !important;\n}"
+            "custom_css": ".bx-header{\ndisplay: none;\n}\n.price__container {\n    display: none !important;\n}"
           }
         },
         "variant_picker": {
