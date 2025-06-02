@@ -1476,6 +1476,20 @@
       },
       {
         "type": "header",
+        "content": "Cross Sell"
+      },
+      {
+        "type": "text",
+        "id": "cross_title",
+        "label": "Text"
+      },
+      {
+        "type": "collection",
+        "id": "cross_selling",
+        "label": "Collection"
+      },
+      {
+        "type": "header",
         "content": "Empty Cart"
       },
       {
