@@ -46,6 +46,61 @@ a.button {
   flex-shrink: 0;
   width: 75%;
 }
+/* cross cart */
+/* cart cross sell */
+.cross_selling_cart {
+  border-bottom: 1px solid lightgray;
+}
+.cross_selling_cart * {
+  font-size: 12px;
+}
+.cross_selling_cart button {
+  margin: unset;
+  width: 50px;
+  background: #3c1a29;
+  color: white;
+}
+.cross_selling_cart .promotion_product {
+  width: 80%;
+  flex-shrink: 0;
+  margin: 0;
+  border: unset;
+}
+/* cross selling pdp */
+.cross_selling_pdp {
+  gap: 10px;
+  margin-top: 10px;
+}
+.cross_selling_product {
+  flex-shrink: 0;
+  width: 40%;
+  flex-basis: 230px;
+}
+
+.cross_selling_product img {
+  width: 100%;
+  border-radius: 10px;
+  /* height: 230px;
+    object-fit: cover; */
+}
+
+.cross_selling_info p {
+  margin: 0;
+  padding: 0;
+}
+
+.cross_selling_info button {
+  width: 100%;
+  margin-top: 5px;
+  background: #3c1a29;
+  color: white;
+  padding: 10px;
+  font-size: 12px;
+}
+.cross_selling_product * {
+  font-size: 12px;
+}
+/* end cross cart */
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;

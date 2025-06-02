@@ -487,6 +487,41 @@
         </form>
       </cart-drawer-items>
       <div class="drawer__footer">
+        {% if cart.item_count > 0 %}
+          {% if settings.cross_selling != blank %}
+            <div class="promo_text">{{ settings.cross_title }}</div>
+            <div class="scrollable cross_selling_cart">
+              {% for prod in settings.cross_selling.products %}
+                {% if prod.available %}
+                  <div
+                    class="promotion_product"
+                    data-product-id="{{ prod.id }}"
+                  >
+                    <img
+                      src="{{ prod.featured_image | image_url: width: '50px', height: '50px' }}"
+                      width="50px"
+                      height="auto"
+                    >
+                    <div class="promo_product_info">
+                      <div>
+                        <p>{{ prod.title }}</p>
+                        {{ prod.price | money }}
+                      </div>
+                      <button
+                        type="button"
+                        data-quick-add="{{ prod.handle }}"
+                        aria-expanded="false"
+                        aria-controls="cart-flyout-drawer"
+                      >
+                        <span>Add</span>
+                      </button>
+                    </div>
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
+        {% endif %}
         {%- if settings.show_cart_note -%}
           <details id="Details-CartDrawer">
             <summary>
