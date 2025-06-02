@@ -24,7 +24,7 @@ a.button {
   scrollbar-color: #868686 var(--light_gray);
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-  gap: 12px;
+  gap: 5px;
 }
 .scrollable::-webkit-scrollbar {
   background-color: var(--light_gray);
@@ -73,6 +73,7 @@ a.button {
 }
 .cross_selling_cart * {
   font-size: 12px;
+  margin: 0;
 }
 .cross_selling_cart a.button {
   width: 50px;
