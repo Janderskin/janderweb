@@ -38,6 +38,7 @@
         },
         "bundlex_volume_discount_block_Ge3P8g": {
           "type": "shopify://apps/bundlex/blocks/volume-discount-block/c017a4b2-071a-4809-a2c2-1c5768f46bb9",
+          "disabled": true,
           "settings": {
             "hide_quantity": true,
             "custom_placement_selector": "",
