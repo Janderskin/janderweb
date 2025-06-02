@@ -9,6 +9,43 @@ button#shopify-pc__banner__btn-accept {
 a.button {
   font-weight: bold;
 }
+.cart-drawer__collection {
+  margin: 0 0 10px 0 !important;
+}
+
+.custom_collection_drawer h2 {
+  margin: 0;
+  text-align: left;
+}
+.scrollable {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scrollbar-color: #868686 var(--light_gray);
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  gap: 12px;
+}
+.scrollable::-webkit-scrollbar {
+  background-color: var(--light_gray);
+  height: 1px;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background-color: #868686; /* temporary */
+}
+
+.scrollable.no-scrollbar {
+  padding-bottom: 0;
+  scrollbar-width: none;
+}
+.scrollable.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.scrollable_item {
+  flex-shrink: 0;
+  width: 45%;
+}
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
