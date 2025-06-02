@@ -1476,7 +1476,7 @@
       },
       {
         "type": "header",
-        "content": "t:settings_schema.cart.settings.cart_drawer.header"
+        "content": "Empty Cart"
       },
       {
         "type": "text",
