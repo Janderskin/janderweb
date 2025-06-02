@@ -126,8 +126,9 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
-    "cart_drawer_collection": "deodorants",
     "cart_color_scheme": "scheme-1",
+    "cross_selling": "deodorants",
+    "cart_drawer_collection": "deodorants",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
