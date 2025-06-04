@@ -36,20 +36,6 @@
           "type": "price",
           "settings": {}
         },
-        "bundlex_volume_discount_block_Ge3P8g": {
-          "type": "shopify://apps/bundlex/blocks/volume-discount-block/c017a4b2-071a-4809-a2c2-1c5768f46bb9",
-          "disabled": true,
-          "settings": {
-            "hide_quantity": true,
-            "custom_placement_selector": "",
-            "add_to_cart_button_selector": "",
-            "quantity_container_selector": "",
-            "quantity_input_selector": "",
-            "variants_container_selector": "",
-            "product_form_selector": "",
-            "custom_css": ".price__container {\n    display: none !important;\n}"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -70,6 +56,20 @@
         "description": {
           "type": "description",
           "settings": {}
+        },
+        "bundlex_volume_discount_block_Ge3P8g": {
+          "type": "shopify://apps/bundlex/blocks/volume-discount-block/c017a4b2-071a-4809-a2c2-1c5768f46bb9",
+          "disabled": true,
+          "settings": {
+            "hide_quantity": true,
+            "custom_placement_selector": "",
+            "add_to_cart_button_selector": "",
+            "quantity_container_selector": "",
+            "quantity_input_selector": "",
+            "variants_container_selector": "",
+            "product_form_selector": "",
+            "custom_css": ".price__container {\n    display: none !important;\n}"
+          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -157,11 +157,11 @@
         "judge_me_reviews_preview_badge_GAPefR",
         "rating",
         "price",
-        "bundlex_volume_discount_block_Ge3P8g",
         "variant_picker",
         "quantity_selector",
         "recharge_subscriptions_subscription_widget_v2_bwizzX",
         "description",
+        "bundlex_volume_discount_block_Ge3P8g",
         "buy_buttons",
         "klarna_on_site_messaging_app_block_7wxgJi",
         "collapsible_tab_gLmg7M",
