@@ -48,6 +48,9 @@ a.button {
 }
 /* cross cart */
 /* cart cross sell */
+.card .quick-add__submit {
+  display: none;
+}
 .promotion_product {
   display: flex;
   align-items: center;
