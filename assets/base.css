@@ -75,7 +75,7 @@ a.button {
   font-size: 12px;
   margin: 0;
 }
-.cross_selling_cart a.button {
+.cross_selling_cart button#-submit {
   width: 50px;
   font-size: 12px;
   padding: 5px;
