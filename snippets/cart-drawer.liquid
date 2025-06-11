@@ -508,7 +508,6 @@
                         {{ prod.price | money }}
                       </div>
 
-                      <a class="button button--primary" href="{{ prod.url }}">View</a>
                       <!--  -->
                       <div class="quick-add no-js-hidden">
                         {%- liquid
@@ -578,7 +577,7 @@
                                 id="{{ product_form_id }}-submit"
                                 type="submit"
                                 name="add"
-                                class="quick-add__submit button button--full-width button--secondary{% if horizontal_quick_add %} card--horizontal__quick-add{% endif %}"
+                                class="quick-add__submit button button--full-width button--secondary card--horizontal__quick-add button button--primary"
                                 aria-haspopup="dialog"
                                 aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ prod.id }}"
                                 aria-live="polite"
@@ -587,13 +586,7 @@
                                   disabled
                                 {% endif %}
                               >
-                                <span>
-                                  {%- if prod.selected_or_first_available_variant.available -%}
-                                    {{ 'products.product.add_to_cart' | t }}
-                                  {%- else -%}
-                                    {{ 'products.product.sold_out' | t }}
-                                  {%- endif -%}
-                                </span>
+                                <span> Add </span>
                                 <span class="sold-out-message hidden">
                                   {{ 'products.product.sold_out' | t }}
                                 </span>
