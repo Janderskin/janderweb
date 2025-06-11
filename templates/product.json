@@ -170,7 +170,8 @@
         "bundler_custom_bundle_4GKxrq"
       ],
       "custom_css": [
-        ".product__tax {display: none;}"
+        ".product__tax {display: none;}",
+        ".product-form__submit {background: #F15615; color: white;}"
       ],
       "settings": {
         "enable_sticky_info": true,
