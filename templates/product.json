@@ -171,7 +171,7 @@
       ],
       "custom_css": [
         ".product__tax {display: none;}",
-        ".product-form__submit {background: #F15615; color: white;}"
+        ".product-form__submit {background: #f15615; color: white;}"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -216,7 +216,7 @@
         "html_7ACcEJ": {
           "type": "html",
           "settings": {
-            "image": "shopify://shop_images/la-vanguardia-logo-trans.png",
+            "image": "shopify://shop_images/Diseno_sin_titulo_02b3b86c-6224-44eb-9d8a-fd7564572472.png",
             "title": ""
           }
         }
