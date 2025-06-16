@@ -171,7 +171,7 @@
       ],
       "custom_css": [
         ".product__tax {display: none;}",
-        ".product-form__submit {background: #f15615; color: white;}"
+        ".product-form__submit {background: #f15615; color: white; font-weight: bold;}"
       ],
       "settings": {
         "enable_sticky_info": true,
