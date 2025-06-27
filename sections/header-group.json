@@ -16,9 +16,9 @@
       "settings": {
         "annoucement_bar_show": true,
         "desktop_promo_text": "SUMMER SALES ARE ON. UP TO 15% OFF & FREE SHIPPING +25€",
-        "mobile_first_line": "10% OFF CODE: JANDER10",
-        "mobile_second_line": "FREE SHIPPING  ORDERS ABOVE 25€",
-        "promo_link": "shopify://pages/10-off",
+        "mobile_first_line": "SUMMER SALES ARE ON.",
+        "mobile_second_line": "UP TO 15% OFF & FREE SHIPPING +25€",
+        "promo_link": "shopify://collections/all",
         "text_alignment": "center",
         "countdown_enable": true,
         "countdown_end_date": "2025/3/20",
