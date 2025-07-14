@@ -45,7 +45,6 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {}
         },
         "recharge_subscriptions_subscription_widget_v2_bwizzX": {
