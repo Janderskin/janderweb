@@ -16,8 +16,8 @@
       "settings": {
         "annoucement_bar_show": true,
         "desktop_promo_text": "FIRST ORDER 10% OFF & FREE SHIPPING +25€",
-        "mobile_first_line": "SUMMER SALES ARE ON.",
-        "mobile_second_line": "UP TO 15% OFF & FREE SHIPPING +25€",
+        "mobile_first_line": "FIRST ORDER 10% OFF",
+        "mobile_second_line": "FREE SHIPPING +25€",
         "promo_link": "shopify://collections/all",
         "text_alignment": "center",
         "countdown_enable": true,
