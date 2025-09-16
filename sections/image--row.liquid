@@ -4,7 +4,7 @@
         padding-bottom: {{ section.settings.padding_bottom }}px;
     }
 {% endstyle %}
-<div class="custom-heading-section color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
+<div class="custom-heading-section color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding {% unless section.settings.full_width %} page-width{% endunless %}">
   {% if section.settings.heading != blank %}
     <{{ section.settings.heading_tag }} 
        class="{{ section.settings.heading_classes }}" 
