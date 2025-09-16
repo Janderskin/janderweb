@@ -119,54 +119,62 @@
             "padding_tb": 100,
             "padding_lr": 15,
             "bg_color": "#ffffff",
-            "border_radius": 14
+            "border_radius": 14,
+            "title_color": "#000000",
+            "title_align": "center"
           }
         },
-        "column_YRDmYn": {
+        "column_g3rpBz": {
           "type": "column",
           "settings": {
             "title": "UGC",
             "text": "",
             "link_label": "",
             "link": "",
-            "padding_tb": 10,
-            "padding_lr": 10,
+            "padding_tb": 100,
+            "padding_lr": 15,
             "bg_color": "#ffffff",
-            "border_radius": 0
+            "border_radius": 14,
+            "title_color": "#000000",
+            "title_align": "center"
           }
         },
-        "column_87CmXW": {
+        "column_CCN8Xg": {
           "type": "column",
           "settings": {
             "title": "UGC",
             "text": "",
             "link_label": "",
             "link": "",
-            "padding_tb": 10,
-            "padding_lr": 10,
+            "padding_tb": 100,
+            "padding_lr": 15,
             "bg_color": "#ffffff",
-            "border_radius": 0
+            "border_radius": 14,
+            "title_color": "#000000",
+            "title_align": "center"
           }
         },
-        "column_dH73JN": {
+        "column_JBW6Rh": {
           "type": "column",
           "settings": {
             "title": "UGC",
             "text": "",
             "link_label": "",
             "link": "",
-            "padding_tb": 10,
-            "padding_lr": 10,
+            "padding_tb": 100,
+            "padding_lr": 15,
             "bg_color": "#ffffff",
-            "border_radius": 0
+            "border_radius": 14,
+            "title_color": "#000000",
+            "title_align": "center"
           }
         }
       },
       "block_order": [
         "column_b8rcDn",
-        "column_YRDmYn",
-        "column_87CmXW",
-        "column_dH73JN"
+        "column_g3rpBz",
+        "column_CCN8Xg",
+        "column_JBW6Rh"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
