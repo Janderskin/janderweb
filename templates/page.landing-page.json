@@ -20,17 +20,10 @@
     "image_with_text_tjqfWx": {
       "type": "image-with-text",
       "blocks": {
-        "heading_xjELjT": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Diego Buffa</strong>",
-            "heading_size": "h1"
-          }
-        },
         "text_zb68t7": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Pharmacist</strong></p><p><em>“Jander's product formulas provide visible results within weeks.I highly recommend this routine to anyone looking for a simple, effective, and high-quality facial care regimen.”</em></p>",
+            "text": "<p><strong>Fast-absorbing spray built for sensitive skin, keeping you fresh, </strong></p><p><strong>dry, and confident all day - exactly where it matters most.</strong></p>",
             "text_style": "body"
           }
         },
@@ -60,7 +53,6 @@
         }
       },
       "block_order": [
-        "heading_xjELjT",
         "text_zb68t7",
         "progressbar_EEjidf",
         "progressbar_CifjTM",
