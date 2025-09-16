@@ -461,7 +461,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".custom-heading {margin-bottom: 30px;}"
+      ".custom-heading {margin-bottom: 30px !important;}"
     ]
   }
 }
