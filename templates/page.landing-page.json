@@ -53,10 +53,18 @@
             "text": "<p><strong>Fast-absorbing spray built for sensitive skin, keeping you fresh, </strong></p><p><strong>dry, and confident all day - exactly where it matters most.</strong></p>",
             "text_style": "body"
           }
+        },
+        "text_EKf4LA": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Kills odor instantly. No awkward moments.</strong></li></ul>",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
-        "text_zb68t7"
+        "text_zb68t7",
+        "text_EKf4LA"
       ],
       "settings": {
         "image": "shopify://shop_images/Intimate_Deo_top_open_2.png",
