@@ -127,7 +127,7 @@
         border-radius: {{ block.settings.border_radius }}px;
                     ">
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext" style="color: {{ block.settings.title_color }}">{{ block.settings.title }}</h3>
+                  <h3 class="inline-richtext" style="color: {{ block.settings.title_color }}; text-align: {{ block.settings.title_align }};">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
