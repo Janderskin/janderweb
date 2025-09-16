@@ -60,11 +60,19 @@
             "text": "<ul><li><strong>Kills odor instantly. No awkward moments.</strong></li><li><strong>Quick-dry, invisible, and zero stains.</strong></li></ul>",
             "text_style": "body"
           }
+        },
+        "text_yQaGY7": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Masculine scent: Cedar + Amber, subtle but powerful.</strong></li></ul>",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
         "text_zb68t7",
-        "text_EKf4LA"
+        "text_EKf4LA",
+        "text_yQaGY7"
       ],
       "settings": {
         "image": "shopify://shop_images/Intimate_Deo_top_open_2.png",
