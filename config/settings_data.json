@@ -461,15 +461,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "div.section-template--24413342400843__image_with_text_w49TBx-padding div.page-width {width: 100%; margin: 0px !important; max-width: 100%; padding: 0px !important;}",
-      "div.section-template--24413342400843__image_with_text_grid_mFe3Wg-padding {width: 100%; margin: 0px !important; max-width: 100%; padding: 0px !important;}",
-      "body {display: inherit;}",
-      ".custom-recharge-form__product-wrapper {flex-direction: column-reverse;}",
-      "@media only screen and (min-width: 600px) {.video-column-4 {float: left; width: 25%; padding: 5px; }}",
-      "@media only screen and (max-width: 600px) {.video-column-4 {float: left; width: 50%; padding: 5px; }}",
-      " /* Clear floats after the columns */.row-video-column-clear {clear: both;}",
-      " /* image comparison */@media only screen and (max-width: 920px) {[class*=\"image_comparison\"] {display: flex; flex-direction: column-reverse; }}",
-      "div.how-it-works__step-title div.metafield-rich_text_field ~ div.metafield-rich_text_field p {font-size: 16px !important; margin-top: 10px;}"
+      ".custom-heading{padding-bottom: 10px}"
     ]
   }
 }
