@@ -257,6 +257,22 @@
         "padding_bottom": 36
       }
     },
+    "product_with_text_jjjdDq": {
+      "type": "product_with_text",
+      "name": "Two Side Product Section",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "product": "all-day-deodorant",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "quick_add": true
+      }
+    },
     "image_banner_TTEwB7": {
       "type": "image-banner",
       "blocks": {
@@ -405,6 +421,7 @@
     "multicolumn_Hjrjbi",
     "press_release_QmdjHk",
     "video_b9wBVe",
+    "product_with_text_jjjdDq",
     "image_banner_TTEwB7",
     "17580133731024ba59",
     "image_row_EaYgrN"
