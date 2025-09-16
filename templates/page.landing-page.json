@@ -226,8 +226,8 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
+        "title": "<strong>Don’t take our word for it. Hear it from the guys using it</strong>",
+        "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,
