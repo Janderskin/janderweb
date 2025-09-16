@@ -246,6 +246,7 @@
       "settings": {
         "heading": "Video De Marca",
         "heading_size": "h1",
+        "heading_align": "center",
         "enable_video_looping": false,
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
@@ -325,6 +326,17 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "image_row_EaYgrN": {
+      "type": "image--row",
+      "name": "Image Blocks",
+      "settings": {
+        "heading": "This is my section heading",
+        "heading_tag": "h2",
+        "heading_align": "center",
+        "heading_classes": "custom-heading",
+        "color_scheme": ""
+      }
     }
   },
   "order": [
@@ -335,6 +347,7 @@
     "press_release_QmdjHk",
     "video_b9wBVe",
     "image_banner_TTEwB7",
-    "17580133731024ba59"
+    "17580133731024ba59",
+    "image_row_EaYgrN"
   ]
 }
