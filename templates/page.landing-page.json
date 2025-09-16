@@ -67,12 +67,20 @@
             "text": "<ul><li><strong>Masculine scent: Cedar + Amber, subtle but powerful.</strong></li></ul>",
             "text_style": "body"
           }
+        },
+        "text_cTRYHC": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Gentle on your skin, tough on sweat.</strong></li></ul>",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
         "text_zb68t7",
         "text_EKf4LA",
-        "text_yQaGY7"
+        "text_yQaGY7",
+        "text_cTRYHC"
       ],
       "settings": {
         "image": "shopify://shop_images/Intimate_Deo_top_open_2.png",
