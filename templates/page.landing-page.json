@@ -365,13 +365,23 @@
             "title": "#4 Safe for Sensitive Areas",
             "text": "<p><strong>Specifically designed for the most delicate skin. No burning, no irritation - just comfort and confidence where it matters most.</strong></p>"
           }
+        },
+        "block_Y6giQ6": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/20240903_JANDER_NEWFORMULA15198.jpg",
+            "image_padding_top": 100,
+            "title": "#5 Built for Real Life",
+            "text": "<p><strong>Whether it’s the gym, the office, or date night, Jander has your back. Long-lasting protection that moves with you through everything your day throws at you.</strong></p>"
+          }
         }
       },
       "block_order": [
         "block_BcAMER",
         "block_NjbXR4",
         "block_YhNPTp",
-        "block_T7xWkD"
+        "block_T7xWkD",
+        "block_Y6giQ6"
       ],
       "name": "Image Blocks",
       "settings": {
