@@ -194,26 +194,35 @@
         "column_b8rcDn": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "UGC",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column_NGyn8n": {
+        "column_YRDmYn": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "UGC",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column_cHe876": {
+        "column_87CmXW": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "UGC",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dH73JN": {
+          "type": "column",
+          "settings": {
+            "title": "UGC",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -221,8 +230,9 @@
       },
       "block_order": [
         "column_b8rcDn",
-        "column_NGyn8n",
-        "column_cHe876"
+        "column_YRDmYn",
+        "column_87CmXW",
+        "column_dH73JN"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -233,9 +243,9 @@
         "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
