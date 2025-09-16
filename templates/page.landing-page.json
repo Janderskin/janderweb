@@ -26,37 +26,10 @@
             "text": "<p><strong>Fast-absorbing spray built for sensitive skin, keeping you fresh, </strong></p><p><strong>dry, and confident all day - exactly where it matters most.</strong></p>",
             "text_style": "body"
           }
-        },
-        "progressbar_EEjidf": {
-          "type": "progressbar",
-          "settings": {
-            "percentage": "95",
-            "title": "Diminishess wrinkles and signs of aging.",
-            "color": "#f15614"
-          }
-        },
-        "progressbar_CifjTM": {
-          "type": "progressbar",
-          "settings": {
-            "percentage": "96",
-            "title": "Reduces dark circles and crows feet.",
-            "color": "#f15614"
-          }
-        },
-        "progressbar_bibtJ6": {
-          "type": "progressbar",
-          "settings": {
-            "percentage": "93",
-            "title": "Hydrates the skin and instantly creates a fresh look.",
-            "color": "#f15614"
-          }
         }
       },
       "block_order": [
-        "text_zb68t7",
-        "progressbar_EEjidf",
-        "progressbar_CifjTM",
-        "progressbar_bibtJ6"
+        "text_zb68t7"
       ],
       "settings": {
         "image": "shopify://shop_images/Intimate_Deo_top_open_2.png",
