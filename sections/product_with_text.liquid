@@ -34,6 +34,35 @@
       "label": "Select product"
     },
     {
+      "type": "text",
+      "id": "right_heading",
+      "label": "Right side heading",
+      "default": "Your Heading Here"
+    },
+    {
+      "type": "textarea",
+      "id": "right_text",
+      "label": "Right side text",
+      "default": "Add your description text here."
+    },
+    {
+      "type": "textarea",
+      "id": "right_keypoints",
+      "label": "Key points (one per line)",
+      "default": "Point one\nPoint two\nPoint three"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
       "type": "select",
       "id": "image_ratio",
       "label": "Image ratio",
@@ -78,12 +107,12 @@
       "label": "Enable Quick add",
       "default": true
     },
-        {
+    {
       "type": "checkbox",
       "id": "full_width",
-      "label": "t:sections.video.settings.full_width.label",
+      "label": "Full width section",
       "default": false
-    },
+    }
   ],
   "presets": [
     {
@@ -96,9 +125,9 @@
 <div class="two-side-section color-{{ section.settings.color_scheme }} {% unless section.settings.full_width %} page-width{% endunless %}"
      style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;">
   <div class="grid grid--2-col">
-    
-    <!-- Left side -->
-    <div class="left-side">
+
+    <!-- Left side (Product card) -->
+    <div class="left-side" style="width: 50%;">
       {% if section.settings.product != blank %}
         {% assign product = all_products[section.settings.product] %}
         {% render 'card-product',
@@ -117,8 +146,30 @@
       {% endif %}
     </div>
 
-    <!-- Right side (empty for now) -->
-    <div class="right-side">
+    <!-- Right side (Content) -->
+    <div class="right-side" style="width: 50%;">
+      {% if section.settings.right_heading != blank %}
+        <h2>{{ section.settings.right_heading }}</h2>
+      {% endif %}
+
+      {% if section.settings.right_text != blank %}
+        <p>{{ section.settings.right_text }}</p>
+      {% endif %}
+
+      {% if section.settings.right_keypoints != blank %}
+        <ul>
+          {% assign points = section.settings.right_keypoints | split: '\n' %}
+          {% for point in points %}
+            <li>{{ point }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
+      {% if section.settings.button_label != blank %}
+        <a href="{{ section.settings.button_link }}" class="button">
+          {{ section.settings.button_label }}
+        </a>
+      {% endif %}
     </div>
 
   </div>
