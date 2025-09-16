@@ -338,10 +338,20 @@
             "title": "#1 Stay Fresh, Stay Confident",
             "text": "<p><strong>Forget about worrying if anyone notices unwanted odor. Jander keeps you fresh all day so you can focus on living, not stressing.</strong></p>"
           }
+        },
+        "block_NjbXR4": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/JANDER_03_38.jpg",
+            "image_padding_top": 100,
+            "title": "Block Heading",
+            "text": "<p>Write your content here</p>"
+          }
         }
       },
       "block_order": [
-        "block_BcAMER"
+        "block_BcAMER",
+        "block_NjbXR4"
       ],
       "name": "Image Blocks",
       "settings": {
