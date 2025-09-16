@@ -106,6 +106,70 @@
         "padding_bottom": 36
       }
     },
+    "multicolumn_Hjrjbi": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_b8rcDn": {
+          "type": "column",
+          "settings": {
+            "title": "UGC",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YRDmYn": {
+          "type": "column",
+          "settings": {
+            "title": "UGC",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_87CmXW": {
+          "type": "column",
+          "settings": {
+            "title": "UGC",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dH73JN": {
+          "type": "column",
+          "settings": {
+            "title": "UGC",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_b8rcDn",
+        "column_YRDmYn",
+        "column_87CmXW",
+        "column_dH73JN"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "<strong>Don’t take our word for it. Hear it from the guys using it</strong>",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "press_release_QmdjHk": {
       "type": "press_release",
       "blocks": {
@@ -221,79 +285,15 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "multicolumn_Hjrjbi": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_b8rcDn": {
-          "type": "column",
-          "settings": {
-            "title": "UGC",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_YRDmYn": {
-          "type": "column",
-          "settings": {
-            "title": "UGC",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_87CmXW": {
-          "type": "column",
-          "settings": {
-            "title": "UGC",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_dH73JN": {
-          "type": "column",
-          "settings": {
-            "title": "UGC",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_b8rcDn",
-        "column_YRDmYn",
-        "column_87CmXW",
-        "column_dH73JN"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "<strong>Don’t take our word for it. Hear it from the guys using it</strong>",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-3",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "tl_banner_DAUter",
     "image_with_text_tjqfWx",
+    "multicolumn_Hjrjbi",
     "press_release_QmdjHk",
     "image_banner_TTEwB7",
-    "17580133731024ba59",
-    "multicolumn_Hjrjbi"
+    "17580133731024ba59"
   ]
 }
