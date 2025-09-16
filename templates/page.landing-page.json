@@ -334,7 +334,8 @@
           "type": "block",
           "settings": {
             "image": "shopify://shop_images/JANDER_03_55.jpg",
-            "title": "Block Heading",
+            "image_padding_top": 100,
+            "title": "#1 Stay Fresh, Stay Confident",
             "text": "<p>Write your content here</p>"
           }
         }
@@ -348,7 +349,11 @@
         "heading_tag": "h2",
         "heading_align": "center",
         "heading_classes": "custom-heading",
-        "color_scheme": "scheme-3"
+        "heading_max_width": 800,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "color_scheme": "scheme-3",
+        "full_width": false
       }
     }
   },
