@@ -347,11 +347,21 @@
             "title": "#2 Quick-Dry, Zero Resiude",
             "text": "<p><strong>Sprays on light, dries in seconds, and leaves no stains or greasy feeling. Invisible protection you’ll feel but no one else will see.</strong></p>"
           }
+        },
+        "block_YhNPTp": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/JANDER_03_16.jpg",
+            "image_padding_top": 100,
+            "title": "#3 A Masculine Scent That Works",
+            "text": "<p>Write your content here</p>"
+          }
         }
       },
       "block_order": [
         "block_BcAMER",
-        "block_NjbXR4"
+        "block_NjbXR4",
+        "block_YhNPTp"
       ],
       "name": "Image Blocks",
       "settings": {
