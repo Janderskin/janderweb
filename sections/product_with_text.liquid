@@ -125,8 +125,6 @@
 <div class="two-side-section color-{{ section.settings.color_scheme }} {% unless section.settings.full_width %} page-width{% endunless %}"
      style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;">
   <div class="grid grid--2-col">
-
-    <!-- Left side (Product card) -->
     <div class="left-side">
       {% if section.settings.product != blank %}
         {% assign product = all_products[section.settings.product] %}
@@ -145,8 +143,6 @@
         <p>Please select a product from the section settings.</p>
       {% endif %}
     </div>
-
-    <!-- Right side (Content) -->
     <div class="right-side">
       {% if section.settings.right_heading != blank %}
         <h2>{{ section.settings.right_heading }}</h2>
