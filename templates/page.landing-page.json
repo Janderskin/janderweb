@@ -240,6 +240,21 @@
         "max-width": 225
       }
     },
+    "video_b9wBVe": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner_TTEwB7": {
       "type": "image-banner",
       "blocks": {
@@ -318,6 +333,7 @@
     "image_with_text_tjqfWx",
     "multicolumn_Hjrjbi",
     "press_release_QmdjHk",
+    "video_b9wBVe",
     "image_banner_TTEwB7",
     "17580133731024ba59"
   ]
