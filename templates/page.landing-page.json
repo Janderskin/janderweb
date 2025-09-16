@@ -17,6 +17,71 @@
         "padding_bottom": 28
       }
     },
+    "image_with_text_tjqfWx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xjELjT": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Diego Buffa</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_zb68t7": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Pharmacist</strong></p><p><em>“Jander's product formulas provide visible results within weeks.I highly recommend this routine to anyone looking for a simple, effective, and high-quality facial care regimen.”</em></p>",
+            "text_style": "body"
+          }
+        },
+        "progressbar_EEjidf": {
+          "type": "progressbar",
+          "settings": {
+            "percentage": "95",
+            "title": "Diminishess wrinkles and signs of aging.",
+            "color": "#f15614"
+          }
+        },
+        "progressbar_CifjTM": {
+          "type": "progressbar",
+          "settings": {
+            "percentage": "96",
+            "title": "Reduces dark circles and crows feet.",
+            "color": "#f15614"
+          }
+        },
+        "progressbar_bibtJ6": {
+          "type": "progressbar",
+          "settings": {
+            "percentage": "93",
+            "title": "Hydrates the skin and instantly creates a fresh look.",
+            "color": "#f15614"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xjELjT",
+        "text_zb68t7",
+        "progressbar_EEjidf",
+        "progressbar_CifjTM",
+        "progressbar_bibtJ6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Jander-medical-proof-desktop-03.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "press_release_QmdjHk": {
       "type": "press_release",
       "blocks": {
@@ -117,6 +182,7 @@
   },
   "order": [
     "main",
+    "image_with_text_tjqfWx",
     "press_release_QmdjHk",
     "image_banner_TTEwB7"
   ]
