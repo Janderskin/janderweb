@@ -115,7 +115,10 @@
             "title": "UGC",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "padding_tb": 100,
+            "padding_lr": 15,
+            "bg_color": "#ffffff"
           }
         },
         "column_YRDmYn": {
@@ -124,7 +127,10 @@
             "title": "UGC",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "padding_tb": 10,
+            "padding_lr": 10,
+            "bg_color": "#ffffff"
           }
         },
         "column_87CmXW": {
@@ -133,7 +139,10 @@
             "title": "UGC",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "padding_tb": 10,
+            "padding_lr": 10,
+            "bg_color": "#ffffff"
           }
         },
         "column_dH73JN": {
@@ -142,7 +151,10 @@
             "title": "UGC",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "padding_tb": 10,
+            "padding_lr": 10,
+            "bg_color": "#ffffff"
           }
         }
       },
