@@ -329,6 +329,18 @@
     },
     "image_row_EaYgrN": {
       "type": "image--row",
+      "blocks": {
+        "block_BcAMER": {
+          "type": "block",
+          "settings": {
+            "title": "Block Heading",
+            "text": "<p>Write your content here</p>"
+          }
+        }
+      },
+      "block_order": [
+        "block_BcAMER"
+      ],
       "name": "Image Blocks",
       "settings": {
         "heading": "<strong>5 Reasons Why Men Are Obsessed With Jander’s Intimate Deodorant</strong>",
