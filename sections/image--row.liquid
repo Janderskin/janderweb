@@ -1,0 +1,141 @@
+<div class="custom-heading-section color-{{ section.settings.color_scheme }}">
+  {% if section.settings.heading != blank %}
+    <{{ section.settings.heading_tag }} 
+       class="{{ section.settings.heading_classes }}" 
+       style="text-align: {{ section.settings.heading_align }};">
+      {{ section.settings.heading }}
+    </{{ section.settings.heading_tag }}>
+  {% endif %}
+
+  <div class="custom-blocks-wrapper">
+    {% for block in section.blocks %}
+      <div class="custom-block flex" {{ block.shopify_attributes }}>
+        <!-- Left: Image -->
+        {% if block.settings.image != blank %}
+          <div class="custom-block-image">
+            {{ block.settings.image | image_url: width: 800 | image_tag }}
+          </div>
+        {% endif %}
+
+        <!-- Right: Content -->
+        <div class="custom-block-content">
+          {% if block.settings.title != blank %}
+            <h3 class="custom-block-title">{{ block.settings.title }}</h3>
+          {% endif %}
+
+          {% if block.settings.text != blank %}
+            <div class="custom-block-text">{{ block.settings.text }}</div>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image Blocks Section",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "This is my section heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_tag",
+      "label": "Heading Tag",
+      "default": "h2",
+      "options": [
+        { "value": "h1", "label": "H1" },
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "h4", "label": "H4" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "heading_align",
+      "label": "Heading Alignment",
+      "default": "center",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "heading_classes",
+      "label": "Extra Classes for Heading",
+      "default": "custom-heading"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color Scheme",
+      "default": "scheme-1"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "block",
+      "name": "Image + Content Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Block Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Block Title",
+          "default": "Block Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Block Content",
+          "default": "<p>Write your content here</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image Blocks",
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+.custom-blocks-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.custom-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.custom-block-image {
+  flex: 1;
+}
+
+.custom-block-content {
+  flex: 2;
+}
+
+.custom-block-title {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+{% endstylesheet %}
