@@ -39,7 +39,7 @@
         "btn-txt-color": "#000000",
         "btn-bg-color": "#ADFFB6",
         "content-vertical-position": 50,
-        "content-horizontal-position": 4,
+        "content-horizontal-position": 50,
         "content-vertical-position-mob": 40,
         "content-horizontal-position-mob": 7
       }
