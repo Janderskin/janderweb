@@ -127,7 +127,7 @@
   <div class="grid grid--2-col">
 
     <!-- Left side (Product card) -->
-    <div class="left-side" style="width: 50%;">
+    <div class="left-side">
       {% if section.settings.product != blank %}
         {% assign product = all_products[section.settings.product] %}
         {% render 'card-product',
@@ -147,7 +147,7 @@
     </div>
 
     <!-- Right side (Content) -->
-    <div class="right-side" style="width: 50%;">
+    <div class="right-side">
       {% if section.settings.right_heading != blank %}
         <h2>{{ section.settings.right_heading }}</h2>
       {% endif %}
