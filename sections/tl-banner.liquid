@@ -30,10 +30,12 @@
 
         <div class="tl-banner-description-main">
           <div class="tl-banner-description-inner">
+            {% if section.settings.star-rattings != blank %}
             <div class="tl-banner-description-star-rating">
               {% render 'stars' %}
               <p>{{ section.settings['star-rattings'] }}</p>
             </div>
+          {% endif %}
             <div class="tl-banner-description-bottom-content">
               {% if section.settings.title != blank %}
                 <h2>{{ section.settings.title }}</h2>
