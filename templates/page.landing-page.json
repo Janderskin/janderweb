@@ -333,6 +333,7 @@
         "block_BcAMER": {
           "type": "block",
           "settings": {
+            "image": "shopify://shop_images/JANDER_03_55.jpg",
             "title": "Block Heading",
             "text": "<p>Write your content here</p>"
           }
