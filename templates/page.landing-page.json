@@ -97,6 +97,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Intimate_Deo_top_open_2.png",
+        "image__rotate__class": true,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
