@@ -64,21 +64,21 @@
         "text_jaDpCj": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Quick-dry, invisible, and zero stains.</li></ul>",
+            "text": "<ul><li><strong>Quick-dry, invisible, and zero stains.</strong></li></ul>",
             "text_style": "body"
           }
         },
         "text_yQaGY7": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Masculine scent: Cedar + Amber, subtle but powerful.</li></ul>",
+            "text": "<ul><li><strong>Masculine scent: Cedar + Amber, subtle but powerful.</strong></li></ul>",
             "text_style": "body"
           }
         },
         "text_cTRYHC": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Gentle on your skin, tough on sweat.</li></ul>",
+            "text": "<ul><li><strong>Gentle on your skin, tough on sweat.</strong></li></ul>",
             "text_style": "body"
           }
         }
