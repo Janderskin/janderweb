@@ -184,6 +184,7 @@
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "<strong>Don’t take our word for it. Hear it from the guys using it</strong>",
+        "enable_two_text": true,
         "heading_size": "h2",
         "title-justify": "center",
         "image_width": "full",
