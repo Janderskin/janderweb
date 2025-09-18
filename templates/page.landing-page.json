@@ -50,14 +50,14 @@
         "text_zb68t7": {
           "type": "text",
           "settings": {
-            "text": "<p>Fast-absorbing spray built for sensitive skin, keeping you fresh, </p><p>dry, and confident all day - exactly where it matters most.</p>",
+            "text": "<p><strong>Fast-absorbing spray built for sensitive skin, keeping you fresh, </strong></p><p><strong>dry, and confident all day - exactly where it matters most.</strong></p>",
             "text_style": "body"
           }
         },
         "text_EKf4LA": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Kills odor instantly. No awkward moments.</li></ul>",
+            "text": "<ul><li><strong>Kills odor instantly. No awkward moments.</strong></li></ul>",
             "text_style": "body"
           }
         },
