@@ -7,6 +7,7 @@
       .custom-block-image img {
         object-position: {{ block.settings.image_position }};
       }
+      {% break %}
       {% endfor %}
 {% endstyle %}
 <div class="custom-heading-section color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding {% unless section.settings.full_width %} page-width{% endunless %}">
