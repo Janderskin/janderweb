@@ -19,7 +19,7 @@
         <!-- Left: Image -->
         {% if block.settings.image != blank %}
           <div class="custom-block-image aspect-ratio" style="--image-ratio: {{ block.settings.image_padding_top }}%;">
-            {{ block.settings.image | image_url: width: 800 | image_tag }}
+             {{ block.settings.image | image_url: width: 800 | image_tag: style: 'object-position: center ' | append: block.settings.image_position }}
           </div>
         {% endif %}
 
