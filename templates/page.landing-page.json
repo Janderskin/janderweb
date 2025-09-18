@@ -364,6 +364,7 @@
           "type": "block",
           "settings": {
             "image": "shopify://shop_images/JANDER_03_55.jpg",
+            "image_position": "center",
             "image_padding_top": 65,
             "title": "#1 Stay Fresh, Stay Confident",
             "text": "<p><strong>Forget about worrying if anyone notices unwanted odor. Jander keeps you fresh all day so you can focus on living, not stressing.</strong></p>"
@@ -373,6 +374,7 @@
           "type": "block",
           "settings": {
             "image": "shopify://shop_images/JANDER_03_38.jpg",
+            "image_position": "top",
             "image_padding_top": 65,
             "title": "#2 Quick-Dry, Zero Resiude",
             "text": "<p><strong>Sprays on light, dries in seconds, and leaves no stains or greasy feeling. Invisible protection you’ll feel but no one else will see.</strong></p>"
@@ -382,6 +384,7 @@
           "type": "block",
           "settings": {
             "image": "shopify://shop_images/JANDER_03_16.jpg",
+            "image_position": "center",
             "image_padding_top": 65,
             "title": "#3 A Masculine Scent That Works",
             "text": "<p><strong>Cedar and Amber: bold, clean, and masculine. Strong enough to give you confidence, subtle enough to never overpower.</strong></p>"
@@ -391,6 +394,7 @@
           "type": "block",
           "settings": {
             "image": "shopify://shop_images/20240903_JANDER_NEWFORMULA15198.jpg",
+            "image_position": "center",
             "image_padding_top": 65,
             "title": "#4 Safe for Sensitive Areas",
             "text": "<p><strong>Specifically designed for the most delicate skin. No burning, no irritation - just comfort and confidence where it matters most.</strong></p>"
@@ -400,6 +404,7 @@
           "type": "block",
           "settings": {
             "image": "shopify://shop_images/20240903_JANDER_NEWFORMULA17691_copia_1.jpg",
+            "image_position": "center",
             "image_padding_top": 65,
             "title": "#5 Built for Real Life",
             "text": "<p><strong>Whether it’s the gym, the office, or date night, Jander has your back. Long-lasting protection that moves with you through everything your day throws at you.</strong></p>"
