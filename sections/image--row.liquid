@@ -3,11 +3,6 @@
         padding-top: {{ section.settings.padding_top }}px;
         padding-bottom: {{ section.settings.padding_bottom }}px;
     }
-    {% for block in section.blocks %}
-      .custom-block-image img {
-        object-position: {{ block.settings.image_position }} !important;
-      }
-      {% endfor %}
 {% endstyle %}
 <div class="custom-heading-section color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding {% unless section.settings.full_width %} page-width{% endunless %}">
   {% if section.settings.heading != blank %}
@@ -24,7 +19,11 @@
         <!-- Left: Image -->
         {% if block.settings.image != blank %}
           <div class="custom-block-image aspect-ratio" style="--image-ratio: {{ block.settings.image_padding_top }}%;">
-            {{ block.settings.image | image_url: width: 800 | image_tag }}
+             <img 
+              src="{{ block.settings.image | image_url: width: 800 }}" 
+              alt="{{ block.settings.image.alt | escape }}" 
+              style="object-fit: cover; object-position: center {{ block.settings.image_position }};"
+              loading="lazy">
           </div>
         {% endif %}
 
