@@ -3,6 +3,9 @@
         padding-top: {{ section.settings.padding_top }}px;
         padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+    {% for block in section.blocks %}
+
+      {% endfor %}
 {% endstyle %}
 <div class="custom-heading-section color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding {% unless section.settings.full_width %} page-width{% endunless %}">
   {% if section.settings.heading != blank %}
