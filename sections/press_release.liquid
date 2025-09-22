@@ -32,7 +32,11 @@
       /* flex-wrap: wrap; */
       margin-top: 15px; /* Added default margin-top for responsiveness */
     }
-
+    @media (max-width: 1075px){
+      .press_logos{
+        justify-content: flex-start;
+      }
+    }
     .single_press_logo {
       width: {{ section.settings.max-width }}px;
       padding: 10px;
