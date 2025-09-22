@@ -1,5 +1,6 @@
 .image-with-text .grid {
   margin-bottom: 0;
+  overflow: hidden;
 }
 
 .image-with-text .grid__item {
