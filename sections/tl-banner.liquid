@@ -1,12 +1,12 @@
 {% style %}
   .tl-banner-description-bottom-content h2 {
   text-align: {{ section.settings.title-align }};
+  font-size: 40px;
 }
 
 .tl-banner-description-bottom-content p {
   text-align: {{ section.settings.para-align }};
 }
-
 {% endstyle %}
 <div class="tl-banner-main">
   <div class="tl-banner-container {% if section.settings.full-width == true %}full-width{% else %}page-width{% endif %}">
