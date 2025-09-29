@@ -50,40 +50,40 @@
         "text_zb68t7": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Fast-absorbing spray built for sensitive skin, keeping you fresh, </strong></p><p><strong>dry, and confident all day - exactly where it matters most.</strong></p>",
-            "text_style": "body",
+            "text": "<p><strong>Fast-absorbing spray built for sensitive skin, keeping you fresh, dry, and confident all day - exactly where it matters most.</strong></p>",
+            "text_style": "subtitle",
             "text__color": "#f15614"
           }
         },
         "text_EKf4LA": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>Kills odor instantly. No awkward moments.</strong></li></ul>",
-            "text_style": "body",
+            "text": "<p>Kills odor instantly. No awkward moments.</p>",
+            "text_style": "subtitle",
             "text__color": "#f15614"
           }
         },
         "text_jaDpCj": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>Quick-dry, invisible, and zero stains.</strong></li></ul>",
-            "text_style": "body",
+            "text": "<p>Quick-dry, invisible, and zero stains.</p>",
+            "text_style": "subtitle",
             "text__color": "#f15614"
           }
         },
         "text_yQaGY7": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>Masculine scent: Cedar + Amber, subtle but powerful.</strong></li></ul>",
-            "text_style": "body",
+            "text": "<p>Masculine scent: Cedar + Amber, subtle but powerful.</p>",
+            "text_style": "subtitle",
             "text__color": "#f15614"
           }
         },
         "text_cTRYHC": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>Gentle on your skin, tough on sweat.</strong></li></ul>",
-            "text_style": "body",
+            "text": "<p>Gentle on your skin, tough on sweat.</p>",
+            "text_style": "subtitle",
             "text__color": "#f15614"
           }
         }
@@ -99,7 +99,7 @@
         "image": "shopify://shop_images/Intimate_Deo_top_open_2.png",
         "image__rotate__class": true,
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -266,12 +266,13 @@
     },
     "product_with_text_jjjdDq": {
       "type": "product_with_text",
+      "custom_css": [],
       "name": "Two Side Product Section",
       "settings": {
         "color_scheme": "scheme-1",
         "padding_top": 40,
         "padding_bottom": 40,
-        "product": "all-day-deodorant",
+        "product": "intimate-deodorant",
         "right_heading": "Limited September Sale.",
         "right_text": "Due to recent viral TikTok/ Instagram coverage and overwhelming demand, Jander’s Down There Deodorant has sold out three times this year already.\n<br>\n<br>\nWhile stock has just been replenished, the company warns they may not be able to maintain their deal much longer.",
         "right_keypoints": "15% OFF/+ 25€ Free Shipping/Biggest Sale of the Year",
@@ -344,8 +345,8 @@
         "judge_me_reviews_review_widget_homepage_gcBDL7": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "product": "",
-            "review_data": "sample_data",
+            "product": "intimate-deodorant",
+            "review_data": "real_data",
             "max_width": 1200
           }
         }
@@ -367,7 +368,7 @@
             "image_position": "center",
             "image_padding_top": 65,
             "title": "#1 Stay Fresh, Stay Confident",
-            "text": "<p><strong>Forget about worrying if anyone notices unwanted odor. Jander keeps you fresh all day so you can focus on living, not stressing.</strong></p>"
+            "text": "<h3><strong>Forget about worrying if anyone notices unwanted odor. Jander keeps you fresh all day so you can focus on living, not stressing.</strong></h3>"
           }
         },
         "block_NjbXR4": {
@@ -377,7 +378,7 @@
             "image_position": "top",
             "image_padding_top": 65,
             "title": "#2 Quick-Dry, Zero Resiude",
-            "text": "<p><strong>Sprays on light, dries in seconds, and leaves no stains or greasy feeling. Invisible protection you’ll feel but no one else will see.</strong></p>"
+            "text": "<h3><strong>Sprays on light, dries in seconds, and leaves no stains or greasy feeling. Invisible protection you’ll feel but no one else will see.</strong></h3>"
           }
         },
         "block_YhNPTp": {
@@ -387,7 +388,7 @@
             "image_position": "center",
             "image_padding_top": 65,
             "title": "#3 A Masculine Scent That Works",
-            "text": "<p><strong>Cedar and Amber: bold, clean, and masculine. Strong enough to give you confidence, subtle enough to never overpower.</strong></p>"
+            "text": "<h3><strong>Cedar and Amber: bold, clean, and masculine. Strong enough to give you confidence, subtle enough to never overpower.</strong></h3>"
           }
         },
         "block_T7xWkD": {
@@ -397,7 +398,7 @@
             "image_position": "center",
             "image_padding_top": 65,
             "title": "#4 Safe for Sensitive Areas",
-            "text": "<p><strong>Specifically designed for the most delicate skin. No burning, no irritation - just comfort and confidence where it matters most.</strong></p>"
+            "text": "<h3><strong>Specifically designed for the most delicate skin. No burning, no irritation - just comfort and confidence where it matters most.</strong></h3>"
           }
         },
         "block_Y6giQ6": {
@@ -407,7 +408,7 @@
             "image_position": "top",
             "image_padding_top": 65,
             "title": "#5 Built for Real Life",
-            "text": "<p><strong>Whether it’s the gym, the office, or date night, Jander has your back. Long-lasting protection that moves with you through everything your day throws at you.</strong></p>"
+            "text": "<h3><strong>Whether it’s the gym, the office, or date night, Jander has your back. Long-lasting protection that moves with you through everything your day throws at you.</strong></h3>"
           }
         }
       },
