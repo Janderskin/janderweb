@@ -261,7 +261,8 @@
         "full_width": false,
         "color_scheme": "",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "autoplay": true
       }
     },
     "product_with_text_jjjdDq": {
