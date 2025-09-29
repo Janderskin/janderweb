@@ -224,7 +224,7 @@
                         | video_tag: loop: true, controls: true, class: 'video-insta', poster: poster
                       }}
                     {% else %}
-                      {{ block.settings.video_hosted | video_tag: loop: true, controls: true, class: 'video-insta' }}
+                      {{ block.settings.video_hosted | video_tag: loop: true, controls: true, class: 'video-insta', poster: poster }}
                     {% endif %}
                   {% endif %}
                 {% endif %}
