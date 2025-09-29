@@ -251,11 +251,11 @@
       "type": "video",
       "name": "t:sections.video.presets.name",
       "settings": {
-        "heading": "Video De Marca",
+        "heading": "",
         "heading_size": "h1",
         "heading_align": "center",
         "enable_video_looping": false,
-        "video": "shopify://files/videos/video-short-eng_1.mp4",
+        "video": "shopify://files/videos/Diseño sin título (1).mp4",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
@@ -339,25 +339,6 @@
         "show_text_below": true
       }
     },
-    "17580133731024ba59": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_homepage_gcBDL7": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "product": "intimate-deodorant",
-            "review_data": "real_data",
-            "max_width": 1200
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_homepage_gcBDL7"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "image_row_EaYgrN": {
       "type": "image--row",
       "blocks": {
@@ -431,6 +412,25 @@
         "color_scheme": "scheme-3",
         "full_width": false
       }
+    },
+    "17580133731024ba59": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_homepage_gcBDL7": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "product": "intimate-deodorant",
+            "review_data": "real_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_homepage_gcBDL7"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -442,7 +442,7 @@
     "video_b9wBVe",
     "product_with_text_jjjdDq",
     "image_banner_TTEwB7",
-    "17580133731024ba59",
-    "image_row_EaYgrN"
+    "image_row_EaYgrN",
+    "17580133731024ba59"
   ]
 }
