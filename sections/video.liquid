@@ -51,7 +51,7 @@
         </div>
       {%- endunless -%}
     </div>
-    {% comment %} <deferred-media
+    <deferred-media
       class="video-section__media deferred-media gradient global-media-settings{% if section.settings.full_width %} global-media-settings--full-width{% endif %}{% if fix_ratio %} media-fit-cover{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
       data-media-id="{{ video_id }}"
       {% if poster != null %}
@@ -79,7 +79,7 @@
           </span>
         </span>
       </button>
-      <template> {% endcomment %}
+      <template>
         {%- if section.settings.video == null and section.settings.video_url != null -%}
           {%- liquid
             assign loop = ''
@@ -115,8 +115,8 @@
               muted: false
           }}
         {%- endif -%}
-      {% comment %} </template>
-    </deferred-media> {% endcomment %}
+       </template>
+    </deferred-media>
   </div>
 </div>
 
