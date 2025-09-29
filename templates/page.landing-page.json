@@ -254,7 +254,7 @@
         "heading": "",
         "heading_size": "h1",
         "heading_align": "center",
-        "enable_video_looping": false,
+        "enable_video_looping": true,
         "video": "shopify://files/videos/Diseño sin título (1).mp4",
         "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
