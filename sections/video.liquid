@@ -58,6 +58,7 @@
         style="--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 100 }}%;"
       {% endif %}
     >
+      {%- unless section.settings.autoplay -%}
       <button
         id="Deferred-Poster-Modal-{{ video_id }}"
         class="video-section__poster media deferred-media__poster media--landscape"
@@ -79,6 +80,7 @@
           </span>
         </span>
       </button>
+      {% endunless %}
       <template>
         {%- if section.settings.video == null and section.settings.video_url != null -%}
           {%- liquid
