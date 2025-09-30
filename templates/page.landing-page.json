@@ -498,6 +498,34 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "tl_banner_Rig4M4": {
+      "type": "tl-banner",
+      "name": "Images Banner",
+      "settings": {
+        "img1": "shopify://shop_images/The_Facial_Routine_Set_Includes_copia.png",
+        "img2": "shopify://shop_images/16.png",
+        "star-rattings": "",
+        "title": "",
+        "para": "",
+        "title-align": "left",
+        "para-align": "left",
+        "btn-url": "",
+        "btn-txt": "",
+        "full-width": true,
+        "height-desktop": 40,
+        "height-mobile": 120,
+        "review-star-color": "#ffd700",
+        "review-text-color": "#834d4d",
+        "section-title-color": "#952c2c",
+        "section-para-color": "#3a8f7f",
+        "btn-txt-color": "#ffffff",
+        "btn-bg-color": "#000000",
+        "content-vertical-position": 50,
+        "content-horizontal-position": 4,
+        "content-vertical-position-mob": 40,
+        "content-horizontal-position-mob": 7
+      }
     }
   },
   "order": [
@@ -512,6 +540,7 @@
     "press_release_QmdjHk",
     "product_with_text_jjjdDq",
     "image_row_EaYgrN",
-    "17580133731024ba59"
+    "17580133731024ba59",
+    "tl_banner_Rig4M4"
   ]
 }
