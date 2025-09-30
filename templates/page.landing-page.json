@@ -417,6 +417,23 @@
         "full_width": false
       }
     },
+    "collapsible_content_pDQa7z": {
+      "type": "collapsible-content",
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_gf3if7": {
       "type": "rich-text",
       "blocks": {
@@ -556,6 +573,7 @@
     "new_video_slider_FMqTGq",
     "multicolumn_Hjrjbi",
     "product_with_text_jjjdDq",
+    "collapsible_content_pDQa7z",
     "rich_text_gf3if7",
     "multirow_AwXYeW",
     "17580133731024ba59"
