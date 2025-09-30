@@ -75,7 +75,7 @@
         "image_layout": "alternate-left",
         "section_color_scheme": "scheme-a09e67b6-8ab1-4c89-b057-731f1f7918cb",
         "row_color_scheme": "scheme-a09e67b6-8ab1-4c89-b057-731f1f7918cb",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
