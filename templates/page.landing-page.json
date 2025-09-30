@@ -119,35 +119,31 @@
           "type": "html",
           "settings": {
             "show_image": false,
-            "video_hosted": "shopify://files/videos/Untitled design (1).mp4"
+            "video_hosted": "shopify://files/videos/Untitled design.mp4"
           }
         },
         "html_KxnPmc": {
           "type": "html",
           "settings": {
             "show_image": false,
-            "video_hosted": "shopify://files/videos/W20-AD1-UGC-RUTINA.mp4"
+            "image": "shopify://shop_images/down_there-chico_joven.jpg",
+            "video_hosted": "shopify://files/videos/deo3.MOV"
           }
         },
         "html_bPeDkB": {
           "type": "html",
           "settings": {
             "show_image": false,
-            "video_hosted": "shopify://files/videos/skin1.MOV"
+            "image": "shopify://shop_images/Desodorante1.jpg",
+            "video_hosted": "shopify://files/videos/deo2.mov"
           }
         },
         "html_bJ9nbd": {
           "type": "html",
           "settings": {
             "show_image": false,
-            "video_hosted": "shopify://files/videos/3-W21-INFLU-RUTINA-ST.mp4"
-          }
-        },
-        "html_4Vxz9Q": {
-          "type": "html",
-          "settings": {
-            "show_image": false,
-            "video_hosted": "shopify://files/videos/deo4.mp4"
+            "image": "shopify://shop_images/up_there.jpg",
+            "video_hosted": "shopify://files/videos/deo5.MOV"
           }
         }
       },
@@ -155,8 +151,7 @@
         "html_pRNk79",
         "html_KxnPmc",
         "html_bPeDkB",
-        "html_bJ9nbd",
-        "html_4Vxz9Q"
+        "html_bJ9nbd"
       ],
       "settings": {
         "section_title": "",
