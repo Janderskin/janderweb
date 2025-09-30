@@ -419,6 +419,20 @@
     },
     "collapsible_content_pDQa7z": {
       "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_QPDqxt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is product ki warranty kitni hai?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_QPDqxt"
+      ],
       "settings": {
         "caption": "",
         "heading": "FAQs",
