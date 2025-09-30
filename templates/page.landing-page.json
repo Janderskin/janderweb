@@ -428,10 +428,20 @@
             "row_content": "<p>– 1 year limited warranty.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_Ujw9xe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Delivery kitne din me ho jati hai?",
+            "icon": "check_mark",
+            "row_content": "<p>– 3–5 working days.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
-        "collapsible_row_QPDqxt"
+        "collapsible_row_QPDqxt",
+        "collapsible_row_Ujw9xe"
       ],
       "settings": {
         "caption": "",
