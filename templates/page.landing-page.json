@@ -524,80 +524,6 @@
         "padding_bottom": 36
       }
     },
-    "image_row_EaYgrN": {
-      "type": "image--row",
-      "blocks": {
-        "block_BcAMER": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/JANDER_03_55.jpg",
-            "image_position": "center",
-            "image_padding_top": 65,
-            "title": "#1 Stay Fresh, Stay Confident",
-            "text": "<h3><strong>Forget about worrying if anyone notices unwanted odor. Jander keeps you fresh all day so you can focus on living, not stressing.</strong></h3>"
-          }
-        },
-        "block_NjbXR4": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/JANDER_03_38.jpg",
-            "image_position": "top",
-            "image_padding_top": 65,
-            "title": "#2 Quick-Dry, Zero Resiude",
-            "text": "<h3><strong>Sprays on light, dries in seconds, and leaves no stains or greasy feeling. Invisible protection you’ll feel but no one else will see.</strong></h3>"
-          }
-        },
-        "block_YhNPTp": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/JANDER_03_16.jpg",
-            "image_position": "center",
-            "image_padding_top": 65,
-            "title": "#3 A Masculine Scent That Works",
-            "text": "<h3><strong>Cedar and Amber: bold, clean, and masculine. Strong enough to give you confidence, subtle enough to never overpower.</strong></h3>"
-          }
-        },
-        "block_T7xWkD": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/20240903_JANDER_NEWFORMULA15198.jpg",
-            "image_position": "center",
-            "image_padding_top": 65,
-            "title": "#4 Safe for Sensitive Areas",
-            "text": "<h3><strong>Specifically designed for the most delicate skin. No burning, no irritation - just comfort and confidence where it matters most.</strong></h3>"
-          }
-        },
-        "block_Y6giQ6": {
-          "type": "block",
-          "settings": {
-            "image": "shopify://shop_images/20240903_JANDER_NEWFORMULA17691_copia_1.jpg",
-            "image_position": "top",
-            "image_padding_top": 65,
-            "title": "#5 Built for Real Life",
-            "text": "<h3><strong>Whether it’s the gym, the office, or date night, Jander has your back. Long-lasting protection that moves with you through everything your day throws at you.</strong></h3>"
-          }
-        }
-      },
-      "block_order": [
-        "block_BcAMER",
-        "block_NjbXR4",
-        "block_YhNPTp",
-        "block_T7xWkD",
-        "block_Y6giQ6"
-      ],
-      "name": "Image Blocks",
-      "settings": {
-        "heading": "<strong>5 Reasons Why Men Are Obsessed With Jander’s Intimate Deodorant</strong>",
-        "heading_tag": "h2",
-        "heading_align": "center",
-        "heading_classes": "custom-heading",
-        "heading_max_width": 800,
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "color_scheme": "scheme-3",
-        "full_width": false
-      }
-    },
     "17580133731024ba59": {
       "type": "apps",
       "blocks": {
@@ -632,7 +558,6 @@
     "product_with_text_jjjdDq",
     "rich_text_gf3if7",
     "multirow_AwXYeW",
-    "image_row_EaYgrN",
     "17580133731024ba59"
   ]
 }
