@@ -19,6 +19,7 @@
     },
     "tl_banner_DAUter": {
       "type": "tl-banner",
+      "disabled": true,
       "settings": {
         "img1": "shopify://shop_images/20240903_JANDER_NEWFORMULA17319.jpg",
         "img2": "shopify://shop_images/20240903_JANDER_NEWFORMULA17319.jpg",
@@ -42,6 +43,90 @@
         "content-horizontal-position": 50,
         "content-vertical-position-mob": 40,
         "content-horizontal-position-mob": 7
+      }
+    },
+    "multirow_7akJFJ": {
+      "type": "multirow",
+      "blocks": {
+        "row_Jxrhzy": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/20240903_JANDER_NEWFORMULA17319.jpg",
+            "caption": "",
+            "heading": "Fresh Balls. Zero Excuses.",
+            "text": "<h3>Jander Intimate Deodorant: <br/>long-lasting freshness, invisible, <br/>no shame. For guys who move <br/>with confidence.</h3>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_Jxrhzy"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-a09e67b6-8ab1-4c89-b057-731f1f7918cb",
+        "row_color_scheme": "scheme-a09e67b6-8ab1-4c89-b057-731f1f7918cb",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_b9wBVe": {
+      "type": "video",
+      "name": "t:sections.video.presets.name",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "heading_align": "center",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/Diseño sin título (1).mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "video_autoplay": true
+      }
+    },
+    "rich_text_g44C6U": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QdyHLw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fast-absorbing spray built for sensitive skin, keeping you fresh, dry, and confident all day - exactly where it matters most.",
+            "heading_size": "h2"
+          }
+        },
+        "text_7R8znA": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>#Kills odor instantly. No awkward moments.</h4><h4>#Quick-dry, invisible, and zero stains. <br/><br/>#Masculine scent: Cedar + Amber, subtle but powerful. <br/><br/>#Gentle on your skin, tough on sweat.<br/><br/></h4>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QdyHLw",
+        "text_7R8znA"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "image_with_text_tjqfWx": {
@@ -95,6 +180,7 @@
         "text_yQaGY7",
         "text_cTRYHC"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Intimate_Deo_top_open_2.png",
         "image__rotate__class": true,
@@ -297,24 +383,6 @@
         "max-width": 225
       }
     },
-    "video_b9wBVe": {
-      "type": "video",
-      "name": "t:sections.video.presets.name",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "heading_align": "center",
-        "enable_video_looping": true,
-        "video": "shopify://files/videos/Diseño sin título (1).mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "video_autoplay": true
-      }
-    },
     "product_with_text_jjjdDq": {
       "type": "product_with_text",
       "custom_css": [],
@@ -336,58 +404,6 @@
         "show_rating": true,
         "quick_add": true,
         "full_width": false
-      }
-    },
-    "image_banner_TTEwB7": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_3HU3cK": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "text_fDUbEg": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_jzKgUa": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_3HU3cK",
-        "text_fDUbEg",
-        "buttons_jzKgUa"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/20240903_JANDER_NEWFORMULA17319.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "image_row_EaYgrN": {
@@ -487,13 +503,14 @@
   "order": [
     "main",
     "tl_banner_DAUter",
+    "multirow_7akJFJ",
+    "video_b9wBVe",
+    "rich_text_g44C6U",
     "image_with_text_tjqfWx",
     "new_video_slider_FMqTGq",
     "multicolumn_Hjrjbi",
     "press_release_QmdjHk",
-    "video_b9wBVe",
     "product_with_text_jjjdDq",
-    "image_banner_TTEwB7",
     "image_row_EaYgrN",
     "17580133731024ba59"
   ]
