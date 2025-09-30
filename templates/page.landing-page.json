@@ -425,7 +425,7 @@
           "settings": {
             "heading": "Is product ki warranty kitni hai?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>– 1 year limited warranty.</p>",
             "page": ""
           }
         }
