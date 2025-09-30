@@ -437,11 +437,21 @@
             "row_content": "<p>– 3–5 business days.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_tpHfgx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I return if I don’t like it?",
+            "icon": "check_mark",
+            "row_content": "<p>– Yes, within 7 days.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_QPDqxt",
-        "collapsible_row_Ujw9xe"
+        "collapsible_row_Ujw9xe",
+        "collapsible_row_tpHfgx"
       ],
       "settings": {
         "caption": "",
