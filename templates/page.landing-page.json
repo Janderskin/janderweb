@@ -469,10 +469,10 @@
         "row_mKxci8": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "",
+            "heading": "#3 A Masculine Scent That Works",
+            "text": "<h4><strong>Cedar and Amber: bold, clean, and masculine. Strong enough to give you confidence, subtle enough to never overpower.</strong></h4>",
+            "button_label": "",
             "button_link": ""
           }
         }
