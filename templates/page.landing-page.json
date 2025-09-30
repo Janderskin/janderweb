@@ -469,9 +469,32 @@
         "row_mKxci8": {
           "type": "row",
           "settings": {
+            "image": "shopify://shop_images/JANDER_03_16.jpg",
             "caption": "",
             "heading": "#3 A Masculine Scent That Works",
             "text": "<h4><strong>Cedar and Amber: bold, clean, and masculine. Strong enough to give you confidence, subtle enough to never overpower.</strong></h4>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_CcmYKY": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/20240903_JANDER_NEWFORMULA15198.jpg",
+            "caption": "",
+            "heading": "<strong>#4 Safe for Sensitive Areas</strong>",
+            "text": "<h4>Specifically designed for the most delicate skin. No burning, no irritation - just comfort and confidence where it matters most.</h4>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_aEKFKx": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/20240903_JANDER_NEWFORMULA17691_copia_1.jpg",
+            "caption": "",
+            "heading": "<strong>#5 Built for Real Life</strong>",
+            "text": "<h4>Whether it's the gym, the office, or date night, Jander has your back. Long-lasting protection that moves with you through everything your day throws at you.</h4>",
             "button_label": "",
             "button_link": ""
           }
@@ -480,7 +503,9 @@
       "block_order": [
         "row_j3U6zR",
         "row_HtaYad",
-        "row_mKxci8"
+        "row_mKxci8",
+        "row_CcmYKY",
+        "row_aEKFKx"
       ],
       "name": "t:sections.multirow.presets.name",
       "settings": {
