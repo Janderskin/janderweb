@@ -432,9 +432,9 @@
         "collapsible_row_Ujw9xe": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Delivery kitne din me ho jati hai?",
+            "heading": "How fast is delivery?",
             "icon": "check_mark",
-            "row_content": "<p>– 3–5 working days.</p>",
+            "row_content": "<p>– 3–5 business days.</p>",
             "page": ""
           }
         }
