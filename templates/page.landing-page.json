@@ -423,7 +423,7 @@
         "collapsible_row_QPDqxt": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is product ki warranty kitni hai?",
+            "heading": "How long is the warranty?",
             "icon": "check_mark",
             "row_content": "<p>– 1 year limited warranty.</p>",
             "page": ""
