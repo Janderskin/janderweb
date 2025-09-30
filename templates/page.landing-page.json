@@ -80,36 +80,64 @@
         "padding_bottom": 36
       }
     },
-    "tl_banner_Rig4M4": {
-      "type": "tl-banner",
-      "name": "Images Banner",
+    "tl_product_img_banner_gEEBfc": {
+      "type": "tl-product-img-banner",
+      "name": "Product Image Banner",
       "settings": {
-        "img1": "shopify://shop_images/The_Facial_Routine_Set_Includes_copia.png",
-        "img2": "shopify://shop_images/16.png",
-        "star-rattings": "",
+        "desk-img": "shopify://shop_images/The_Facial_Routine_Set_Includes_copia.png",
+        "mob-img": "shopify://shop_images/16.png",
+        "container": false,
+        "section-url": ""
+      }
+    },
+    "press_release_QmdjHk": {
+      "type": "press_release",
+      "blocks": {
+        "html_7qDeAz": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/1_862fa913-7604-4253-b5de-26ef6a1b6103.png",
+            "title": ""
+          }
+        },
+        "html_V8PL7D": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/2_439917f7-83e4-4404-9997-bcb42dd02f7b.png",
+            "title": ""
+          }
+        },
+        "html_xDjnAG": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/4_20092bfa-f328-4023-b1c6-dc1bf78ccf86.png",
+            "title": ""
+          }
+        },
+        "html_Re6ULE": {
+          "type": "html",
+          "settings": {
+            "image": "shopify://shop_images/Diseno_sin_titulo_02b3b86c-6224-44eb-9d8a-fd7564572472.png",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "html_7qDeAz",
+        "html_V8PL7D",
+        "html_xDjnAG",
+        "html_Re6ULE"
+      ],
+      "settings": {
         "title": "",
-        "para": "",
-        "title-align": "left",
-        "para-align": "left",
-        "btn-url": "",
-        "btn-txt": "",
-        "full-width": true,
-        "height-desktop": 40,
-        "height-mobile": 120,
-        "review-star-color": "#ffd700",
-        "review-text-color": "#834d4d",
-        "section-title-color": "#952c2c",
-        "section-para-color": "#3a8f7f",
-        "btn-txt-color": "#ffffff",
-        "btn-bg-color": "#000000",
-        "content-vertical-position": 50,
-        "content-horizontal-position": 4,
-        "content-vertical-position-mob": 40,
-        "content-horizontal-position-mob": 7
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "max-width": 225
       }
     },
     "video_b9wBVe": {
       "type": "video",
+      "disabled": true,
       "name": "t:sections.video.presets.name",
       "settings": {
         "heading": "",
@@ -366,51 +394,6 @@
         "padding_bottom": 36
       }
     },
-    "press_release_QmdjHk": {
-      "type": "press_release",
-      "blocks": {
-        "html_7qDeAz": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/1_862fa913-7604-4253-b5de-26ef6a1b6103.png",
-            "title": ""
-          }
-        },
-        "html_V8PL7D": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/2_439917f7-83e4-4404-9997-bcb42dd02f7b.png",
-            "title": ""
-          }
-        },
-        "html_xDjnAG": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/4_20092bfa-f328-4023-b1c6-dc1bf78ccf86.png",
-            "title": ""
-          }
-        },
-        "html_Re6ULE": {
-          "type": "html",
-          "settings": {
-            "image": "shopify://shop_images/Diseno_sin_titulo_02b3b86c-6224-44eb-9d8a-fd7564572472.png",
-            "title": ""
-          }
-        }
-      },
-      "block_order": [
-        "html_7qDeAz",
-        "html_V8PL7D",
-        "html_xDjnAG",
-        "html_Re6ULE"
-      ],
-      "settings": {
-        "title": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "max-width": 225
-      }
-    },
     "product_with_text_jjjdDq": {
       "type": "product_with_text",
       "custom_css": [],
@@ -432,6 +415,86 @@
         "show_rating": true,
         "quick_add": true,
         "full_width": false
+      }
+    },
+    "rich_text_gf3if7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tK3XEF": {
+          "type": "heading",
+          "settings": {
+            "heading": "5 Reasons Why Men Are Obsessed With Jander's Intimate Deodorant.",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tK3XEF"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_AwXYeW": {
+      "type": "multirow",
+      "blocks": {
+        "row_j3U6zR": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_HtaYad": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_mKxci8": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_j3U6zR",
+        "row_HtaYad",
+        "row_mKxci8"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_row_EaYgrN": {
@@ -532,14 +595,16 @@
     "main",
     "tl_banner_DAUter",
     "multirow_7akJFJ",
-    "tl_banner_Rig4M4",
+    "tl_product_img_banner_gEEBfc",
+    "press_release_QmdjHk",
     "video_b9wBVe",
     "rich_text_g44C6U",
     "image_with_text_tjqfWx",
     "new_video_slider_FMqTGq",
     "multicolumn_Hjrjbi",
-    "press_release_QmdjHk",
     "product_with_text_jjjdDq",
+    "rich_text_gf3if7",
+    "multirow_AwXYeW",
     "image_row_EaYgrN",
     "17580133731024ba59"
   ]
