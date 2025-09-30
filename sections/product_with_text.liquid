@@ -126,6 +126,7 @@
      style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;">
   <div class="grid grid--2-col">
     <div class="left-side">
+      <div class="left-side-content">
       {% if section.settings.product != blank %}
         {% assign product = all_products[section.settings.product] %}
         {% render 'card-product',
@@ -142,6 +143,7 @@
       {% else %}
         <p>Please select a product from the section settings.</p>
       {% endif %}
+      </div>
     </div>
     <div class="right-side">
       {% if section.settings.right_heading != blank %}
@@ -209,12 +211,12 @@
     padding-bottom: 80% !important;
   }
   .right-side a.button{
-    background-color: #f15652 !important;
+    background-color: #f15614 !important;
     color: white !important;
   }
     .right-side a.button:hover::after{
    box-shadow: 
   0 0 0 calc(var(--buttons-border-width) + var(--border-offset)) rgba(var(--color-button-text), var(--border-opacity)),
-  0 0 0 calc(var(--buttons-border-width) + 1px) #f15652;
+  0 0 0 calc(var(--buttons-border-width) + 1px) #f15614;
   }
 {% endstyle %}
