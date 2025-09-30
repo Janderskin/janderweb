@@ -447,20 +447,22 @@
         "row_j3U6zR": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "image": "shopify://shop_images/JANDER_03_55.jpg",
+            "caption": "",
+            "heading": "<strong>#1 Stay Fresh, Stay Confident</strong>",
+            "text": "<h4>Forget about worrying if anyone notices unwanted odor. Jander keeps you fresh all day so you can focus on living, not stressing.</h4>",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_HtaYad": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "image": "shopify://shop_images/JANDER_03_38.jpg",
+            "caption": "",
+            "heading": "#2 Quick-Dry, Zero Residue",
+            "text": "<h4>Sprays on light, dries in seconds, and leaves no stains or greasy feeling. Invisible protection you'll feel but no one else will see.</h4>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -490,9 +492,9 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-3",
+        "row_color_scheme": "scheme-3",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
