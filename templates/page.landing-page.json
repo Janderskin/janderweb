@@ -160,14 +160,14 @@
         "heading_QdyHLw": {
           "type": "heading",
           "settings": {
-            "heading": "Fast-absorbing spray built for sensitive skin, keeping you fresh, dry, and confident all day - exactly where it matters most.",
+            "heading": "Fast-absorbing spray built for sensitive skin, keeping you fresh, dry, and confident all day.",
             "heading_size": "h2"
           }
         },
         "text_7R8znA": {
           "type": "text",
           "settings": {
-            "text": "<h4>#Kills odor instantly. No awkward moments.</h4><h4>#Quick-dry, invisible, and zero stains. <br/><br/>#Masculine scent: Cedar + Amber, subtle but powerful. <br/><br/>#Gentle on your skin, tough on sweat.<br/><br/></h4>"
+            "text": "<h4><strong>1. Kills odor instantly. No awkward moments.</strong></h4><h4><strong>2. Quick-dry, invisible, and zero stains. <br/><br/>3. Masculine scent: Cedar + Amber, subtle but powerful. <br/><br/>4. Gentle on your skin, tough on sweat.<br/><br/></strong></h4>"
           }
         }
       },
@@ -301,6 +301,42 @@
         "color": "",
         "spacer_mobile": 10,
         "spacer_desktop": 20
+      }
+    },
+    "tl_marquee_zkzQiG": {
+      "type": "tl-marquee",
+      "blocks": {
+        "text_fFxTng": {
+          "type": "text",
+          "settings": {
+            "new_text": "Limited October Sale"
+          }
+        },
+        "text_mfUaGa": {
+          "type": "text",
+          "settings": {
+            "new_text": "Limited October Sale"
+          }
+        },
+        "text_LURRQe": {
+          "type": "text",
+          "settings": {
+            "new_text": "Limited October Sale"
+          }
+        }
+      },
+      "block_order": [
+        "text_fFxTng",
+        "text_mfUaGa",
+        "text_LURRQe"
+      ],
+      "name": "Marquee",
+      "settings": {
+        "colorBackground": "#f15613",
+        "colorText": "#fff",
+        "link": "",
+        "marquee_height": 70,
+        "font_size": 24
       }
     },
     "multicolumn_Hjrjbi": {
@@ -593,42 +629,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "tl_marquee_zkzQiG": {
-      "type": "tl-marquee",
-      "blocks": {
-        "text_fFxTng": {
-          "type": "text",
-          "settings": {
-            "new_text": "Limited October Sale"
-          }
-        },
-        "text_mfUaGa": {
-          "type": "text",
-          "settings": {
-            "new_text": "Welcome to store"
-          }
-        },
-        "text_LURRQe": {
-          "type": "text",
-          "settings": {
-            "new_text": "Welcome to store"
-          }
-        }
-      },
-      "block_order": [
-        "text_fFxTng",
-        "text_mfUaGa",
-        "text_LURRQe"
-      ],
-      "name": "Marquee",
-      "settings": {
-        "colorBackground": "#f15613",
-        "colorText": "#fff",
-        "link": "",
-        "marquee_height": 70,
-        "font_size": 24
-      }
     }
   },
   "order": [
@@ -641,12 +641,12 @@
     "rich_text_g44C6U",
     "image_with_text_tjqfWx",
     "new_video_slider_FMqTGq",
+    "tl_marquee_zkzQiG",
     "multicolumn_Hjrjbi",
     "product_with_text_jjjdDq",
     "collapsible_content_pDQa7z",
     "rich_text_gf3if7",
     "multirow_AwXYeW",
-    "17580133731024ba59",
-    "tl_marquee_zkzQiG"
+    "17580133731024ba59"
   ]
 }
