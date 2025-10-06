@@ -593,6 +593,42 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "tl_marquee_zkzQiG": {
+      "type": "tl-marquee",
+      "blocks": {
+        "text_fFxTng": {
+          "type": "text",
+          "settings": {
+            "new_text": "Limited October Sale"
+          }
+        },
+        "text_mfUaGa": {
+          "type": "text",
+          "settings": {
+            "new_text": "Welcome to store"
+          }
+        },
+        "text_LURRQe": {
+          "type": "text",
+          "settings": {
+            "new_text": "Welcome to store"
+          }
+        }
+      },
+      "block_order": [
+        "text_fFxTng",
+        "text_mfUaGa",
+        "text_LURRQe"
+      ],
+      "name": "Marquee",
+      "settings": {
+        "colorBackground": "#f15613",
+        "colorText": "#fff",
+        "link": "",
+        "marquee_height": 70,
+        "font_size": 24
+      }
     }
   },
   "order": [
@@ -610,6 +646,7 @@
     "collapsible_content_pDQa7z",
     "rich_text_gf3if7",
     "multirow_AwXYeW",
-    "17580133731024ba59"
+    "17580133731024ba59",
+    "tl_marquee_zkzQiG"
   ]
 }
