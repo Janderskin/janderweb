@@ -459,27 +459,45 @@
         "collapsible_row_QPDqxt": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How long is the warranty?",
+            "heading": "DOES IT SOFTEN THE SKIN OR HYDRATE? OR DOES IT ONLY CONTROL ODOR?",
             "icon": "check_mark",
-            "row_content": "<p>– 1 year limited warranty.</p>",
+            "row_content": "<p>The Down There Deodorant is a ball deodorant that will help you control moisture. It also reduces friction and controls sweat & odor.</p>",
             "page": ""
           }
         },
         "collapsible_row_Ujw9xe": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How fast is delivery?",
+            "heading": "CAN THIS BE USED ON OTHER PARTS OF THE BODY?",
             "icon": "check_mark",
-            "row_content": "<p>– 3–5 business days.</p>",
+            "row_content": "<p>Yes.</p>",
             "page": ""
           }
         },
         "collapsible_row_tpHfgx": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I return if I don’t like it?",
+            "heading": "IS IT EDIBLE?",
             "icon": "check_mark",
-            "row_content": "<p>– Yes, within 7 days.</p>",
+            "row_content": "<p>No, our products should not be intentionally consumed or consumed in large quantities.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YttiDQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "IS IT SAFE TO PUT DEODORANT ON YOUR BALLS?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, the Down There deodorant was specially formulated for the intimate area.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_PTmdmD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "WHAT DOES THE DOWN THERE DEODORANT DO?",
+            "icon": "check_mark",
+            "row_content": "<p>The Down There Deodorant was designed for a man's most intimate area. This deodorant creates an anti-odor barrier, ensuring lasting freshness down there.</p>",
             "page": ""
           }
         }
@@ -487,7 +505,9 @@
       "block_order": [
         "collapsible_row_QPDqxt",
         "collapsible_row_Ujw9xe",
-        "collapsible_row_tpHfgx"
+        "collapsible_row_tpHfgx",
+        "collapsible_row_YttiDQ",
+        "collapsible_row_PTmdmD"
       ],
       "settings": {
         "caption": "",
