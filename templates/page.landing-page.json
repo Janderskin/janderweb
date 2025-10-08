@@ -649,6 +649,16 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "custom_liquid_eXnNNB": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\ndiv#shopify-section-sections--24458106274123__annoucement_countdown_KfraWy {\n    display: none;\n}\n\nsticky-header.header-wrapper.color-scheme-3.gradient {\n    display: none;\n}\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -667,6 +677,7 @@
     "collapsible_content_pDQa7z",
     "rich_text_gf3if7",
     "multirow_AwXYeW",
-    "17580133731024ba59"
+    "17580133731024ba59",
+    "custom_liquid_eXnNNB"
   ]
 }
