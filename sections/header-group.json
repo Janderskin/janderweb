@@ -15,9 +15,9 @@
       "type": "annoucement_countdown",
       "settings": {
         "annoucement_bar_show": true,
-        "desktop_promo_text": "FIRST ORDER 10% OFF & FREE SHIPPING +25€",
+        "desktop_promo_text": "FIRST ORDER 10% OFF & FREE SHIPPING +35€",
         "mobile_first_line": "FIRST ORDER 10% OFF",
-        "mobile_second_line": "FREE SHIPPING +25€",
+        "mobile_second_line": "FREE SHIPPING +35€",
         "promo_link": "shopify://collections/all",
         "text_alignment": "center",
         "countdown_enable": true,
