@@ -73,8 +73,8 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
-        "section_color_scheme": "scheme-a09e67b6-8ab1-4c89-b057-731f1f7918cb",
-        "row_color_scheme": "scheme-a09e67b6-8ab1-4c89-b057-731f1f7918cb",
+        "section_color_scheme": "scheme-598aa3f0-9013-47ab-9c52-ccb9e6411a6d",
+        "row_color_scheme": "scheme-598aa3f0-9013-47ab-9c52-ccb9e6411a6d",
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
@@ -179,7 +179,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-598aa3f0-9013-47ab-9c52-ccb9e6411a6d",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 36
@@ -297,7 +297,7 @@
       ],
       "settings": {
         "section_title": "",
-        "background": "",
+        "background": "#f15614",
         "color": "",
         "spacer_mobile": 10,
         "spacer_desktop": 20
@@ -309,19 +309,19 @@
         "text_fFxTng": {
           "type": "text",
           "settings": {
-            "new_text": "Limited October Sale"
+            "new_text": "Black Friday Is Here"
           }
         },
         "text_mfUaGa": {
           "type": "text",
           "settings": {
-            "new_text": "Limited October Sale"
+            "new_text": "Best Deals Of The Year"
           }
         },
         "text_LURRQe": {
           "type": "text",
           "settings": {
-            "new_text": "Limited October Sale"
+            "new_text": "Limited Sale"
           }
         }
       },
@@ -332,8 +332,8 @@
       ],
       "name": "Marquee",
       "settings": {
-        "colorBackground": "#f15613",
-        "colorText": "#ffffff",
+        "colorBackground": "#000000",
+        "colorText": "#f15614",
         "link": "",
         "marquee_height": 70,
         "font_size": 24
@@ -435,13 +435,13 @@
       "custom_css": [],
       "name": "Two Side Product Section",
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-598aa3f0-9013-47ab-9c52-ccb9e6411a6d",
         "padding_top": 40,
         "padding_bottom": 40,
         "product": "intimate-deodorant",
         "right_heading": "",
-        "right_text": "Due to recent viral TikTok/ Instagram coverage and overwhelming demand, Jander’s Down There Deodorant has sold out three times this year already.\n<br>\n<br>\nWhile stock has just been replenished, the company warns they may not be able to maintain their deal much longer.",
-        "right_keypoints": "10% OFF: Code JANDER10 /+ 25€ Free Shipping/Biggest Sale of the Year",
+        "right_text": "Due to recent viral TikTok/ Instagram coverage and overwhelming demand, Jander’s Down There Deodorant has sold out three times this year already.\n<br>\n<br>\nWhile stock has just been replenished, the company warns they may not be able to maintain their Black Friday deal much longer.",
+        "right_keypoints": "Up to 25% OFF! /+ 35€ Free Shipping/Biggest Sale of the Year",
         "button_label": "Learn More",
         "button_link": "shopify://products/intimate-deodorant",
         "image_ratio": "adapt",
@@ -515,7 +515,7 @@
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
-        "color_scheme": "",
+        "color_scheme": "scheme-a09e67b6-8ab1-4c89-b057-731f1f7918cb",
         "container_color_scheme": "",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
@@ -542,7 +542,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-598aa3f0-9013-47ab-9c52-ccb9e6411a6d",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -624,8 +624,8 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
-        "section_color_scheme": "scheme-3",
-        "row_color_scheme": "scheme-3",
+        "section_color_scheme": "scheme-598aa3f0-9013-47ab-9c52-ccb9e6411a6d",
+        "row_color_scheme": "scheme-598aa3f0-9013-47ab-9c52-ccb9e6411a6d",
         "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
