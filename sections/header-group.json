@@ -27,8 +27,8 @@
         "hour": "Hour",
         "min": "Min",
         "sec": "Sec",
-        "color_bg": "#f15614",
-        "color_text": "#ffffff"
+        "color_bg": "#000000",
+        "color_text": "#f15613"
       }
     },
     "announcement-bar": {
