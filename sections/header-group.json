@@ -15,9 +15,9 @@
       "type": "annoucement_countdown",
       "settings": {
         "annoucement_bar_show": true,
-        "desktop_promo_text": "FIRST ORDER 10% OFF & FREE SHIPPING +35€",
-        "mobile_first_line": "FIRST ORDER 10% OFF",
-        "mobile_second_line": "FREE SHIPPING +35€",
+        "desktop_promo_text": "BLACK FRIDAY IS HERE - UP TO 30% OFF. DON'T MISS OUT.",
+        "mobile_first_line": "BLACK FRIDAY IS HERE",
+        "mobile_second_line": "UP TO 30% OFF - DON'T MISS OUT.",
         "promo_link": "shopify://collections/all",
         "text_alignment": "center",
         "countdown_enable": true,
