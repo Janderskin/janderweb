@@ -105,14 +105,14 @@
           "type": "collapsible_tab",
           "settings": {
             "open": true,
-            "heading": "% Promotions",
+            "heading": "Black Friday Promotions",
             "icon": "none",
-            "content": "<p></p><ul><li>Up to 25% OFF</li><li>Free shipping for orders above 35€</li></ul>",
+            "content": "<p></p><ul><li>Up to 30% OFF</li><li>Free shipping for orders above 35€</li></ul>",
             "page": "",
-            "color_bg": "#adffb6",
-            "color_text": "#000000",
-            "color_border": "#adffb6",
-            "content_bg": "#d8fcdb"
+            "color_bg": "#000000",
+            "color_text": "#f15613",
+            "color_border": "#000000",
+            "content_bg": "#000000"
           }
         },
         "collapsible_tab_aWYJ69": {
@@ -374,9 +374,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
+            "max_width": 1200,
             "show_shop_reviews": false,
-            "empty_state": "empty_widget",
-            "max_width": 1200
+            "empty_state": "empty_widget"
           }
         }
       },
