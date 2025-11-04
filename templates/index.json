@@ -18,6 +18,8 @@
         "star-rattings": "+1.500 happy customers",
         "title": "The new face of men.",
         "para": "Head-to-toe personal care crafted for the modern man.",
+        "title-align": "left",
+        "para-align": "left",
         "btn-url": "shopify://collections/shop-all",
         "btn-txt": "Shop All",
         "full-width": true,
@@ -41,8 +43,8 @@
         "heading_bmcfPF": {
           "type": "heading",
           "settings": {
-            "heading": "The new face of men.",
-            "heading_size": "h0"
+            "heading": "Care for everywhere.",
+            "heading_size": "h1"
           }
         },
         "heading_dzEF6x": {
@@ -56,8 +58,9 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<p>Head-to-toe personal care crafted for the modern man.</p>",
-            "text_style": "subtitle"
+            "text": "<p><strong>We want men to feel good in their own skin.<br/></strong></p>",
+            "text_style": "subtitle",
+            "text__color": ""
           }
         },
         "button_dxVqGt": {
@@ -80,6 +83,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Imagen_Principal_Home.png",
+        "image__rotate__class": false,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -298,7 +302,8 @@
           "type": "text",
           "settings": {
             "text": "<p><strong>Pharmacist</strong></p><p><em>“Jander's product formulas provide visible results within weeks.I highly recommend this routine to anyone looking for a simple, effective, and high-quality facial care regimen.”</em></p>",
-            "text_style": "body"
+            "text_style": "body",
+            "text__color": ""
           }
         },
         "progressbar_xmm6GL": {
@@ -335,6 +340,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Jander-medical-proof-desktop-03.jpg",
+        "image__rotate__class": false,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
