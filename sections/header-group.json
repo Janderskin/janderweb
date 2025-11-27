@@ -15,9 +15,9 @@
       "type": "annoucement_countdown",
       "settings": {
         "annoucement_bar_show": true,
-        "desktop_promo_text": "BLACK FRIDAY IS HERE - UP TO 30% OFF. DON'T MISS OUT.",
+        "desktop_promo_text": "BLACK FRIDAY IS HERE - 30% OFF. DON'T MISS OUT.",
         "mobile_first_line": "BLACK FRIDAY IS HERE",
-        "mobile_second_line": "UP TO 30% OFF - DON'T MISS OUT.",
+        "mobile_second_line": "30% OFF - DON'T MISS OUT.",
         "promo_link": "shopify://collections/all",
         "text_alignment": "center",
         "countdown_enable": true,
