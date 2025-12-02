@@ -15,9 +15,9 @@
       "type": "annoucement_countdown",
       "settings": {
         "annoucement_bar_show": true,
-        "desktop_promo_text": "BLACK FRIDAY IS HERE - 30% OFF. DON'T MISS OUT.",
-        "mobile_first_line": "BLACK FRIDAY IS HERE",
-        "mobile_second_line": "30% OFF - DON'T MISS OUT.",
+        "desktop_promo_text": "XMAS IS HERE - 10% OFF YOUR 1ST ORDER.",
+        "mobile_first_line": "XMAS IS HERE",
+        "mobile_second_line": "10% OFF YOUR 1ST ORDER.",
         "promo_link": "shopify://collections/all",
         "text_alignment": "center",
         "countdown_enable": true,
@@ -27,8 +27,8 @@
         "hour": "Hour",
         "min": "Min",
         "sec": "Sec",
-        "color_bg": "#000000",
-        "color_text": "#f15613"
+        "color_bg": "#f15614",
+        "color_text": "#ffffff"
       }
     },
     "announcement-bar": {
