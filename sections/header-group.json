@@ -15,9 +15,9 @@
       "type": "annoucement_countdown",
       "settings": {
         "annoucement_bar_show": true,
-        "desktop_promo_text": "XMAS IS HERE - 10% OFF YOUR 1ST ORDER.",
+        "desktop_promo_text": "XMAS IS HERE - 10% OFF YOUR 1ST ORDER. CODE: XMAS10",
         "mobile_first_line": "XMAS IS HERE",
-        "mobile_second_line": "10% OFF YOUR 1ST ORDER.",
+        "mobile_second_line": "10% OFF YOUR 1ST ORDER. CODE: XMAS10",
         "promo_link": "shopify://collections/all",
         "text_alignment": "center",
         "countdown_enable": true,
