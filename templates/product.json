@@ -105,9 +105,9 @@
           "type": "collapsible_tab",
           "settings": {
             "open": true,
-            "heading": "Christmas Promotions",
+            "heading": "Winter Sales",
             "icon": "none",
-            "content": "<p></p><ul><li>10% off your first order. Code: XMAS10</li><li>Free shipping for orders above 35€</li></ul>",
+            "content": "<p></p><ul><li>Up to 30% OFF!</li><li>Free shipping for orders above 35€</li></ul>",
             "page": "",
             "color_bg": "#adffb6",
             "color_text": "#000000",
