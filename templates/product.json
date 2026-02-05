@@ -105,9 +105,9 @@
           "type": "collapsible_tab",
           "settings": {
             "open": true,
-            "heading": "Winter Sales",
+            "heading": "Promotions",
             "icon": "none",
-            "content": "<p></p><ul><li>Up to 30% OFF!</li><li>Free shipping for orders above 35€</li></ul>",
+            "content": "<p></p><ul><li>10% OFF code <strong>JANDER10</strong></li><li>Free shipping for orders above 35€</li></ul>",
             "page": "",
             "color_bg": "#adffb6",
             "color_text": "#000000",
