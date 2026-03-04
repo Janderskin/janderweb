@@ -85,7 +85,8 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": false
+        "show_text_below": false,
+        "custom_css_class": "ninguna"
       }
     },
     "image_banner_xTiQHC": {
@@ -134,7 +135,8 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "custom_css_class": "banner-100vh"
       }
     },
     "image_with_text_w49TBx": {
