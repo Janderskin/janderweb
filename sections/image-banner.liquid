@@ -36,6 +36,36 @@
     border: 0 !important;
     padding: 0 !important;
   }
+
+  /* Forzar texto blanco */
+#Banner-{{ section.id }} .banner__heading,
+#Banner-{{ section.id }} .banner__text {
+  color: #ffffff !important;
+}
+
+/* Botón verde con texto negro */
+#Banner-{{ section.id }} .button--primary {
+  background-color: #adffb6 !important;
+  color: #000000 !important;
+  border: none !important;
+}
+
+/* Mantener overlay correcto en móvil */
+@media screen and (max-width: 749px) {
+  #Banner-{{ section.id }} .banner__content {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+  }
+}
+
 {%- endstyle -%}
 
 {%- liquid
