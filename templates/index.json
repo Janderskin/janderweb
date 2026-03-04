@@ -60,7 +60,7 @@
             "button_label_1": "Shop by body part",
             "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
-            "button_label_2": "boton 2",
+            "button_label_2": "",
             "button_link_2": "shopify://blogs/blog",
             "button_style_secondary_2": false
           }
