@@ -140,6 +140,28 @@
   }
 }
 
+/* Desktop muestra imagen 1 */
+@media screen and (min-width: 750px) {
+  #Banner-{{ section.id }} .banner__media:first-child {
+    display: block;
+  }
+
+  #Banner-{{ section.id }} .banner__media:last-child {
+    display: none;
+  }
+}
+
+/* Móvil muestra imagen 2 */
+@media screen and (max-width: 749px) {
+  #Banner-{{ section.id }} .banner__media:first-child {
+    display: none;
+  }
+
+  #Banner-{{ section.id }} .banner__media:last-child {
+    display: block;
+  }
+}
+
 {%- endstyle -%}
 
 {%- liquid
