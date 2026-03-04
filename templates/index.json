@@ -123,6 +123,7 @@
         "text_DqVWBg",
         "buttons_g4XnLJ"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/FOTO_1.jpg",
