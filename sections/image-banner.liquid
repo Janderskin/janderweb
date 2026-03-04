@@ -28,6 +28,15 @@
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
 {%- endstyle -%}
+{%- style -%}
+  #Banner-{{ section.id }} .banner__box {
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    padding: 0 !important;
+  }
+{%- endstyle -%}
 
 {%- liquid
   assign full_width = '100vw'
