@@ -108,17 +108,19 @@
     width: 100%;
   }
 
-   #Banner-{{ section.id }}.banner-100vh .banner__buttons .button {
+#Banner-{{ section.id }}.banner-100vh .banner__buttons {
     display: flex;
-    justify-content: center;
+    justify-content: center;      
+    width: 100%;                 
     margin-top: 1%;
+}
+
+#Banner-{{ section.id }}.banner-100vh .banner__buttons .button {
     padding: 18px 20px !important;
     font-size: 20px !important;
-    width: 50% !important;
-    justify-content: center;      
-    text-align: center; 
     font-weight: 900;
-  }
+    text-align: center;
+}
 
   /* Para los banners que no tengan banner-100vh, mantenemos 85vh */
 
