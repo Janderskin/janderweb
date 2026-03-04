@@ -44,10 +44,19 @@
 }
 
 /* Botón verde con texto negro */
-#Banner-{{ section.id }} .button--primary {
+#Banner-{{ section.id }} .banner__buttons .button {
   background-color: #adffb6 !important;
   color: #000000 !important;
   border: none !important;
+  border-radius: 50px !important;
+  padding: 16px 32px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+}
+
+/* Hover */
+#Banner-{{ section.id }} .banner__buttons .button:hover {
+  opacity: 0.9 !important;
 }
 
 /* Mantener overlay correcto en móvil */
