@@ -95,22 +95,22 @@
         "heading_NRnFJm": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "<strong>We had the balls to launcha deodorant for your balls.</strong>",
             "heading_size": "h1"
           }
         },
         "text_DqVWBg": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "Our best selling product back in stock.",
+            "text_style": "subtitle"
           }
         },
         "buttons_g4XnLJ": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://products/intimate-deodorant",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
