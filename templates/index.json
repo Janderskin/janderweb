@@ -71,6 +71,58 @@
         "text_dYiMD7",
         "buttons_Wy8Bkw"
       ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Foto-1.jpg",
+        "image_2": "shopify://shop_images/20240903_JANDER_NEWFORMULA17691_copia_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_banner_dk4VPL": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_ctjE78": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Care for everywhere.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_8fjHyU": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>We want men to feel good in their own skin.</strong>",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_g8TwKg": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop by body part",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "shopify://blogs/blog",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ctjE78",
+        "text_8fjHyU",
+        "buttons_g8TwKg"
+      ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Foto-1.jpg",
@@ -474,56 +526,6 @@
         "show_view_all": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "image_banner_dk4VPL": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_ctjE78": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Care for everywhere.</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_8fjHyU": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>We want men to feel good in their own skin.</strong>",
-            "text_style": "subtitle"
-          }
-        },
-        "buttons_g8TwKg": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop by body part",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "shopify://blogs/blog",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_ctjE78",
-        "text_8fjHyU",
-        "buttons_g8TwKg"
-      ],
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Foto-1.jpg",
-        "image_2": "shopify://shop_images/20240903_JANDER_NEWFORMULA17691_copia_1.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "top-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
       }
     }
   },
