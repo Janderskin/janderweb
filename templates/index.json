@@ -74,7 +74,7 @@
       "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Foto-1.jpg",
+        "image": "shopify://shop_images/Jander_fotos_web_8.png",
         "image_2": "shopify://shop_images/20240903_JANDER_NEWFORMULA17691_copia_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
@@ -126,7 +126,7 @@
       "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/FOTO_1.jpg",
+        "image": "shopify://shop_images/Jander_fotos_web_7.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-right",
@@ -295,7 +295,7 @@
       "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Foto-4_verde_1_1.png",
+        "image": "shopify://shop_images/Jander_fotos_web_3.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-right",
