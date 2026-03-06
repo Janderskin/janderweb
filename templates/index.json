@@ -282,7 +282,7 @@
             "button_link_1": "shopify://products/intimate-deodorant",
             "button_style_secondary_1": false,
             "button_label_2": "Shop Now",
-            "button_link_2": "",
+            "button_link_2": "shopify://products/facial-routine-for-men",
             "button_style_secondary_2": false
           }
         }
@@ -292,7 +292,6 @@
         "text_i74eAN",
         "buttons_89rK9k"
       ],
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Foto-4_verde_1_1.png",
