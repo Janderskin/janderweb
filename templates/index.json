@@ -86,7 +86,7 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": false,
-        "custom_css_class": "ninguna"
+        "custom_css_class": "banner-home"
       }
     },
     "image_banner_xTiQHC": {
@@ -256,6 +256,57 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "max-width": 225
+      }
+    },
+    "image_banner_w8JQHn": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_DfBJtU": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>New men’s face care.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_i74eAN": {
+          "type": "text",
+          "settings": {
+            "text": "3 easy steps for better skin.",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_89rK9k": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "shopify://products/intimate-deodorant",
+            "button_style_secondary_1": false,
+            "button_label_2": "Shop Now",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DfBJtU",
+        "text_i74eAN",
+        "buttons_89rK9k"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Foto-4_verde_1_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "custom_css_class": "banner-dark-right"
       }
     },
     "featured_collection_pk6LKh": {
@@ -549,6 +600,7 @@
     "press_release_dB9EAM",
     "image_with_text_w49TBx",
     "press_release_tEERxY",
+    "image_banner_w8JQHn",
     "featured_collection_pk6LKh",
     "steps_section_Apnffp",
     "tl_marquee_WbPJft",
