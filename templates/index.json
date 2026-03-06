@@ -71,6 +71,7 @@
         "text_dYiMD7",
         "buttons_Wy8Bkw"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Foto-1.jpg",
@@ -122,6 +123,7 @@
         "text_DqVWBg",
         "buttons_g4XnLJ"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/FOTO_1.jpg",
@@ -290,6 +292,7 @@
         "text_i74eAN",
         "buttons_89rK9k"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Foto-4_verde_1_1.png",
