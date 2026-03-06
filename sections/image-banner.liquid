@@ -68,6 +68,34 @@
 
 @media screen and (min-width: 750px) {
 
+  /* ============================= */
+/* VARIANTE: TEXTO NEGRO DERECHA */
+/* ============================= */
+
+#Banner-{{ section.id }}.banner-dark-right .banner__heading,
+#Banner-{{ section.id }}.banner-dark-right .banner__text {
+  color: #000000 !important;
+}
+
+#Banner-{{ section.id }}.banner-dark-right .banner__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+#Banner-{{ section.id }}.banner-dark-right .banner__buttons {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+#Banner-{{ section.id }}.banner-dark-right .banner__buttons .button {
+  text-align: center;
+}
+
   /* con clase banner-100vh */
 
   #Banner-{{ section.id }}.banner-100vh {
