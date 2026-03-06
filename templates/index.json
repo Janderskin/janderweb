@@ -311,7 +311,6 @@
     },
     "featured_collection_pk6LKh": {
       "type": "featured-collection",
-      "disabled": true,
       "custom_css": [
         "{text-align: center;}",
         "a.button {margin-top: 2rem;}"
@@ -383,6 +382,58 @@
         "description": "",
         "btn_text": "Shop the Routine Set",
         "btn_url": "shopify://products/facial-routine-for-men"
+      }
+    },
+    "image_banner_QTagdt": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_pt3Xhf": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Care for everywhere.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_eXH3Gb": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>We want men to feel good in their own skin.</strong>",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_MRcBCx": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop by body part",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "shopify://blogs/blog",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_pt3Xhf",
+        "text_eXH3Gb",
+        "buttons_MRcBCx"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Jander_fotos_web_8.png",
+        "image_2": "shopify://shop_images/20240903_JANDER_NEWFORMULA17691_copia_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false,
+        "custom_css_class": "banner-home"
       }
     },
     "tl_marquee_WbPJft": {
@@ -604,6 +655,7 @@
     "image_banner_w8JQHn",
     "featured_collection_pk6LKh",
     "steps_section_Apnffp",
+    "image_banner_QTagdt",
     "tl_marquee_WbPJft",
     "how_it_works_YVJp3E",
     "image_with_text_NqyFBn",
