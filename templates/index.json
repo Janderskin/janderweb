@@ -436,6 +436,57 @@
         "custom_css_class": "banner-home"
       }
     },
+    "image_banner_dXiAwh": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_WQExCF": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>For you pits & your bits.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_69FzBU": {
+          "type": "text",
+          "settings": {
+            "text": "Up There and Down There deodorants.",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_xmGHNh": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "shopify://products/intimate-deodorant",
+            "button_style_secondary_1": false,
+            "button_label_2": "Shop Now",
+            "button_link_2": "shopify://products/facial-routine-for-men",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_WQExCF",
+        "text_69FzBU",
+        "buttons_xmGHNh"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Jander_fotos_web_5.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-right",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "custom_css_class": "banner-dark-right"
+      }
+    },
     "tl_marquee_WbPJft": {
       "type": "tl-marquee",
       "blocks": {
@@ -656,6 +707,7 @@
     "featured_collection_pk6LKh",
     "steps_section_Apnffp",
     "image_banner_QTagdt",
+    "image_banner_dXiAwh",
     "tl_marquee_WbPJft",
     "how_it_works_YVJp3E",
     "image_with_text_NqyFBn",
