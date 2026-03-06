@@ -390,22 +390,22 @@
         "heading_pt3Xhf": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Care for everywhere.</strong>",
+            "heading": "<strong>No burns. No excuses.</strong>",
             "heading_size": "h1"
           }
         },
         "text_eXH3Gb": {
           "type": "text",
           "settings": {
-            "text": "<strong>We want men to feel good in their own skin.</strong>",
+            "text": "SPF for your face and lips.",
             "text_style": "subtitle"
           }
         },
         "buttons_MRcBCx": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop by body part",
-            "button_link_1": "shopify://collections/all",
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify://products/burn-proof-duo",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "shopify://blogs/blog",
@@ -421,7 +421,7 @@
       "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Jander_fotos_web_8.png",
+        "image": "shopify://shop_images/Jander_fotos_web_1.png",
         "image_2": "shopify://shop_images/20240903_JANDER_NEWFORMULA17691_copia_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
