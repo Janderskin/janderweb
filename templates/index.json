@@ -123,7 +123,6 @@
         "text_DqVWBg",
         "buttons_g4XnLJ"
       ],
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/FOTO_1.jpg",
@@ -292,7 +291,6 @@
         "text_i74eAN",
         "buttons_89rK9k"
       ],
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Foto-4_verde_1_1.png",
@@ -311,6 +309,7 @@
     },
     "featured_collection_pk6LKh": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "{text-align: center;}",
         "a.button {margin-top: 2rem;}"
