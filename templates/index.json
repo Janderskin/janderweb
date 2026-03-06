@@ -140,6 +140,17 @@
         "custom_css_class": "banner-100vh"
       }
     },
+    "press_release_dB9EAM": {
+      "type": "press_release",
+      "disabled": true,
+      "name": "Press Release",
+      "settings": {
+        "title": "“Your balls will never feel fresher” - Mark R.",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "max-width": 20
+      }
+    },
     "image_with_text_w49TBx": {
       "type": "image-with-text",
       "blocks": {
@@ -529,22 +540,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "press_release_dB9EAM": {
-      "type": "press_release",
-      "name": "Press Release",
-      "settings": {
-        "title": "“Your balls will never feel fresher” - Mark R.",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "max-width": 20
-      }
     }
   },
   "order": [
     "tl_banner_mtniyi",
     "image_banner_DRyCDf",
     "image_banner_xTiQHC",
+    "press_release_dB9EAM",
     "image_with_text_w49TBx",
     "press_release_tEERxY",
     "featured_collection_pk6LKh",
@@ -553,7 +555,6 @@
     "how_it_works_YVJp3E",
     "image_with_text_NqyFBn",
     "new_video_slider_KJU9G3",
-    "featured_blog_xgNUTA",
-    "press_release_dB9EAM"
+    "featured_blog_xgNUTA"
   ]
 }
