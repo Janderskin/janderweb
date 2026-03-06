@@ -71,6 +71,7 @@
         "text_dYiMD7",
         "buttons_Wy8Bkw"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Foto-1.jpg",
@@ -168,6 +169,7 @@
         "text_DqVWBg",
         "buttons_g4XnLJ"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/FOTO_1.jpg",
@@ -225,7 +227,6 @@
         "text_D9eKFU",
         "button_dxVqGt"
       ],
-      "disabled": true,
       "custom_css": [
         "{background-color: #ffffff !important; width: 100%; max-width: 100%;}"
       ],
