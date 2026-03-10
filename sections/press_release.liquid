@@ -20,11 +20,35 @@
       display: none;
     }
 @media(max-width: 520px) {
-#press__release h2 {
-  text-align: center;
-  font-size: 24px !important;
-  color: #f15614 !important;
-  font-weight: 800;
+  .press_logos {
+    margin-top: 15px;
+  }
+
+  .press_logos.scrollable {
+    flex-wrap: wrap;
+  }
+
+  .single_press_logo {
+    width: 49%;
+    padding: 20px;
+  }
+
+  .animated-text {
+    height: 100px;
+  }
+
+  #press__release {
+    padding: 0;
+  }
+
+  /* TEXTO MÁS PEQUEÑO EN MOBILE */
+  .press__item__quote .text {
+    font-size: 14px;
+  }
+
+  #press__release h2 {
+    font-size: 28px !important;
+  }
 }
 
  #press__release h2 {
