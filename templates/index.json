@@ -71,6 +71,7 @@
         "text_dYiMD7",
         "buttons_Wy8Bkw"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_8.png",
@@ -122,6 +123,7 @@
         "text_DqVWBg",
         "buttons_g4XnLJ"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_7.png",
@@ -190,7 +192,6 @@
         "text_D9eKFU",
         "button_dxVqGt"
       ],
-      "disabled": true,
       "custom_css": [
         "{background-color: #ffffff !important; width: 100%; max-width: 100%;}"
       ],
@@ -291,6 +292,7 @@
         "text_i74eAN",
         "buttons_89rK9k"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_3.png",
@@ -310,7 +312,6 @@
     },
     "featured_collection_pk6LKh": {
       "type": "featured-collection",
-      "disabled": true,
       "custom_css": [
         "{text-align: center;}",
         "a.button {margin-top: 2rem;}"
@@ -418,6 +419,7 @@
         "text_eXH3Gb",
         "buttons_MRcBCx"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_1.png",
@@ -469,6 +471,7 @@
         "text_69FzBU",
         "buttons_xmGHNh"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_5.png",
