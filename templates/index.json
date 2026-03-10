@@ -258,6 +258,16 @@
         "padding_bottom": 0
       }
     },
+    "press_release_KQ6HMW": {
+      "type": "press_release",
+      "name": "Press Release",
+      "settings": {
+        "title": "“Your balls will never feel fresher” - Mark R.",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "max-width": 160
+      }
+    },
     "image_banner_w8JQHn": {
       "type": "image-banner",
       "blocks": {
@@ -703,6 +713,7 @@
     "press_release_tEERxY",
     "image_banner_xTiQHC",
     "image_with_text_w49TBx",
+    "press_release_KQ6HMW",
     "image_banner_w8JQHn",
     "featured_collection_pk6LKh",
     "steps_section_Apnffp",
