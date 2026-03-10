@@ -71,11 +71,10 @@
         "text_dYiMD7",
         "buttons_Wy8Bkw"
       ],
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_8.png",
-        "image_2": "shopify://shop_images/20240903_JANDER_NEWFORMULA17691_copia_1.jpg",
+        "image_2": "shopify://shop_images/FOTO-1_mobile.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-left",
@@ -123,10 +122,10 @@
         "text_DqVWBg",
         "buttons_g4XnLJ"
       ],
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_7.png",
+        "image_2": "shopify://shop_images/Foto-2_mobile.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-right",
@@ -142,7 +141,6 @@
     },
     "press_release_dB9EAM": {
       "type": "press_release",
-      "disabled": true,
       "name": "Press Release",
       "settings": {
         "title": "“Your balls will never feel fresher” - Mark R.",
@@ -192,6 +190,7 @@
         "text_D9eKFU",
         "button_dxVqGt"
       ],
+      "disabled": true,
       "custom_css": [
         "{background-color: #ffffff !important; width: 100%; max-width: 100%;}"
       ],
@@ -292,10 +291,10 @@
         "text_i74eAN",
         "buttons_89rK9k"
       ],
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_3.png",
+        "image_2": "shopify://shop_images/Foto-4_verde_mobile.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-right",
@@ -311,6 +310,7 @@
     },
     "featured_collection_pk6LKh": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         "{text-align: center;}",
         "a.button {margin-top: 2rem;}"
@@ -418,11 +418,10 @@
         "text_eXH3Gb",
         "buttons_MRcBCx"
       ],
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_1.png",
-        "image_2": "shopify://shop_images/20240903_JANDER_NEWFORMULA17691_copia_1.jpg",
+        "image_2": "shopify://shop_images/Foto-5_mobile.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "top-left",
@@ -470,10 +469,10 @@
         "text_69FzBU",
         "buttons_xmGHNh"
       ],
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_5.png",
+        "image_2": "shopify://shop_images/Foto-3_verde_mobile.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-right",
