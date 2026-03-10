@@ -71,6 +71,7 @@
         "text_dYiMD7",
         "buttons_Wy8Bkw"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_8.png",
@@ -137,6 +138,7 @@
         "html_q9DWyN",
         "html_4x8pHK"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "title": "",
@@ -179,6 +181,7 @@
         "text_DqVWBg",
         "buttons_g4XnLJ"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_7.png",
@@ -237,7 +240,6 @@
         "text_D9eKFU",
         "button_dxVqGt"
       ],
-      "disabled": true,
       "custom_css": [
         "{background-color: #ffffff !important; width: 100%; max-width: 100%;}"
       ],
@@ -260,6 +262,7 @@
     },
     "press_release_KQ6HMW": {
       "type": "press_release",
+      "disabled": true,
       "name": "Press Release",
       "settings": {
         "title": "“Your balls will never feel fresher” - Mark R.",
@@ -302,6 +305,7 @@
         "text_i74eAN",
         "buttons_89rK9k"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_3.png",
@@ -321,7 +325,6 @@
     },
     "featured_collection_pk6LKh": {
       "type": "featured-collection",
-      "disabled": true,
       "custom_css": [
         "{text-align: center;}",
         "a.button {margin-top: 2rem;}"
@@ -429,6 +432,7 @@
         "text_eXH3Gb",
         "buttons_MRcBCx"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_1.png",
@@ -480,6 +484,7 @@
         "text_69FzBU",
         "buttons_xmGHNh"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_5.png",
@@ -616,7 +621,6 @@
         "progressbar_BzDNka",
         "progressbar_G8dtXL"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/Jander-medical-proof-desktop-03.jpg",
         "image__rotate__class": false,
