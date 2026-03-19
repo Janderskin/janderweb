@@ -305,7 +305,6 @@
         "text_i74eAN",
         "buttons_89rK9k"
       ],
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_3.png",
@@ -432,7 +431,6 @@
         "text_eXH3Gb",
         "buttons_MRcBCx"
       ],
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_1.png",
