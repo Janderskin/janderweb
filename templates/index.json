@@ -262,6 +262,7 @@
     },
     "press_release_KQ6HMW": {
       "type": "press_release",
+      "disabled": true,
       "name": "Press Release",
       "settings": {
         "title": "“Your balls will never feel fresher” - Mark R.",
