@@ -404,7 +404,7 @@
         "heading_pt3Xhf": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>No burns. No excuses.</strong>",
+            "heading": "No burns. No  excuses.",
             "heading_size": "h1"
           }
         },
@@ -432,7 +432,6 @@
         "text_eXH3Gb",
         "buttons_MRcBCx"
       ],
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Jander_fotos_web_1.png",
