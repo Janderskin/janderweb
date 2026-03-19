@@ -171,9 +171,14 @@
   }
 
   #Banner-{{ section.id }}.banner-home .banner__heading {
+   display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
     margin-top: 3%;
     font-size: 60px !important;
     line-height: 1.1;
+      max-height: calc(1.1em * 2);
   }
 
   #Banner-{{ section.id }}.banner-home .banner__text {
