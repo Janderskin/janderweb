@@ -193,6 +193,26 @@
               {%- endunless -%}
             {%- endfor -%}
           </div>
+
+          {%- for block in section.blocks -%}
+  {%- if block.type == 'image' -%}
+
+    <div class="footer-image-bottom" style="margin-top: 40px; text-align: center;" {{ block.shopify_attributes }}>
+
+      {%- if block.settings.image != blank -%}
+        <img
+          src="{{ block.settings.image | image_url: width: 800 }}"
+          alt="{{ block.settings.image.alt | escape }}"
+          loading="lazy"
+          style="max-width: 400px; width: 100%; margin: 0 auto; display: block;"
+        >
+      {%- endif -%}
+
+    </div>
+
+  {%- endif -%}
+{%- endfor -%}
+          
           
         {%- endif -%}
 
