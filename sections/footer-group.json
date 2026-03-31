@@ -67,12 +67,21 @@
           "settings": {
             "show_social": true
           }
+        },
+        "image_mMRrFU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Diseno_sin_titulo_dfd89de1-a899-49c7-8223-1be652746b80.png",
+            "image_width": 550,
+            "alignment": "center"
+          }
         }
       },
       "block_order": [
         "text_qyp3W7",
         "link_list_NAHy8p",
-        "brand_information_MnVDrC"
+        "brand_information_MnVDrC",
+        "image_mMRrFU"
       ],
       "settings": {
         "color_scheme": "scheme-3",
