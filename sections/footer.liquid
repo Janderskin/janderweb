@@ -15,6 +15,23 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  .footer__blocks-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Columnas normales */
+.footer-block {
+  width: 25%;
+}
+
+/* La imagen ocupa toda la fila */
+.footer-block-image {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
   @media screen and (min-width: 750px) {
     .footer {
       margin-top: {{ section.settings.margin_top }}px;
