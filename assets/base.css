@@ -3941,3 +3941,14 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+
+
+/* RECHARGE SUBSCRIPTION BLOCK CUSTOM CSS */
+
+.recharge-subscription-widget recharge-subscription-widget {
+  max-width:100%;
+}
+
+.product-form__buttons {
+  max-width:100%;
+}
