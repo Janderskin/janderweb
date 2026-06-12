@@ -3950,5 +3950,5 @@ details-disclosure > details {
 }
 
 .product-form__buttons {
-  max-width:100%;
+  max-width:100% !important;
 }
