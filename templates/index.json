@@ -145,46 +145,46 @@
         "max-width": 225
       }
     },
-    "image_banner_xTiQHC": {
+    "image_banner_w8JQHn": {
       "type": "image-banner",
       "blocks": {
-        "heading_NRnFJm": {
+        "heading_DfBJtU": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>We had the balls to launch a deodorant for your balls.</strong>",
+            "heading": "<strong>New men’s face care.</strong>",
             "heading_size": "h1"
           }
         },
-        "text_DqVWBg": {
+        "text_i74eAN": {
           "type": "text",
           "settings": {
-            "text": "Our best selling product back in stock.",
+            "text": "3 easy steps for better skin.",
             "text_style": "subtitle"
           }
         },
-        "buttons_g4XnLJ": {
+        "buttons_89rK9k": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
+            "button_label_1": "",
             "button_link_1": "shopify://products/intimate-deodorant",
             "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_label_2": "Shop Now",
+            "button_link_2": "shopify://products/facial-routine-for-men",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_NRnFJm",
-        "text_DqVWBg",
-        "buttons_g4XnLJ"
+        "heading_DfBJtU",
+        "text_i74eAN",
+        "buttons_89rK9k"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Jander_fotos_web_7.png",
-        "image_2": "shopify://shop_images/Foto-2_mobile.jpg",
+        "image": "shopify://shop_images/formato_1.png",
+        "image_2": "shopify://shop_images/formato_2.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "desktop_content_position": "middle-right",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -193,7 +193,7 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true,
-        "custom_css_class": "banner-100vh"
+        "custom_css_class": "banner-dark-right"
       }
     },
     "image_with_text_w49TBx": {
@@ -268,46 +268,46 @@
         "max-width": 160
       }
     },
-    "image_banner_w8JQHn": {
+    "image_banner_xTiQHC": {
       "type": "image-banner",
       "blocks": {
-        "heading_DfBJtU": {
+        "heading_NRnFJm": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>New men’s face care.</strong>",
+            "heading": "<strong>We had the balls to launch a deodorant for your balls.</strong>",
             "heading_size": "h1"
           }
         },
-        "text_i74eAN": {
+        "text_DqVWBg": {
           "type": "text",
           "settings": {
-            "text": "3 easy steps for better skin.",
+            "text": "Our best selling product back in stock.",
             "text_style": "subtitle"
           }
         },
-        "buttons_89rK9k": {
+        "buttons_g4XnLJ": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "",
+            "button_label_1": "Shop Now",
             "button_link_1": "shopify://products/intimate-deodorant",
             "button_style_secondary_1": false,
-            "button_label_2": "Shop Now",
-            "button_link_2": "shopify://products/facial-routine-for-men",
+            "button_label_2": "",
+            "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_DfBJtU",
-        "text_i74eAN",
-        "buttons_89rK9k"
+        "heading_NRnFJm",
+        "text_DqVWBg",
+        "buttons_g4XnLJ"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/formato_1.png",
-        "image_2": "shopify://shop_images/Foto-4_verde_mobile.jpg",
+        "image": "shopify://shop_images/Jander_fotos_web_7.png",
+        "image_2": "shopify://shop_images/Foto-2_mobile.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "medium",
         "desktop_content_position": "middle-right",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -316,7 +316,7 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true,
-        "custom_css_class": "banner-dark-right"
+        "custom_css_class": "banner-100vh"
       }
     },
     "featured_collection_pk6LKh": {
