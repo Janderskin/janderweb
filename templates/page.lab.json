@@ -1,0 +1,141 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_JbyT3P": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7GyTVK": {
+          "type": "heading",
+          "settings": {
+            "heading": "We are Jander: the new face of men.",
+            "heading_size": "h1"
+          }
+        },
+        "text_w9Wmii": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re Sandra and Carmen, the minds (and hearts) behind Jander. It all started with a <strong>shared obsession: skincare.</strong> We’ve always been obsessed with it, but there was something we couldn’t ignore - <strong>men’s personal care in Europe was stuck in the dark ages, forgotten and overlooked</strong>. So, in 2022, we said enough is enough and launched Jander, a brand made <strong>for men - no fluff, no BS, no excuses.</strong></p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7GyTVK",
+        "text_w9Wmii"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/3_2a463272-7ac6-4a6c-91fe-2899f3b8fb76.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_cQFjbR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_NgGcHC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Routines to face the world.",
+            "heading_size": "h1"
+          }
+        },
+        "text_NmMfCd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We know that <strong>changing habits isn’t easy, </strong>especially in an industry that never really took modern men seriously. But let’s be clear: <strong>you deserve healthy, great-looking skin - </strong>because taking care of yourself isn’t vanity, it’s power. Grooming isn’t just about how you look, it’s about how you show up in the world. Confidence, plain and simple.<br/><br/>Our goal? <strong>To make personal care effortless for men</strong>. We get it: creams, eye treatments... it might not sound like your thing. But trust us, once you try it, there’s no going back. It’s a game-changer. And the best part? You don’t need to be an expert or spend hours on it. We design premium<strong> products that fit your life: </strong>fast, intense, and sometimes chaotic.</p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NgGcHC",
+        "text_NmMfCd"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1_46a71b2b-c036-4190-97b3-7ac858380523.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_FzzfVq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YNVaBh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Saying you look damn great is healthy.",
+            "heading_size": "h1"
+          }
+        },
+        "text_7eG7dj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In a world that constantly demands more from you, <strong>taking care of yourself is an act of rebellion.</strong> It’s a way of saying, I give a damn about how I feel, and I’m going to look the part. Because a man who<strong> takes care of himself doesn’t just look better, he lives better.</strong><br/><br/>This is <strong>Jander - The New Face of Men</strong>. A brand for men who <strong>don’t overcomplicate</strong> <strong>things, but never settle either.</strong> We’re here to help you level up - with confidence, style, and, of course, <strong>damn good skin.<br/><br/></strong>So, <strong>are you ready to be part of the new face fo men? </strong></p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YNVaBh",
+        "text_7eG7dj"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Diseno_sin_titulo_3f757213-f9b2-4936-b3a0-e290460a39b7.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_JbyT3P",
+    "image_with_text_cQFjbR",
+    "image_with_text_FzzfVq"
+  ]
+}
