@@ -18,6 +18,23 @@
         "star-rattings": "+1.500 happy customers",
         "title": "The new face of men.",
         "para": "Head-to-toe personal care crafted for the modern man.",
+        "title-align": "left",
+        "para-align": "left",
+        "btn-url": "",
+        "btn-txt": "",
+        "full-width": true,
+        "height-desktop": 40,
+        "height-mobile": 120,
+        "review-star-color": "#ffd700",
+        "review-text-color": "#834d4d",
+        "section-title-color": "#952c2c",
+        "section-para-color": "#3a8f7f",
+        "btn-txt-color": "#ffffff",
+        "btn-bg-color": "#000000",
+        "content-vertical-position": 50,
+        "content-horizontal-position": 4,
+        "content-vertical-position-mob": 40,
+        "content-horizontal-position-mob": 7
       }
     },
     "image_banner_DRyCDf": {
@@ -134,7 +151,7 @@
         "heading_DfBJtU": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>New men’s face care.</strong>",
+            "heading": "New men’s face care.",
             "heading_size": "h1"
           }
         },
