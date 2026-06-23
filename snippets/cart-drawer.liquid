@@ -487,6 +487,7 @@
         </form>
       </cart-drawer-items>
       <div class="drawer__footer">
+        {% comment %}
         {% if cart.item_count > 0 %}
           {% if settings.cross_selling != blank %}
             <div class="promo_text">{{ settings.cross_title }}</div>
@@ -609,6 +610,7 @@
             </div>
           {% endif %}
         {% endif %}
+        {% endcomment %}
         {%- if settings.show_cart_note -%}
           <details id="Details-CartDrawer">
             <summary>
