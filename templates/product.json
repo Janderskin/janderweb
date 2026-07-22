@@ -216,6 +216,49 @@
         "padding_bottom": 60
       }
     },
+    "tl_marquee_GRUfpq": {
+      "type": "tl-marquee",
+      "blocks": {
+        "text_dyQpUg": {
+          "type": "text",
+          "settings": {
+            "new_text": "Safe & Secure Checkout"
+          }
+        },
+        "text_DTGixK": {
+          "type": "text",
+          "settings": {
+            "new_text": "Free Shipping +35€"
+          }
+        },
+        "text_qwYc4c": {
+          "type": "text",
+          "settings": {
+            "new_text": "2.000+ Customer Reviews"
+          }
+        },
+        "text_3A9Pfz": {
+          "type": "text",
+          "settings": {
+            "new_text": "Fast Shipping & Easy Returns"
+          }
+        }
+      },
+      "block_order": [
+        "text_dyQpUg",
+        "text_DTGixK",
+        "text_qwYc4c",
+        "text_3A9Pfz"
+      ],
+      "name": "Marquee",
+      "settings": {
+        "colorBackground": "#f15613",
+        "colorText": "#fff",
+        "link": "",
+        "marquee_height": 30,
+        "font_size": 16
+      }
+    },
     "press_release_dyD97V": {
       "type": "press_release",
       "blocks": {
@@ -546,6 +589,7 @@
   },
   "order": [
     "main",
+    "tl_marquee_GRUfpq",
     "press_release_dyD97V",
     "tl_product_img_banner_dUDrpx",
     "new_video_slider_EnxQUV",
