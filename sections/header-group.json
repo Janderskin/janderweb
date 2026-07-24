@@ -22,7 +22,7 @@
         "text_alignment": "center",
         "countdown_enable": true,
         "countdown_end_date": "2026/7/31",
-        "countdown_repeat": true,
+        "countdown_repeat": false,
         "day": "Day",
         "hour": "Hour",
         "min": "Min",
