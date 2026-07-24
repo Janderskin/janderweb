@@ -11,26 +11,6 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-    "annoucement_countdown_KfraWy": {
-      "type": "annoucement_countdown",
-      "settings": {
-        "annoucement_bar_show": true,
-        "desktop_promo_text": "30% OFF CODE SUMMER30 - FREE SHIPPING +35€",
-        "mobile_first_line": "30% OFF CODE SUMMER30",
-        "mobile_second_line": "FREE SHIPPING +35€",
-        "promo_link": "shopify://collections/all",
-        "text_alignment": "center",
-        "countdown_enable": true,
-        "countdown_end_date": "2026/7/31",
-        "countdown_repeat": false,
-        "day": "Day",
-        "hour": "Hour",
-        "min": "Min",
-        "sec": "Sec",
-        "color_bg": "#f15614",
-        "color_text": "#ffffff"
-      }
-    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -59,6 +39,26 @@
         "enable_language_selector": false
       }
     },
+    "annoucement_countdown_KfraWy": {
+      "type": "annoucement_countdown",
+      "settings": {
+        "annoucement_bar_show": true,
+        "desktop_promo_text": "30% OFF CODE SUMMER30 - FREE SHIPPING +35€",
+        "mobile_first_line": "30% OFF CODE SUMMER30",
+        "mobile_second_line": "FREE SHIPPING +35€",
+        "promo_link": "shopify://collections/all",
+        "text_alignment": "center",
+        "countdown_enable": true,
+        "countdown_end_date": "2026/7/31",
+        "countdown_repeat": false,
+        "day": "Day",
+        "hour": "Hour",
+        "min": "Min",
+        "sec": "Sec",
+        "color_bg": "#f15614",
+        "color_text": "#ffffff"
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -80,8 +80,8 @@
     }
   },
   "order": [
-    "annoucement_countdown_KfraWy",
     "announcement-bar",
+    "annoucement_countdown_KfraWy",
     "header"
   ]
 }
