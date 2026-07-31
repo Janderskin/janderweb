@@ -43,15 +43,15 @@
         "heading_4gRame": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Enjoy 30% off this summer!</strong>",
+            "heading": "<strong>Care for everywhere.</strong>",
             "heading_size": "h1"
           }
         },
         "text_dYiMD7": {
           "type": "text",
           "settings": {
-            "text": "<strong>Code: SUMMER30</strong>",
-            "text_style": "caption-with-letter-spacing"
+            "text": "<strong>We want men to feel good in their own skin.</strong>",
+            "text_style": "body"
           }
         },
         "buttons_Wy8Bkw": {
