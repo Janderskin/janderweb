@@ -66,6 +66,7 @@
           "type": "shopify://apps/bundlex/blocks/volume-discount-block/c017a4b2-071a-4809-a2c2-1c5768f46bb9",
           "disabled": true,
           "settings": {
+            "show_advanced": false,
             "hide_quantity": false,
             "custom_placement_selector": "",
             "add_to_cart_button_selector": "",
@@ -118,7 +119,7 @@
             "open": true,
             "heading": "Promotions",
             "icon": "none",
-            "content": "<p></p><ul><li>30% OFF code <strong>SUMMER30</strong></li><li>Free shipping for orders above 35€</li></ul>",
+            "content": "<p></p><ul><li>10% OFF code <strong>JANDER10</strong></li><li>Free shipping for orders above 35€</li></ul>",
             "page": "",
             "color_bg": "#adffb6",
             "color_text": "#000000",
