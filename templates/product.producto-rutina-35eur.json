@@ -590,6 +590,47 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "before_after_Hpmt8X": {
+      "type": "before_after",
+      "blocks": {
+        "after_befor_tab_PbCgfN": {
+          "type": "after_befor_tab",
+          "settings": {
+            "tab_label": "",
+            "title1": "",
+            "description1": "",
+            "autor1": "",
+            "title2": "",
+            "description2": "",
+            "autor2": "",
+            "title3": "",
+            "description3": "",
+            "autor3": "",
+            "title4": "",
+            "description4": "",
+            "autor4": "",
+            "title5": "",
+            "description5": "",
+            "autor5": "",
+            "title6": "",
+            "description6": "",
+            "autor6": ""
+          }
+        }
+      },
+      "block_order": [
+        "after_befor_tab_PbCgfN"
+      ],
+      "name": "Before/After",
+      "settings": {
+        "heading": "Hello",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "heading_size": 20,
+        "description_size": 20,
+        "color": ""
+      }
     }
   },
   "order": [
@@ -603,6 +644,7 @@
     "174038238286302fd4",
     "enemy_framework_FTwUnd",
     "collapsible_content_gXtbgc",
-    "related-products"
+    "related-products",
+    "before_after_Hpmt8X"
   ]
 }
