@@ -159,6 +159,9 @@
       {% for block in section.blocks %}
         {% if block.settings.image %}
           <div class="single_press_logo">
+            {% if block.settings.link != blank %}
+              <a href="{{ block.settings.link }}" target="_blank" rel="noopener noreferrer">
+            {% endif %}
             <img
               src="{{ block.settings.image | image_url }}"
               alt="{{ block.settings.image.alt }}"
@@ -170,6 +173,9 @@
               height="auto"
               loading="lazy"
             >
+            {% if block.settings.link != blank %}
+              </a>
+            {% endif %}
           </div>
         {% endif %}
       {% endfor %}
@@ -275,6 +281,11 @@
           "type": "text",
           "id": "title",
           "label": "Text"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Enlace al artículo"
         }
       ]
     }
