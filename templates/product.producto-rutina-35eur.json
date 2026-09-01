@@ -93,7 +93,7 @@
         "icon_with_text_4T4hnx": {
           "type": "icon-with-text",
           "settings": {
-            "layout": "horizontal",
+            "layout": "vertical",
             "icon_1": "lock",
             "heading_1": "Protected Purchase",
             "icon_2": "heart",
