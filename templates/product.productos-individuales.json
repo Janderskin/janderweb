@@ -89,18 +89,16 @@
             "show_gift_card_recipient": true
           }
         },
-        "complementary_GYVMQj": {
-          "type": "complementary",
-          "disabled": true,
+        "icon_with_text_DFYqXe": {
+          "type": "icon-with-text",
           "settings": {
-            "block_heading": "Pairs well with",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 2,
-            "products_per_page": 3,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": true
+            "layout": "vertical",
+            "icon_1": "lock",
+            "heading_1": "Protected Purchase",
+            "icon_2": "heart",
+            "heading_2": "If something goes wrong, we'll fix it",
+            "icon_3": "clipboard",
+            "heading_3": "Warranty seal intact"
           }
         },
         "klarna_on_site_messaging_app_block_7wxgJi": {
@@ -189,7 +187,7 @@
         "bundlex_volume_discount_block_Ge3P8g",
         "quantity_selector",
         "buy_buttons",
-        "complementary_GYVMQj",
+        "icon_with_text_DFYqXe",
         "klarna_on_site_messaging_app_block_7wxgJi",
         "collapsible_tab_gLmg7M",
         "collapsible_tab_aWYJ69",
