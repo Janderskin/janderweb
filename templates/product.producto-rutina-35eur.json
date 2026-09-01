@@ -323,15 +323,15 @@
         "after_befor_tab_qQXwg9": {
           "type": "after_befor_tab",
           "settings": {
-            "tab_label": "Hola",
-            "image1": "shopify://shop_images/the-man-in-the-hat.jpg",
-            "title1": "Adios",
-            "description1": "<p>Como estas</p>",
-            "autor1": "Jorge",
+            "tab_label": "Essential Trio Set",
+            "image1": "shopify://shop_images/JANDER_BEFORE.jpg",
+            "title1": "Tono uniforme desde el primer uso",
+            "description1": "<p>Llevo usando esta rutina 2 meses y la diferencia se nota muchísimo. La piel la tengo mucho más tersa y suave desde el primer día. Además, no deja manchas ni olor raro.</p>",
+            "autor1": "Pedro Arenas, Madrid",
             "count1": 0,
             "beforeimage1": "shopify://shop_images/JANDER_BEFORE.jpg",
             "afterimage1": "shopify://shop_images/JANDER_AFTER.jpg",
-            "image2": "shopify://shop_images/formato_1.png",
+            "image2": "shopify://shop_images/JANDER_AFTER.jpg",
             "title2": "",
             "description2": "",
             "autor2": "",
@@ -356,10 +356,10 @@
       "name": "Before/After",
       "settings": {
         "heading": "",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "heading_size": 20,
-        "description_size": 20,
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "heading_size": 10,
+        "description_size": 18,
         "color": ""
       }
     },
