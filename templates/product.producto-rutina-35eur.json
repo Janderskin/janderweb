@@ -325,8 +325,8 @@
           "settings": {
             "tab_label": "Essential Trio Set",
             "image1": "shopify://shop_images/JANDER_BEFORE.jpg",
-            "title1": "Tono uniforme desde el primer uso",
-            "description1": "<p>Llevo usando esta rutina 2 meses y la diferencia se nota muchísimo. La piel la tengo mucho más tersa y suave desde el primer día. Además, no deja manchas ni olor raro.</p>",
+            "title1": "Me flipa!",
+            "description1": "<p><em>\"Llevo usando esta rutina 2 meses y la diferencia se nota muchísimo. La piel la tengo mucho más tersa y suave desde el primer día. Además, no deja manchas ni olor raro.\"</em></p>",
             "autor1": "Pedro Arenas, Madrid",
             "count1": 1,
             "beforeimage1": "shopify://shop_images/JANDER_BEFORE.jpg",
@@ -360,7 +360,7 @@
         "padding_bottom": 12,
         "heading_size": 10,
         "description_size": 18,
-        "color": ""
+        "color": "#000000"
       }
     },
     "new_video_slider_EnxQUV": {
