@@ -116,8 +116,8 @@
           "settings": {
             "open": true,
             "heading": "Promotions",
-            "icon": "none",
-            "content": "<p></p><ul><li>10% OFF code <strong>JANDER10</strong></li><li>Free shipping for orders above 35€</li></ul>",
+            "icon": "lightning_bolt",
+            "content": "<ul><li>10% OFF code <strong>JANDER10</strong></li><li>Free shipping for orders above 35€</li></ul>",
             "page": "",
             "color_bg": "#adffb6",
             "color_text": "#000000",
