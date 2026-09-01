@@ -317,6 +317,50 @@
         "section-url": ""
       }
     },
+    "before_after_Hpmt8X": {
+      "type": "before_after",
+      "blocks": {
+        "after_befor_tab_qQXwg9": {
+          "type": "after_befor_tab",
+          "settings": {
+            "tab_label": "Hola",
+            "title1": "Adios",
+            "description1": "<p>Como estas</p>",
+            "autor1": "Jorge",
+            "count1": 1,
+            "beforeimage1": "shopify://shop_images/JANDER_BEFORE.jpg",
+            "afterimage1": "shopify://shop_images/JANDER_AFTER.jpg",
+            "title2": "",
+            "description2": "",
+            "autor2": "",
+            "title3": "",
+            "description3": "",
+            "autor3": "",
+            "title4": "",
+            "description4": "",
+            "autor4": "",
+            "title5": "",
+            "description5": "",
+            "autor5": "",
+            "title6": "",
+            "description6": "",
+            "autor6": ""
+          }
+        }
+      },
+      "block_order": [
+        "after_befor_tab_qQXwg9"
+      ],
+      "name": "Before/After",
+      "settings": {
+        "heading": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "heading_size": 20,
+        "description_size": 20,
+        "color": ""
+      }
+    },
     "new_video_slider_EnxQUV": {
       "type": "new_video_slider",
       "blocks": {
@@ -589,47 +633,6 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
-    },
-    "before_after_Hpmt8X": {
-      "type": "before_after",
-      "blocks": {
-        "after_befor_tab_PbCgfN": {
-          "type": "after_befor_tab",
-          "settings": {
-            "tab_label": "",
-            "title1": "",
-            "description1": "",
-            "autor1": "",
-            "title2": "",
-            "description2": "",
-            "autor2": "",
-            "title3": "",
-            "description3": "",
-            "autor3": "",
-            "title4": "",
-            "description4": "",
-            "autor4": "",
-            "title5": "",
-            "description5": "",
-            "autor5": "",
-            "title6": "",
-            "description6": "",
-            "autor6": ""
-          }
-        }
-      },
-      "block_order": [
-        "after_befor_tab_PbCgfN"
-      ],
-      "name": "Before/After",
-      "settings": {
-        "heading": "Hello",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "heading_size": 20,
-        "description_size": 20,
-        "color": ""
-      }
     }
   },
   "order": [
@@ -637,13 +640,13 @@
     "tl_marquee_GRUfpq",
     "press_release_dyD97V",
     "tl_product_img_banner_dUDrpx",
+    "before_after_Hpmt8X",
     "new_video_slider_EnxQUV",
     "how_it_works_TcxiwW",
     "tl_product_img_banner_QnzhHq",
     "174038238286302fd4",
     "enemy_framework_FTwUnd",
     "collapsible_content_gXtbgc",
-    "related-products",
-    "before_after_Hpmt8X"
+    "related-products"
   ]
 }
