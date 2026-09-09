@@ -416,6 +416,54 @@
         "step_type": "svg"
       }
     },
+    "1788943256ab5c87a1": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_cards_carousel_T7aizW": {
+          "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "reviews_selection": "product_reviews",
+            "products": [
+              "intimate-deodorant"
+            ],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "star_rating": "5_star",
+            "show_review_media": true,
+            "display_order": "media_first",
+            "no_image_fallback": "product_image",
+            "max_reviews": 20,
+            "review_length": "medium",
+            "text_size": "medium",
+            "image_ratio": "1",
+            "reviews_shown": 4,
+            "show_reviewer_name": true,
+            "show_product_name": true,
+            "hide_arrows_mobile": true,
+            "arrows_position": "sides",
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "header_text_color": "#000000",
+            "text_color": "#000000",
+            "card_color": "#F9F9F9",
+            "stars_color": "",
+            "arrows_color": "#000000",
+            "transition_speed": 5,
+            "header_text": "Don’t take our word for it.",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_cards_carousel_T7aizW"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "tl_product_img_banner_QnzhHq": {
       "type": "tl-product-img-banner",
       "settings": {
@@ -423,26 +471,6 @@
         "mob-img": "{{ product.metafields.custom.product_mob_img.value }}",
         "container": false,
         "section-url": ""
-      }
-    },
-    "174038238286302fd4": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_TTaKDG": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "sample_data",
-            "max_width": 1200,
-            "show_shop_reviews": false,
-            "empty_state": "empty_widget"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_TTaKDG"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "enemy_framework_FTwUnd": {
@@ -589,49 +617,21 @@
         "padding_bottom": 60
       }
     },
-    "1788943256ab5c87a1": {
+    "174038238286302fd4": {
       "type": "apps",
       "blocks": {
-        "judge_me_reviews_cards_carousel_T7aizW": {
-          "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "judge_me_reviews_review_widget_TTaKDG": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
-            "show_sample_reviews": true,
-            "reviews_selection": "product_reviews",
-            "products": [
-              "intimate-deodorant"
-            ],
-            "filter_pinned": true,
-            "filter_featured": false,
-            "filter_custom_tags": "",
-            "star_rating": "5_star",
-            "show_review_media": true,
-            "display_order": "media_first",
-            "no_image_fallback": "review_text_only",
-            "max_reviews": 20,
-            "review_length": "medium",
-            "text_size": "medium",
-            "image_ratio": "1",
-            "reviews_shown": 4,
-            "show_reviewer_name": true,
-            "show_product_name": true,
-            "hide_arrows_mobile": true,
-            "arrows_position": "sides",
-            "max_width": 1100,
-            "corner_styling": "soft",
-            "header_text_color": "#000000",
-            "text_color": "#000000",
-            "card_color": "#F9F9F9",
-            "stars_color": "",
-            "arrows_color": "#000000",
-            "transition_speed": 5,
-            "header_text": "Don’t take our word for it.",
-            "show_average_rating": true,
-            "rating_display": "default"
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },
       "block_order": [
-        "judge_me_reviews_cards_carousel_T7aizW"
+        "judge_me_reviews_review_widget_TTaKDG"
       ],
       "settings": {
         "include_margins": true
@@ -645,11 +645,11 @@
     "tl_product_img_banner_dUDrpx",
     "new_video_slider_EnxQUV",
     "how_it_works_TcxiwW",
+    "1788943256ab5c87a1",
     "tl_product_img_banner_QnzhHq",
-    "174038238286302fd4",
     "enemy_framework_FTwUnd",
     "collapsible_content_gXtbgc",
     "related-products",
-    "1788943256ab5c87a1"
+    "174038238286302fd4"
   ]
 }
