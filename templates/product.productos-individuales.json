@@ -63,7 +63,7 @@
           }
         },
         "bundlex_volume_discount_block_Ge3P8g": {
-          "type": "shopify://apps/bundlex/blocks/volume-discount-block/c017a4b2-071a-4809-a2c2-1c5768f46bb9",
+          "type": "shopify://apps/bundlex-bundles/blocks/volume-discount-block/c017a4b2-071a-4809-a2c2-1c5768f46bb9",
           "disabled": true,
           "settings": {
             "show_advanced": false,
@@ -416,55 +416,6 @@
         "step_type": "svg"
       }
     },
-    "1788943256ab5c87a1": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_cards_carousel_T7aizW": {
-          "type": "shopify://apps/judge-me-reviews/blocks/cards_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "show_sample_reviews": true,
-            "reviews_selection": "product_reviews",
-            "products": [
-              "intimate-deodorant"
-            ],
-            "filter_pinned": false,
-            "filter_featured": false,
-            "filter_custom_tags": "",
-            "star_rating": "5_star",
-            "show_review_media": true,
-            "display_order": "media_first",
-            "no_image_fallback": "product_image",
-            "max_reviews": 20,
-            "review_length": "medium",
-            "text_size": "medium",
-            "image_ratio": "1",
-            "reviews_shown": 4,
-            "show_reviewer_name": true,
-            "show_product_name": true,
-            "hide_arrows_mobile": true,
-            "arrows_position": "sides",
-            "max_width": 1100,
-            "corner_styling": "soft",
-            "header_text_color": "#000000",
-            "text_color": "#000000",
-            "card_color": "#f9f9f9",
-            "stars_color": "",
-            "arrows_color": "#000000",
-            "transition_speed": 5,
-            "header_text": "Don’t take our word for it.",
-            "show_average_rating": true,
-            "rating_display": "default"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_cards_carousel_T7aizW"
-      ],
-      "disabled": true,
-      "settings": {
-        "include_margins": true
-      }
-    },
     "tl_product_img_banner_QnzhHq": {
       "type": "tl-product-img-banner",
       "settings": {
@@ -647,7 +598,6 @@
     "tl_product_img_banner_dUDrpx",
     "new_video_slider_EnxQUV",
     "how_it_works_TcxiwW",
-    "1788943256ab5c87a1",
     "tl_product_img_banner_QnzhHq",
     "enemy_framework_FTwUnd",
     "collapsible_content_gXtbgc",
