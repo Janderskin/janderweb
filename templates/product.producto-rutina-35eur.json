@@ -64,7 +64,7 @@
           }
         },
         "bundlex_volume_discount_block_Ge3P8g": {
-          "type": "shopify://apps/bundlex/blocks/volume-discount-block/c017a4b2-071a-4809-a2c2-1c5768f46bb9",
+          "type": "shopify://apps/bundlex-bundles/blocks/volume-discount-block/c017a4b2-071a-4809-a2c2-1c5768f46bb9",
           "disabled": true,
           "settings": {
             "show_advanced": false,
@@ -464,6 +464,7 @@
     },
     "tl_product_img_banner_QnzhHq": {
       "type": "tl-product-img-banner",
+      "disabled": true,
       "settings": {
         "desk-img": "{{ product.metafields.custom.product_desk_img.value }}",
         "mob-img": "{{ product.metafields.custom.product_mob_img.value }}",
@@ -489,61 +490,6 @@
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "enemy_framework_FTwUnd": {
-      "type": "enemy_framework",
-      "blocks": {
-        "html_YzthiU": {
-          "type": "html",
-          "settings": {
-            "title": "{{ product.metafields.custom.enemy_framework.value.enemy_item_1.value }}",
-            "column1": "tick",
-            "column2": "cross"
-          }
-        },
-        "html_NLGiDi": {
-          "type": "html",
-          "settings": {
-            "title": "{{ product.metafields.custom.enemy_framework.value.enemy_item_2.value }}",
-            "column1": "tick",
-            "column2": "cross"
-          }
-        },
-        "html_4yad9T": {
-          "type": "html",
-          "settings": {
-            "title": "{{ product.metafields.custom.enemy_framework.value.enemy_item_3.value }}",
-            "column1": "tick",
-            "column2": "cross"
-          }
-        },
-        "html_LjNJCq": {
-          "type": "html",
-          "settings": {
-            "title": "{{ product.metafields.custom.enemy_framework.value.enemy_item_4.value }}",
-            "column1": "tick",
-            "column2": "cross"
-          }
-        }
-      },
-      "block_order": [
-        "html_YzthiU",
-        "html_NLGiDi",
-        "html_4yad9T",
-        "html_LjNJCq"
-      ],
-      "settings": {
-        "title": "Why Jander?",
-        "description": "These are some of the reasons",
-        "image1": "shopify://shop_images/logo_white_400x400_25acfa52-88d0-4701-9a76-42419ad14506.png",
-        "title1": "",
-        "title2": "SOME OTHER BRANDS",
-        "color_bg": "#adffb6",
-        "color_text": "#000000",
-        "color_border": "#ffffff",
-        "color_brand": "#f15614",
-        "color_brand_text": ""
       }
     },
     "collapsible_content_gXtbgc": {
@@ -646,7 +592,6 @@
     "how_it_works_TcxiwW",
     "tl_product_img_banner_QnzhHq",
     "174038238286302fd4",
-    "enemy_framework_FTwUnd",
     "collapsible_content_gXtbgc",
     "related-products"
   ]
