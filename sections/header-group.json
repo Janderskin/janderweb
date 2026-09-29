@@ -15,9 +15,9 @@
       "type": "annoucement_countdown",
       "settings": {
         "annoucement_bar_show": true,
-        "desktop_promo_text": "BOGO IN OCTOBER · Buy 2, the 3rd is free",
-        "mobile_first_line": "Buy 2, the 3rd is free! Only October",
-        "mobile_second_line": "",
+        "desktop_promo_text": "BOGO IN OCTOBER · Buy 2, the 3rd is free!",
+        "mobile_first_line": "BOGO IN OCTOBER",
+        "mobile_second_line": "Buy 2, the 3rd is free!",
         "promo_link": "shopify://collections/all",
         "text_alignment": "center",
         "countdown_enable": true,
