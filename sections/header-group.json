@@ -13,6 +13,7 @@
   "sections": {
     "annoucement_countdown_KfraWy": {
       "type": "annoucement_countdown",
+      "disabled": true,
       "settings": {
         "annoucement_bar_show": true,
         "desktop_promo_text": "BOGO IN OCTOBER · Buy 2, the 3rd is free!",
