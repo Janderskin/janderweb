@@ -42,6 +42,7 @@
       "blocks": {
         "heading_4gRame": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Care for everywhere.",
             "heading_size": "h1"
@@ -49,6 +50,7 @@
         },
         "text_dYiMD7": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>BUY 2. GET 1 ON US. OCTOBER ONLY.</strong>",
             "text_style": "body"
@@ -56,6 +58,7 @@
         },
         "buttons_Wy8Bkw": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Shop All",
             "button_link_1": "shopify://collections/all",
@@ -73,7 +76,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Jander_fotos_web_8.png",
+        "image": "shopify://shop_images/3x2_f20ce1d3-a105-41e2-9e3a-64f34681ad02.png",
         "image_2": "shopify://shop_images/FOTO-1-MOBILE-_mitad.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
