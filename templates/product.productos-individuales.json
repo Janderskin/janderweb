@@ -171,7 +171,7 @@
           "type": "collapsible_tab",
           "settings": {
             "open": false,
-            "heading": "Why Jander over Supermarket Brands",
+            "heading": "Why Jander",
             "icon": "none",
             "content": "<p>{{ product.metafields.custom.why_jander_over_supermarket_brands | metafield_tag }}</p>",
             "page": "",
