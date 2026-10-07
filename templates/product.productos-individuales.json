@@ -167,6 +167,20 @@
             "content_bg": ""
           }
         },
+        "collapsible_tab_8AdGQr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "open": false,
+            "heading": "Why Jander over Supermarket Brands",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.why_jander_over_supermarket_brands | metafield_tag }}</p>",
+            "page": "",
+            "color_bg": "",
+            "color_text": "",
+            "color_border": "",
+            "content_bg": ""
+          }
+        },
         "bundler_custom_bundle_4GKxrq": {
           "type": "shopify://apps/bundler/blocks/custom-bundle/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
           "settings": {
@@ -193,6 +207,7 @@
         "collapsible_tab_aWYJ69",
         "collapsible_tab_FWXiPk",
         "collapsible_tab_KDREYF",
+        "collapsible_tab_8AdGQr",
         "bundler_custom_bundle_4GKxrq"
       ],
       "custom_css": [
