@@ -43,7 +43,7 @@
       "settings": {
         "image": "shopify://shop_images/3_2a463272-7ac6-4a6c-91fe-2899f3b8fb76.png",
         "image__rotate__class": false,
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -83,7 +83,7 @@
       "settings": {
         "image": "shopify://shop_images/1_46a71b2b-c036-4190-97b3-7ac858380523.png",
         "image__rotate__class": false,
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
@@ -123,7 +123,7 @@
       "settings": {
         "image": "shopify://shop_images/Diseno_sin_titulo_3f757213-f9b2-4936-b3a0-e290460a39b7.png",
         "image__rotate__class": false,
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
