@@ -70,7 +70,7 @@
         "text_NmMfCd": {
           "type": "text",
           "settings": {
-            "text": "<p>Every product solves one clear problem, with active ingredients chosen for efficacy, not marketing.</p><p>Developed with experts. Formulated and manufactured with RNB Laboratorio in Valencia, one of Europe’s leading cosmetic manufacturers, and a partner in Jander.&nbsp;</p><p>Gentle by design. Suitable for sensitive skin, soap-free (SYNDET) cleansing, vegan, with over 84% ingredients of natural origin.</p><p><strong>Made in Valencia, Spain, to EU cosmetic regulations.</strong></p>",
+            "text": "<p><strong>Every product solves one clear problem</strong>, with active ingredients chosen for efficacy, not marketing.</p><p><strong>Developed with experts.</strong> Formulated and manufactured with RNB Laboratorio in Valencia, one of Europe’s leading cosmetic manufacturers, and a partner in Jander.&nbsp;</p><p><strong>Gentle by design.</strong> Suitable for sensitive skin, soap-free (SYNDET) cleansing, vegan, with over 84% ingredients of natural origin.</p><p><strong>Made in Valencia, Spain, to EU cosmetic regulations.</strong></p>",
             "text_style": "subtitle",
             "text__color": ""
           }
@@ -110,7 +110,7 @@
         "text_7eG7dj": {
           "type": "text",
           "settings": {
-            "text": "<p>You don’t need ten steps or an hour in the bathroom. Jander is built around short, effective routines you can keep up with consistently, because consistency is what actually produces results.</p><p><strong>What you can expect from us. Clear ingredient lists. Honest claims. Products that do what we say they do. If something isn’t proven, we don’t say it.</strong></p>",
+            "text": "<p><strong>You don’t need ten steps or an hour in the bathroom. </strong>Jander is built around short, effective routines you can keep up with consistently, because consistency is what actually produces results.</p><p><strong>What you can expect from us. </strong>Clear ingredient lists. Honest claims. Products that do what we say they do. If something isn’t proven, we don’t say it.</p>",
             "text_style": "subtitle",
             "text__color": ""
           }
