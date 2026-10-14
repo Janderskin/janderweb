@@ -23,15 +23,16 @@
         "heading_7GyTVK": {
           "type": "heading",
           "settings": {
-            "heading": "We are Jander: the new face of men.",
+            "heading": "Jander. Care for everywhere.&nbsp;",
             "heading_size": "h1"
           }
         },
         "text_w9Wmii": {
           "type": "text",
           "settings": {
-            "text": "<p>We’re Sandra and Carmen, the minds (and hearts) behind Jander. It all started with a <strong>shared obsession: skincare.</strong> We’ve always been obsessed with it, but there was something we couldn’t ignore - <strong>men’s personal care in Europe was stuck in the dark ages, forgotten and overlooked</strong>. So, in 2022, we said enough is enough and launched Jander, a brand made <strong>for men - no fluff, no BS, no excuses.</strong></p>",
-            "text_style": "subtitle"
+            "text": "<p>Jander was founded in 2022 by Carmen and Sandra. We&nbsp;started Jander for a simple reason: men’s personal care in Europe was either an afterthought or built for scent rather than for the skin itself.&nbsp;</p><p><strong>Our standard. We make fewer products, and we make them properly.</strong></p>",
+            "text_style": "subtitle",
+            "text__color": ""
           }
         }
       },
@@ -41,6 +42,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/3_2a463272-7ac6-4a6c-91fe-2899f3b8fb76.png",
+        "image__rotate__class": false,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -61,15 +63,16 @@
         "heading_NgGcHC": {
           "type": "heading",
           "settings": {
-            "heading": "Routines to face the world.",
+            "heading": "Formulated for a purpose.",
             "heading_size": "h1"
           }
         },
         "text_NmMfCd": {
           "type": "text",
           "settings": {
-            "text": "<p>We know that <strong>changing habits isn’t easy, </strong>especially in an industry that never really took modern men seriously. But let’s be clear: <strong>you deserve healthy, great-looking skin - </strong>because taking care of yourself isn’t vanity, it’s power. Grooming isn’t just about how you look, it’s about how you show up in the world. Confidence, plain and simple.<br/><br/>Our goal? <strong>To make personal care effortless for men</strong>. We get it: creams, eye treatments... it might not sound like your thing. But trust us, once you try it, there’s no going back. It’s a game-changer. And the best part? You don’t need to be an expert or spend hours on it. We design premium<strong> products that fit your life: </strong>fast, intense, and sometimes chaotic.</p>",
-            "text_style": "subtitle"
+            "text": "<p>Every product solves one clear problem, with active ingredients chosen for efficacy, not marketing.</p><p>Developed with experts. Formulated and manufactured with RNB Laboratorio in Valencia, one of Europe’s leading cosmetic manufacturers, and a partner in Jander.&nbsp;</p><p>Gentle by design. Suitable for sensitive skin, soap-free (SYNDET) cleansing, vegan, with over 84% ingredients of natural origin.</p><p><strong>Made in Valencia, Spain, to EU cosmetic regulations.</strong></p>",
+            "text_style": "subtitle",
+            "text__color": ""
           }
         }
       },
@@ -79,6 +82,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/1_46a71b2b-c036-4190-97b3-7ac858380523.png",
+        "image__rotate__class": false,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -99,15 +103,16 @@
         "heading_YNVaBh": {
           "type": "heading",
           "settings": {
-            "heading": "Saying you look damn great is healthy.",
+            "heading": "Routines that fit real life.&nbsp;",
             "heading_size": "h1"
           }
         },
         "text_7eG7dj": {
           "type": "text",
           "settings": {
-            "text": "<p>In a world that constantly demands more from you, <strong>taking care of yourself is an act of rebellion.</strong> It’s a way of saying, I give a damn about how I feel, and I’m going to look the part. Because a man who<strong> takes care of himself doesn’t just look better, he lives better.</strong><br/><br/>This is <strong>Jander - The New Face of Men</strong>. A brand for men who <strong>don’t overcomplicate</strong> <strong>things, but never settle either.</strong> We’re here to help you level up - with confidence, style, and, of course, <strong>damn good skin.<br/><br/></strong>So, <strong>are you ready to be part of the new face fo men? </strong></p>",
-            "text_style": "subtitle"
+            "text": "<p>You don’t need ten steps or an hour in the bathroom. Jander is built around short, effective routines you can keep up with consistently, because consistency is what actually produces results.</p><p><strong>What you can expect from us. Clear ingredient lists. Honest claims. Products that do what we say they do. If something isn’t proven, we don’t say it.</strong></p>",
+            "text_style": "subtitle",
+            "text__color": ""
           }
         }
       },
@@ -117,6 +122,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Diseno_sin_titulo_3f757213-f9b2-4936-b3a0-e290460a39b7.png",
+        "image__rotate__class": false,
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
